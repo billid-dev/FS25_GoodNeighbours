@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!--
+  Good Neighbours - the machines of every neighbour (game vehicles from the shop).
+  role: tractor (his working tractor), combine, car, tool (job = the field work it is used for), extra (stands in his yard: second tractor, trailers, weights, truck ...)
+  size: the place it needs in the yard (vehicle / attach / oversize)
+-->
+<fleets>
+    <fleet neighbour="1">
+        <vehicle role="extra" size="attach" file="data/vehicles/nardi/n60_35/n60_35.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/fliegl/asw271/asw271.xml"/>
+        <vehicle role="tool" job="plow" size="attach" file="data/vehicles/agromasz/pov5xl/pov5xl.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/johndeere/pickup1150/pickup1150.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/bergmann/tsw6240w/tsw6240w.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/vaderstad/carrierxl625/carrierxl625.xml"/>
+        <vehicle role="tool" job="cultivate" size="attach" file="data/vehicles/kuhn/prolander7500/prolander7500.xml"/>
+        <vehicle role="tool" job="harvest" size="attach" file="data/vehicles/johndeere/headerrd35f/headerrd35f.xml"/>
+        <vehicle role="combine" size="oversize" file="data/vehicles/johndeere/seriess7/seriess7.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/fliegl/pfw18000maxxlineplus/pfw18000maxxlineplus.xml"/>
+        <vehicle role="tool" job="spray" size="attach" file="data/vehicles/amazone/ux5201super/ux5201super.xml"/>
+        <vehicle role="car" size="vehicle" file="data/vehicles/skoda/enyaq/enyaq.xml"/>
+        <vehicle role="tool" job="sow" size="attach" file="data/vehicles/bednar/omega6000fl/omega6000fl.xml"/>
+        <vehicle role="tractor" size="vehicle" file="data/vehicles/johndeere/series8r/series8r.xml"/>
+        <vehicle role="extra" size="vehicle" file="data/vehicles/johndeere/series6r/series6rextralarge.xml"/>
+    </fleet>
+    <fleet neighbour="2">
+        <vehicle role="extra" size="attach" file="data/vehicles/nardi/n40bx/n40bx.xml"/>
+        <vehicle role="tractor" size="vehicle" file="data/vehicles/fendt/vario900/vario900.xml"/>
+        <vehicle role="tool" job="plow" size="attach" file="data/vehicles/agromasz/pov5xl/pov5xl.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/agco/weight1500/weight1500.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/fliegl/pfw18000maxxlineplus/pfw18000maxxlineplus.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/unia/aresxl/aresxl.xml"/>
+        <vehicle role="tool" job="harvest" size="attach" file="data/vehicles/fendt/freeflow25ft/freeflow25ft.xml"/>
+        <vehicle role="combine" size="oversize" file="data/vehicles/fendt/series5275csl/series5275csl.xml"/>
+        <vehicle role="tool" job="spray" size="attach" file="data/vehicles/hardi/aeon5200/aeon5200.xml"/>
+        <vehicle role="tool" job="fertilize" size="attach" file="data/vehicles/amazone/zgts10001/zgts10001.xml"/>
+        <vehicle role="car" size="vehicle" file="data/vehicles/lizard/pickup2017/pickup2017.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/krampe/bigBodyS750/bigBodyS750.xml"/>
+        <vehicle role="tool" job="sow" size="attach" file="data/vehicles/kuhn/espro6000rc/espro6000rc.xml"/>
+        <vehicle role="tool" job="cultivate" size="attach" file="data/vehicles/amazone/cenio4000/cenio4000.xml"/>
+        <vehicle role="extra" size="vehicle" file="data/vehicles/fendt/vario700/vario700.xml"/>
+    </fleet>
+    <fleet neighbour="3">
+        <vehicle role="extra" size="attach" file="data/vehicles/nardi/n40bx/n40bx.xml"/>
+        <vehicle role="tractor" size="vehicle" file="data/vehicles/valtra/sseries/sseries.xml"/>
+        <vehicle role="tool" job="plow" size="attach" file="data/vehicles/agromasz/pov5xl/pov5xl.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/claas/w1800/w1800.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/unia/aresxl/aresxl.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/brantner/ta12050/ta12050.xml"/>
+        <vehicle role="tool" job="sow" size="attach" file="data/vehicles/unia/fenix3000/fenix3000.xml"/>
+        <vehicle role="tool" job="harvest" size="attach" file="data/vehicles/claas/vario620/vario620.xml"/>
+        <vehicle role="combine" size="oversize" file="data/vehicles/claas/evion450/evion450.xml"/>
+        <vehicle role="tool" job="spray" size="attach" file="data/vehicles/berthoud/vantage4300/vantage4300.xml"/>
+        <vehicle role="tool" job="fertilize" size="attach" file="data/vehicles/amazone/zats3200/zats3200.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/rudolphsohn/dk280rp/dk280rp.xml"/>
+        <vehicle role="tool" job="cultivate" size="attach" file="data/vehicles/vaderstad/topdown600/topdown600.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/amazone/cenio4000/cenio4000.xml"/>
+        <vehicle role="extra" size="vehicle" file="data/vehicles/claas/arion400/arion400.xml"/>
+        <vehicle role="car" size="vehicle" file="data/vehicles/skoda/kodiaq/kodiaq.xml"/>
+    </fleet>
+    <fleet neighbour="4">
+        <vehicle role="extra" size="attach" file="data/vehicles/masseyferguson/mf8570trailer/mf8570trailer.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/unia/aresxl/aresxl.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/brantner/z18051/z18051.xml"/>
+        <vehicle role="tool" job="plow" size="attach" file="data/vehicles/lemken/juwel6/juwel6.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/agco/weight1500/weight1500.xml"/>
+        <vehicle role="extra" size="attach" file="data/vehicles/farmtech/supercis800/supercis800.xml"/>
+        <vehicle role="tool" job="harvest" size="attach" file="data/vehicles/masseyferguson/mf8570header/mf8570header.xml"/>
+        <vehicle role="combine" size="oversize" file="data/vehicles/masseyferguson/mf8570/mf8570.xml"/>
+        <vehicle role="tool" job="spray" size="attach" file="data/vehicles/hardi/mega1200l/mega1200l.xml"/>
+        <vehicle role="tool" job="fertilize" size="attach" file="data/vehicles/amazone/zats3200/zats3200.xml"/>
+        <vehicle role="tractor" size="vehicle" file="data/vehicles/challenger/mt655/mt655.xml"/>
+        <vehicle role="tool" job="sow" size="attach" file="data/vehicles/greatplains/seeder1500/seeder1500.xml"/>
+        <vehicle role="car" size="vehicle" file="data/vehicles/international/series200/series200.xml"/>
+        <vehicle role="tool" job="cultivate" size="attach" file="data/vehicles/knoche/ecocultivator300/ecocultivator300.xml"/>
+        <vehicle role="extra" size="vehicle" file="data/vehicles/fiat/series90/series90.xml"/>
+    </fleet>
+    <fleet neighbour="7">
+        <vehicle role="car" size="vehicle" file="data/vehicles/skoda/kodiaq/kodiaq.xml"/>
+    </fleet>
+    <fleet neighbour="6">
+        <vehicle role="extra" size="attach" file="data/vehicles/krampe/sks30_150/sks30_150.xml"/>
+        <vehicle role="extra" size="oversize" file="data/vehicles/volvo/fh16/fh16.xml"/>
+        <vehicle role="car" size="vehicle" file="data/vehicles/lizard/pickup2017/pickup2017.xml"/>
+        <vehicle role="extra" size="vehicle" file="data/vehicles/kubota/rtvxg850/rtvxg850.xml"/>
+    </fleet>
+    <fleet neighbour="5">
+        <vehicle role="car" size="vehicle" file="data/vehicles/skoda/enyaq/enyaq.xml"/>
+    </fleet>
+</fleets>

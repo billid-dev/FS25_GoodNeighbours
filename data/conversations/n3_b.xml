@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- Good Neighbours - extra conversations for Jonas Becker (author: billiD). item t="npc": the neighbour speaks, t="player": one answer, t="choices": answers to pick -->
+<conversations>
+    <conversation id="n3b_visit_drone_1" situation="visit" minLevel="1" maxLevel="10">
+        <item t="npc" en="Hey {player}! Don't freak out about the buzzing, it's just my drone. I'm mapping fields for practice. Can I fly over yours? I'll send you the pictures. Free of charge, obviously." de="Hey {player}! Keine Panik wegen dem Summen, das ist nur meine Drohne. Ich kartiere zur Übung Felder. Darf ich über deine fliegen? Ich schicke dir die Bilder. Natürlich kostenlos." pl="Hej, {player}! Nie panikuj przez to bzyczenie, to tylko mój dron. Dla wprawy mapuję pola. Mogę przelecieć nad twoimi? Wyślę ci zdjęcia. Za darmo, wiadomo." />
+        <item t="choices">
+            <choice points="3" en="Sure! What can you see from up there?" de="Klar! Was sieht man da oben?" pl="Jasne! Co widać z góry?">
+                <item t="npc" en="Way more than from the tractor. Wet spots, thin patches, where the sprayer missed. Stressed plants look different in infrared before you can see it with your eyes. It's basically a doctor for fields." de="Viel mehr als vom Traktor aus. Nasse Stellen, dünne Flecken, wo die Spritze was ausgelassen hat. Gestresste Pflanzen sehen im Infrarot anders aus, bevor man es mit bloßem Auge sieht. Quasi ein Arzt für Felder." pl="Dużo więcej niż z ciągnika. Mokre miejsca, rzadkie placki, gdzie opryskiwacz nie trafił. Zestresowane rośliny w podczerwieni wyglądają inaczej, zanim zobaczysz to gołym okiem. Taki lekarz dla pól." />
+                <item t="choices">
+                    <choice points="2" en="Send me the pictures, I'm curious." de="Schick mir die Bilder, ich bin neugierig." pl="Wyślij mi te zdjęcia, jestem ciekawy.">
+                        <item t="npc" en="On it! Give me a day to process them. And don't be offended if there's a weird pattern. Everyone has one. Mine looks like a smiley face. A sad one." de="Mach ich! Gib mir einen Tag zum Auswerten. Und sei nicht beleidigt, wenn da ein komisches Muster ist. Hat jeder. Meins sieht aus wie ein Smiley. Ein trauriger." pl="Się robi! Daj mi dzień na obróbkę. I nie obrażaj się, jak wyjdzie jakiś dziwny wzór. Każdy ma. Mój wygląda jak buźka. Smutna." />
+                    </choice>
+                    <choice points="0" en="And what do I do with that info?" de="Und was mache ich dann damit?" pl="I co mam z tym zrobić?">
+                        <item t="npc" en="Good question, honestly. Fertiliser where it's needed, less where it isn't. Or you just look at it and feel bad. Option one is better." de="Gute Frage, ehrlich. Dünger, wo er gebraucht wird, weniger, wo nicht. Oder du schaust es dir an und fühlst dich schlecht. Option eins ist besser." pl="Dobre pytanie, serio. Nawóz tam, gdzie trzeba, mniej tam, gdzie nie trzeba. Albo popatrzysz i będzie ci smutno. Opcja pierwsza lepsza." />
+                    </choice>
+                </item>
+            </choice>
+            <choice points="1" en="Just keep it away from the animals, okay?" de="Halt sie nur von den Tieren fern, okay?" pl="Tylko trzymaj go z dala od zwierząt, dobra?">
+                <item t="npc" en="Totally. Sarah's cows chased the last one. Well, looked at it very suspiciously. Same thing." de="Klar. Sarahs Kühe haben die letzte gejagt. Na ja, sehr misstrauisch angeschaut. Kommt aufs Gleiche raus." pl="Jasne. Krowy Sarah goniły poprzedniego. No dobra, patrzyły na niego bardzo podejrzliwie. Na jedno wychodzi." />
+            </choice>
+            <choice points="-2" en="I don't want that thing spying on my farm." de="Ich will nicht, dass das Ding meinen Hof ausspioniert." pl="Nie chcę, żeby to coś szpiegowało moje gospodarstwo.">
+                <item t="npc" en="Spying? Man, it's a camera on a fan. But okay, okay. Landing it. No offence meant." de="Ausspionieren? Mann, das ist eine Kamera an einem Ventilator. Aber okay, okay. Ich lande sie. War nicht böse gemeint." pl="Szpiegowało? Stary, to kamera na wiatraczku. Ale dobra, dobra. Ląduję. Bez urazy." />
+            </choice>
+        </item>
+        <item t="npc" en="Anyway, nice to finally see your place from above. It looks good up there. Tidy. Henryk would approve. Later, {player}!" de="Jedenfalls schön, deinen Hof endlich mal von oben zu sehen. Sieht gut aus da oben. Ordentlich. Henryk wäre einverstanden. Bis dann, {player}!" pl="W każdym razie fajnie wreszcie zobaczyć twoje gospodarstwo z góry. Ładnie wygląda. Porządnie. Henryk by pochwalił. Na razie, {player}!" />
+    </conversation>
+    <conversation id="n3b_visit_worms_2" situation="visit" minLevel="3" maxLevel="10" season="spring">
+        <item t="npc" en="{player}! You've got to see this. Look in the bucket. Go on. Thirty-four earthworms. From one spade of soil. My direct-drilled field. Last year it was nine!" de="{player}! Das musst du sehen. Schau in den Eimer. Na los. Vierunddreißig Regenwürmer. Aus einem Spaten Erde. Mein Direktsaat-Feld. Letztes Jahr waren es neun!" pl="{player}! Musisz to zobaczyć. Zajrzyj do wiadra. No dalej. Trzydzieści cztery dżdżownice. Z jednego szpadla ziemi. Z mojego pola z siewem bezpośrednim. W zeszłym roku było dziewięć!" />
+        <item t="choices">
+            <choice points="3" en="Thirty-four? That's a huge difference!" de="Vierunddreißig? Das ist ein riesiger Unterschied!" pl="Trzydzieści cztery? To ogromna różnica!">
+                <item t="npc" en="Right?! Worms mean pores, pores mean water gets in and roots go deeper. They're like free little ploughs that work night shifts. I want to hug every single one." de="Oder?! Würmer heißt Poren, Poren heißt, das Wasser kommt rein und die Wurzeln gehen tiefer. Das sind kleine kostenlose Pflüge, die Nachtschicht machen. Ich will jeden einzelnen umarmen." pl="No nie?! Dżdżownice to kanaliki, kanaliki to woda wsiąka, a korzenie idą głębiej. To takie małe darmowe pługi na nocnej zmianie. Chcę wyściskać każdą z osobna." />
+                <item t="choices">
+                    <choice points="2" en="Did you show your dad?" de="Hast du es deinem Vater gezeigt?" pl="Pokazałeś tacie?">
+                        <item t="npc" en="I put the bucket on the kitchen table. Mum screamed. Dad looked for a long time and said: hm. Just hm. From him, that's basically a standing ovation." de="Ich habe den Eimer auf den Küchentisch gestellt. Mama hat geschrien. Papa hat lange geschaut und gesagt: hm. Nur hm. Von ihm ist das praktisch stehender Applaus." pl="Postawiłem wiadro na stole w kuchni. Mama krzyknęła. Tata długo patrzył i powiedział: hm. Tylko hm. U niego to praktycznie owacja na stojąco." />
+                    </choice>
+                    <choice points="1" en="Now count the ones in a ploughed field." de="Jetzt zähl mal die im gepflügten Feld." pl="A teraz policz te na zaoranym polu.">
+                        <item t="npc" en="Already did. Eleven. I made a chart. Don't worry, I won't show you the chart. Okay, I'll show you a small chart." de="Schon gemacht. Elf. Ich habe ein Diagramm gemacht. Keine Sorge, ich zeige es dir nicht. Okay, ich zeige dir ein kleines Diagramm." pl="Już policzyłem. Jedenaście. Zrobiłem wykres. Spokojnie, nie pokażę ci go. Dobra, pokażę ci mały wykres." />
+                    </choice>
+                </item>
+            </choice>
+            <choice points="1" en="Why are you carrying worms around?" de="Warum trägst du Würmer herum?" pl="Czemu nosisz ze sobą robaki?">
+                <item t="npc" en="Science! And because nobody believes numbers without proof. Henryk said worms don't care about my methods. The worms disagree." de="Wissenschaft! Und weil keiner Zahlen ohne Beweis glaubt. Henryk meinte, den Würmern sind meine Methoden egal. Die Würmer sehen das anders." pl="Nauka! I dlatego, że nikt nie wierzy liczbom bez dowodu. Henryk powiedział, że dżdżownice mają gdzieś moje metody. Dżdżownice się nie zgadzają." />
+            </choice>
+            <choice points="-2" en="Get that bucket away from me." de="Nimm den Eimer weg von mir." pl="Zabierz to wiadro ode mnie.">
+                <item t="npc" en="Wow. They're the most important workers on the farm and you treat them like that. I'm telling them." de="Wow. Das sind die wichtigsten Arbeiter auf dem Hof, und du behandelst sie so. Ich sag's ihnen." pl="Wow. To najważniejsi pracownicy w gospodarstwie, a ty ich tak traktujesz. Powiem im." />
+            </choice>
+        </item>
+        <item t="npc" en="Okay, I'm putting them back exactly where I found them. They've got work to do. Happy spring, {player}!" de="Okay, ich bringe sie genau dahin zurück, wo ich sie gefunden habe. Die haben zu tun. Schönen Frühling, {player}!" pl="Dobra, odnoszę je dokładnie tam, skąd je wziąłem. Mają robotę. Udanej wiosny, {player}!" />
+    </conversation>
+    <conversation id="n3b_visit_lena_5" situation="visit" minLevel="5" maxLevel="10">
+        <item t="npc" en="{player}, hey. Can I sit for a bit? I need advice, and you're the only one who won't turn it into a village story. Lena got a job offer. In the city. A really good one." de="{player}, hey. Kann ich mich kurz setzen? Ich brauche einen Rat, und du bist der Einzige, der daraus keine Dorfgeschichte macht. Lena hat ein Jobangebot bekommen. In der Stadt. Ein richtig gutes." pl="{player}, hej. Mogę chwilę posiedzieć? Potrzebuję rady, a ty jedyny nie zrobisz z tego wiejskiej plotki. Lena dostała propozycję pracy. W mieście. Naprawdę dobrą." />
+        <item t="player" en="Oh. What does she want to do?" de="Oh. Was will sie denn?" pl="Aha. A czego ona chce?" />
+        <item t="npc" en="She says she doesn't know. But I saw her face when she told me. She was glowing. And I can't move, right? The farm is here. Dad's knees are here. Everything's here." de="Sie sagt, sie weiß es nicht. Aber ich habe ihr Gesicht gesehen, als sie es mir erzählt hat. Sie hat gestrahlt. Und ich kann ja nicht weg, oder? Der Hof ist hier. Papas Knie sind hier. Alles ist hier." pl="Mówi, że nie wie. Ale widziałem jej twarz, jak mi mówiła. Promieniała. A ja nie mogę się przeprowadzić, nie? Gospodarstwo jest tutaj. Kolana taty są tutaj. Wszystko jest tutaj." />
+        <item t="choices">
+            <choice points="4" en="If she wants it, tell her to take it. Love doesn't mean holding someone back." de="Wenn sie es will, sag ihr, sie soll es annehmen. Liebe heißt nicht, jemanden festzuhalten." pl="Jeśli tego chce, powiedz jej, żeby się zgodziła. Kochać to nie znaczy kogoś zatrzymywać.">
+                <item t="npc" en="Yeah. Yeah, I know. It's just... it's an hour and a half away. Not the moon. People do that, right? Weekends, phone calls..." de="Ja. Ja, ich weiß. Es ist nur... anderthalb Stunden entfernt. Nicht der Mond. Leute machen das doch, oder? Wochenenden, Telefonate..." pl="No. No, wiem. Po prostu... to półtorej godziny stąd. Nie księżyc. Ludzie tak żyją, nie? Weekendy, telefony..." />
+                <item t="choices">
+                    <choice points="3" en="Lots of people do. And she might bring new ideas back to the farm." de="Viele machen das. Und vielleicht bringt sie neue Ideen mit auf den Hof." pl="Mnóstwo ludzi. A może przywiezie nowe pomysły do gospodarstwa.">
+                        <item t="npc" en="Ha. Imagine. Lena with city ideas plus me with data. We'd be unstoppable. Or we'd argue a lot. Probably both. Thanks, {player}. I'll tell her to go for it." de="Ha. Stell dir vor. Lena mit Stadtideen plus ich mit Daten. Wir wären unaufhaltsam. Oder wir würden viel streiten. Wahrscheinlich beides. Danke, {player}. Ich sage ihr, sie soll es machen." pl="Ha. Wyobraź sobie. Lena z miejskimi pomysłami plus ja z danymi. Bylibyśmy nie do zatrzymania. Albo byśmy się ciągle kłócili. Pewnie jedno i drugie. Dzięki, {player}. Powiem jej, żeby brała tę pracę." />
+                    </choice>
+                    <choice points="2" en="Talk to Sarah. She's done years of long distance." de="Red mit Sarah. Sie hat jahrelang eine Fernbeziehung geführt." pl="Pogadaj z Sarah. Ona latami żyła na odległość.">
+                        <item t="npc" en="Oh, good point. Sarah would know how hard it really is. And she'd make me tea. Okay. I'll ask her." de="Oh, guter Punkt. Sarah weiß, wie schwer das wirklich ist. Und sie würde mir Tee machen. Okay. Ich frage sie." pl="O, dobra myśl. Sarah wie, jakie to naprawdę trudne. I zrobi mi herbatę. Dobra. Zapytam ją." />
+                    </choice>
+                </item>
+            </choice>
+            <choice points="2" en="Have you told her how you feel?" de="Hast du ihr gesagt, was du fühlst?" pl="Powiedziałeś jej, co czujesz?">
+                <item t="npc" en="Not really. I said 'cool' and changed the subject to the weather. Smooth, right? Okay. I'll talk to her. Properly." de="Nicht wirklich. Ich habe 'cool' gesagt und das Thema aufs Wetter gelenkt. Elegant, oder? Okay. Ich rede mit ihr. Richtig." pl="Nie bardzo. Powiedziałem 'spoko' i zmieniłem temat na pogodę. Zgrabnie, nie? Dobra. Pogadam z nią. Porządnie." />
+            </choice>
+            <choice points="-2" en="Plenty of fish in the sea, man." de="Andere Mütter haben auch schöne Töchter, Mann." pl="Stary, na świecie jest mnóstwo dziewczyn.">
+                <item t="npc" en="Seriously? That's your advice? Forget it. I'll figure it out myself." de="Im Ernst? Das ist dein Rat? Vergiss es. Ich kriege das selbst hin." pl="Serio? To twoja rada? Zapomnij. Sam to ogarnę." />
+            </choice>
+        </item>
+        <item t="npc" en="Funny. A year ago my biggest worry was a yield map. Now it's... this. Growing up is weird, {player}." de="Komisch. Vor einem Jahr war meine größte Sorge eine Ertragskarte. Jetzt ist es... das hier. Erwachsenwerden ist seltsam, {player}." pl="Śmieszne. Rok temu moim największym zmartwieniem była mapa plonów. A teraz... to. Dorastanie jest dziwne, {player}." />
+    </conversation>
+    <conversation id="n3b_work_gps_1" situation="work" minLevel="1" maxLevel="10">
+        <item t="npc" en="{player}, come look at this. GPS signal is gone. Totally gone. I'm sitting in the middle of the field and the screen just says 'searching'. Like me on a Friday night." de="{player}, schau dir das an. Das GPS-Signal ist weg. Komplett weg. Ich sitze mitten auf dem Feld, und auf dem Bildschirm steht nur 'Suche'. Wie bei mir am Freitagabend." pl="{player}, chodź, zobacz. Nie ma sygnału GPS. Zupełnie nie ma. Siedzę na środku pola, a na ekranie tylko 'wyszukiwanie'. Jak ja w piątkowy wieczór." />
+        <item t="choices">
+            <choice points="3" en="So drive by eye for a bit. You can do it." de="Dann fahr eben mal nach Augenmaß. Du schaffst das." pl="To pojedź trochę na oko. Dasz radę.">
+                <item t="npc" en="By eye. Like a caveman. Okay, okay. I'll aim at the tree on the horizon, like Henryk says. ... Hey! That's actually straight! Ish." de="Nach Augenmaß. Wie ein Höhlenmensch. Okay, okay. Ich ziele auf den Baum am Horizont, wie Henryk sagt. ... Hey! Das ist tatsächlich gerade! So ungefähr." pl="Na oko. Jak jaskiniowiec. Dobra, dobra. Celuję w drzewo na horyzoncie, jak mówi Henryk. ... Hej! To jest naprawdę prosto! Mniej więcej." />
+            </choice>
+            <choice points="1" en="Have you tried turning it off and on again?" de="Hast du es mal aus- und wieder eingeschaltet?" pl="Próbowałeś wyłączyć i włączyć?">
+                <item t="npc" en="Three times. I also said please. Nothing. I think it's the clouds, or a satellite having a bad day." de="Dreimal. Ich habe sogar bitte gesagt. Nichts. Ich glaube, es sind die Wolken. Oder ein Satellit hat einen schlechten Tag." pl="Trzy razy. Nawet powiedziałem proszę. Nic. Chyba to przez chmury. Albo jakiś satelita ma gorszy dzień." />
+            </choice>
+            <choice points="-1" en="That's what you get for trusting a computer." de="Das hast du davon, wenn du einem Computer vertraust." pl="Masz za to, że ufasz komputerowi.">
+                <item t="npc" en="Yeah, yeah, I've heard it. If Henryk drives past now, I'm hiding under the seat." de="Ja, ja, kenne ich schon. Wenn Henryk jetzt vorbeifährt, verstecke ich mich unterm Sitz." pl="Tak, tak, już to słyszałem. Jak Henryk teraz przejedzie, chowam się pod siedzenie." />
+            </choice>
+        </item>
+        <item t="npc" en="There, signal's back. Look at the line I drove without it, though. A little wobbly. Let's agree that never happened, {player}." de="So, das Signal ist wieder da. Aber schau dir die Spur an, die ich ohne gefahren bin. Ein bisschen wackelig. Einigen wir uns darauf, dass das nie passiert ist, {player}." pl="Jest, sygnał wrócił. Ale popatrz na linię, którą jechałem bez niego. Trochę krzywa. Umówmy się, że tego nie było, {player}." />
+    </conversation>
+    <conversation id="n3b_work_harvest_2" situation="work" minLevel="2" maxLevel="10" season="summer">
+        <item t="npc" en="{player}! Harvest mode activated. I made a group chat for everyone helping tonight. Combine, two trailers, grain cart, and Mum on sandwiches. Want in? I need one more trailer driver." de="{player}! Erntemodus aktiviert. Ich habe einen Gruppenchat für alle gemacht, die heute Nacht helfen. Mähdrescher, zwei Anhänger, Überladewagen und Mama für die Brote. Bist du dabei? Mir fehlt noch ein Anhängerfahrer." pl="{player}! Tryb żniw włączony. Zrobiłem czat grupowy dla wszystkich, którzy dziś w nocy pomagają. Kombajn, dwie przyczepy, wóz przeładowczy i mama od kanapek. Wchodzisz? Brakuje mi jednego kierowcy przyczepy." />
+        <item t="choices">
+            <choice points="3" en="I'm in. Where do you want me?" de="Ich bin dabei. Wo brauchst du mich?" pl="Wchodzę. Gdzie mam być?">
+                <item t="npc" en="Legend! You're trailer two. Wait at the field gate, I'll message when the cart is full. And please, please don't park on the headland, the combine needs room to turn." de="Legende! Du bist Anhänger zwei. Warte an der Feldeinfahrt, ich schreibe, wenn der Wagen voll ist. Und bitte, bitte park nicht auf dem Vorgewende, der Drescher braucht Platz zum Wenden." pl="Jesteś wielki! Jesteś przyczepą numer dwa. Czekaj przy wjeździe na pole, napiszę, jak wóz będzie pełny. I proszę, proszę, nie parkuj na uwrociu, kombajn musi mieć gdzie zawrócić." />
+                <item t="choices">
+                    <choice points="2" en="What's the plan if it rains?" de="Was ist der Plan, falls es regnet?" pl="A jaki jest plan, jak zacznie padać?">
+                        <item t="npc" en="The radar says clear until two in the morning. If it changes, I write 'RED' in the chat and everyone heads for the yard. I've practised this in my head like a hundred times." de="Das Radar sagt klar bis zwei Uhr nachts. Wenn sich das ändert, schreibe ich 'ROT' in den Chat und alle fahren zum Hof. Das habe ich im Kopf schon hundertmal geübt." pl="Radar mówi, że czysto do drugiej w nocy. Jak się zmieni, piszę na czacie 'CZERWONY' i wszyscy zjeżdżają na podwórze. Przećwiczyłem to w głowie ze sto razy." />
+                    </choice>
+                    <choice points="1" en="A group chat for harvest? Very modern." de="Ein Gruppenchat für die Ernte? Sehr modern." pl="Czat grupowy na żniwa? Bardzo nowocześnie.">
+                        <item t="npc" en="Dad thinks it's ridiculous. He also checks it every five minutes. I can see the little blue ticks, Dad." de="Papa findet es lächerlich. Er schaut trotzdem alle fünf Minuten rein. Ich sehe die kleinen blauen Haken, Papa." pl="Tata uważa, że to śmieszne. A sprawdza co pięć minut. Widzę te niebieskie ptaszki, tato." />
+                    </choice>
+                </item>
+            </choice>
+            <choice points="1" en="Can't tonight, but good luck." de="Heute kann ich nicht, aber viel Glück." pl="Dziś nie dam rady, ale powodzenia.">
+                <item t="npc" en="No worries. Wish us dry grain and a happy combine. And if you see lights in the field at midnight, that's us, not aliens." de="Kein Problem. Wünsch uns trockenes Korn und einen glücklichen Mähdrescher. Und wenn du um Mitternacht Lichter auf dem Feld siehst, das sind wir, keine Aliens." pl="Spoko. Życz nam suchego ziarna i szczęśliwego kombajnu. A jak zobaczysz o północy światła na polu, to my, nie kosmici." />
+            </choice>
+            <choice points="-1" en="A group chat? Just shout across the field like normal people." de="Ein Gruppenchat? Ruft euch doch einfach übers Feld zu wie normale Leute." pl="Czat grupowy? Krzyczcie przez pole jak normalni ludzie.">
+                <item t="npc" en="Over a combine engine? I'd need lungs like a cow. The chat works, trust me." de="Über einen Mähdreschermotor hinweg? Dafür bräuchte ich Lungen wie eine Kuh. Der Chat funktioniert, glaub mir." pl="Przez silnik kombajnu? Musiałbym mieć płuca jak krowa. Czat działa, uwierz mi." />
+            </choice>
+        </item>
+        <item t="npc" en="Okay, the dew's gone, moisture is at fourteen percent. Let's go! Harvest is the best time of the year. Also the most tiring. Both." de="Okay, der Tau ist weg, Feuchte bei vierzehn Prozent. Los geht's! Die Ernte ist die schönste Zeit des Jahres. Und die anstrengendste. Beides." pl="Dobra, rosa zeszła, wilgotność czternaście procent. Jedziemy! Żniwa to najlepszy czas w roku. I najbardziej męczący. Jedno i drugie." />
+    </conversation>
+    <conversation id="n3b_evening_baler_1" situation="evening" minLevel="3" maxLevel="10">
+        <item t="npc" en="Evening, {player}. Okay, weird news. Good weird. Dad and I fixed the old baler today. Together. Six hours. Nobody shouted. Not even once." de="Abend, {player}. Okay, komische Neuigkeit. Gut komisch. Papa und ich haben heute die alte Presse repariert. Zusammen. Sechs Stunden. Keiner hat geschrien. Nicht ein einziges Mal." pl="Cześć, {player}. Dobra, dziwna wiadomość. Dziwna w dobrym sensie. Naprawiliśmy dziś z tatą starą prasę. Razem. Sześć godzin. Nikt nie krzyczał. Ani razu." />
+        <item t="choices">
+            <choice points="3" en="That's great, Jonas! How did that happen?" de="Das ist toll, Jonas! Wie kam das?" pl="Super, Jonas! Jak to się stało?">
+                <item t="npc" en="No idea. He held the spanner, I read the manual on my phone, and somehow it worked. Then he told me a story about Grandpa fixing the same baler with wire and a fence post." de="Keine Ahnung. Er hielt den Schraubenschlüssel, ich las die Anleitung auf dem Handy, und irgendwie hat es geklappt. Dann hat er mir erzählt, wie Opa dieselbe Presse mit Draht und einem Zaunpfahl repariert hat." pl="Nie mam pojęcia. On trzymał klucz, ja czytałem instrukcję w telefonie i jakoś zadziałało. Potem opowiedział mi, jak dziadek naprawiał tę samą prasę drutem i słupkiem od płotu." />
+                <item t="choices">
+                    <choice points="2" en="Sounds like you both learned something." de="Klingt, als hättet ihr beide was gelernt." pl="Brzmi, jakbyście obaj czegoś się nauczyli.">
+                        <item t="npc" en="Yeah. He learned the manual has diagrams. I learned that wire and a fence post actually work. Kind of. Don't tell anyone, it ruins my image." de="Ja. Er hat gelernt, dass die Anleitung Zeichnungen hat. Ich habe gelernt, dass Draht und Zaunpfahl tatsächlich funktionieren. Irgendwie. Sag's keinem, das ruiniert mein Image." pl="No. On się dowiedział, że w instrukcji są rysunki. Ja, że drut i słupek naprawdę działają. Tak jakby. Nikomu nie mów, to niszczy mój wizerunek." />
+                    </choice>
+                    <choice points="1" en="Maybe make it a regular thing." de="Macht das doch regelmäßig." pl="Może róbcie tak regularnie.">
+                        <item t="npc" en="Fix something every Saturday? We'd run out of broken things. ... Actually, no, we wouldn't. Our farm has plenty." de="Jeden Samstag was reparieren? Uns gingen die kaputten Sachen aus. ... Nee, eigentlich nicht. Davon hat unser Hof genug." pl="Naprawiać coś w każdą sobotę? Skończyłyby się nam zepsute rzeczy. ... Właściwie nie, nie skończyłyby się. U nas tego nie brakuje." />
+                    </choice>
+                </item>
+            </choice>
+            <choice points="1" en="And did the baler actually work afterwards?" de="Und lief die Presse danach wirklich?" pl="I prasa potem naprawdę działała?">
+                <item t="npc" en="It made fifty perfect bales. Dad patted it like a horse. I've never seen him pat anything. Except the dog. Once." de="Sie hat fünfzig perfekte Ballen gemacht. Papa hat sie getätschelt wie ein Pferd. Ich habe ihn noch nie etwas tätscheln sehen. Außer den Hund. Einmal." pl="Zrobiła pięćdziesiąt idealnych balotów. Tata poklepał ją jak konia. Nigdy nie widziałem, żeby cokolwiek klepał. Poza psem. Raz." />
+            </choice>
+            <choice points="-2" en="Don't get used to it. He'll be grumpy again tomorrow." de="Gewöhn dich nicht dran. Morgen ist er wieder grantig." pl="Nie przyzwyczajaj się. Jutro znowu będzie marudny.">
+                <item t="npc" en="Wow. Thanks for the optimism. Let me have one good day, okay?" de="Wow. Danke für den Optimismus. Gönn mir doch mal einen guten Tag, okay?" pl="Wow. Dzięki za optymizm. Daj mi mieć jeden dobry dzień, co?" />
+            </choice>
+        </item>
+        <item t="npc" en="Anyway. Good evening. The rare kind. I'm going home before something breaks the spell. Night, {player}!" de="Jedenfalls. Guter Abend. Die seltene Sorte. Ich gehe heim, bevor irgendwas den Zauber bricht. Nacht, {player}!" pl="W każdym razie. Dobry wieczór. Z tych rzadkich. Idę do domu, zanim coś przerwie czar. Dobranoc, {player}!" />
+    </conversation>
+    <conversation id="n3b_evening_books_2" situation="evening" minLevel="6" maxLevel="10" season="winter">
+        <item t="npc" en="{player}, got a minute? I just closed the books for the year. The forty hectares. The leased ones. The ones Dad and I fought about all year." de="{player}, hast du kurz Zeit? Ich habe gerade den Jahresabschluss gemacht. Die vierzig Hektar. Die gepachteten. Die, über die Papa und ich das ganze Jahr gestritten haben." pl="{player}, masz chwilę? Właśnie zamknąłem rok w księgach. Te czterdzieści hektarów. Dzierżawione. Te, o które kłóciliśmy się z tatą cały rok." />
+        <item t="player" en="And? How did it go?" de="Und? Wie lief es?" pl="I? Jak wyszło?" />
+        <item t="npc" en="Profit. Small. Like, small small. But profit. In a bad price year. I stared at the number for ten minutes. Then I printed it. On paper. And put it on Dad's plate at dinner." de="Gewinn. Klein. So richtig klein. Aber Gewinn. In einem schlechten Preisjahr. Ich habe zehn Minuten auf die Zahl gestarrt. Dann habe ich sie ausgedruckt. Auf Papier. Und Papa beim Abendessen auf den Teller gelegt." pl="Zysk. Mały. Taki naprawdę malutki. Ale zysk. W roku słabych cen. Gapiłem się na tę liczbę dziesięć minut. Potem wydrukowałem. Na papierze. I położyłem tacie na talerzu przy kolacji." />
+        <item t="choices">
+            <choice points="4" en="Jonas, that's huge. You should be really proud." de="Jonas, das ist riesig. Du kannst richtig stolz sein." pl="Jonas, to ogromna sprawa. Powinieneś być z siebie dumny.">
+                <item t="npc" en="I am. I really am. And you know what Dad did? He read it twice. Then he put on his reading glasses and read it again. Then he said 'Next year, more.' And went to bed." de="Bin ich. Wirklich. Und weißt du, was Papa gemacht hat? Er hat es zweimal gelesen. Dann hat er die Lesebrille aufgesetzt und es noch mal gelesen. Dann sagte er: 'Nächstes Jahr mehr.' Und ging ins Bett." pl="Jestem. Naprawdę jestem. I wiesz, co zrobił tata? Przeczytał dwa razy. Potem założył okulary do czytania i przeczytał jeszcze raz. Potem powiedział: 'W przyszłym roku więcej'. I poszedł spać." />
+                <item t="choices">
+                    <choice points="3" en="From him, that's a hug." de="Von ihm ist das eine Umarmung." pl="U niego to jak uścisk.">
+                        <item t="npc" en="Right?! In my head I translated it straight to 'I'm proud of you, son.' I'm keeping that piece of paper forever." de="Oder?! In meinem Kopf habe ich das direkt übersetzt in 'Ich bin stolz auf dich, mein Sohn.' Den Zettel behalte ich für immer." pl="No nie?! W głowie od razu przetłumaczyłem to na 'Jestem z ciebie dumny, synu'. Zachowam tę kartkę na zawsze." />
+                    </choice>
+                    <choice points="2" en="'Next year, more.' Sounds like a plan." de="'Nächstes Jahr mehr.' Klingt nach einem Plan." pl="'W przyszłym roku więcej'. Brzmi jak plan.">
+                        <item t="npc" en="It's already a spreadsheet. Of course it is. But this time I'll make one he can read. Big font." de="Ist schon eine Tabelle. Natürlich. Aber diesmal mache ich eine, die er lesen kann. Große Schrift." pl="To już jest arkusz kalkulacyjny. Oczywiście. Ale tym razem zrobię taki, który on przeczyta. Dużą czcionką." />
+                    </choice>
+                </item>
+            </choice>
+            <choice points="2" en="A small profit in a bad year means the plan works." de="Ein kleiner Gewinn in einem schlechten Jahr heißt, der Plan funktioniert." pl="Mały zysk w złym roku znaczy, że plan działa.">
+                <item t="npc" en="That's exactly what I keep telling myself. A good year would make it shine. A bad year is the real test, and we passed. Barely, but passed." de="Genau das sage ich mir die ganze Zeit. Ein gutes Jahr hätte es glänzen lassen. Ein schlechtes Jahr ist die echte Prüfung, und wir haben bestanden. Knapp, aber bestanden." pl="Dokładnie to sobie powtarzam. Dobry rok by to podkręcił. Zły rok to prawdziwy test, i zdaliśmy. Ledwo, ale zdaliśmy." />
+            </choice>
+            <choice points="-2" en="A small profit? Hardly worth all that stress." de="Kleiner Gewinn? Kaum den ganzen Stress wert." pl="Mały zysk? Nie wart tych wszystkich nerwów.">
+                <item t="npc" en="Hardly worth... okay. You know what, I'm not letting you ruin this. Goodnight, {player}." de="Kaum wert... okay. Weißt du was, das lasse ich mir von dir nicht kaputtmachen. Gute Nacht, {player}." pl="Nie wart... dobra. Wiesz co, nie pozwolę ci tego zepsuć. Dobranoc, {player}." />
+            </choice>
+        </item>
+        <item t="npc" en="Thanks for being around this year, {player}. Seriously. A lot of these numbers have your advice hidden in them." de="Danke, dass du dieses Jahr da warst, {player}. Ehrlich. In vielen dieser Zahlen steckt dein Rat." pl="Dzięki, że byłeś w tym roku obok, {player}. Serio. W wielu z tych liczb są ukryte twoje rady." />
+    </conversation>
+    <conversation id="n3b_gas_coffee_1" situation="gas" minLevel="1" maxLevel="10">
+        <item t="npc" en="{player}, quick, important question. Have you tried the coffee from the machine here? I'm rating every gas station coffee in the area. This one's a solid four out of ten." de="{player}, schnell, wichtige Frage. Hast du den Kaffee aus dem Automaten hier probiert? Ich bewerte jeden Tankstellenkaffee in der Gegend. Der hier ist eine solide Vier von zehn." pl="{player}, szybko, ważne pytanie. Piłeś kawę z tutejszego automatu? Oceniam wszystkie kawy ze stacji w okolicy. Ta to solidne cztery na dziesięć." />
+        <item t="choices">
+            <choice points="2" en="Four? Generous. Where's the best one?" de="Vier? Großzügig. Wo gibt's den besten?" pl="Cztery? Hojnie. A gdzie jest najlepsza?">
+                <item t="npc" en="The one by the motorway. Seven. The only one where the milk isn't powder. I have a spreadsheet. Of course I have a spreadsheet." de="Die an der Autobahn. Sieben. Die einzige, wo die Milch kein Pulver ist. Ich habe eine Tabelle. Natürlich habe ich eine Tabelle." pl="Ta przy autostradzie. Siedem. Jedyna, gdzie mleko nie jest z proszku. Mam arkusz. Oczywiście, że mam arkusz." />
+            </choice>
+            <choice points="2" en="Bring a thermos from home, you'll save a fortune." de="Nimm eine Thermoskanne von zu Hause mit, du sparst ein Vermögen." pl="Bierz termos z domu, zaoszczędzisz fortunę.">
+                <item t="npc" en="You and Henryk, I swear. Okay, fine. But then what do I rate? Thermoses? ... Actually, that's not a bad idea." de="Du und Henryk, ich schwör's. Okay, gut. Aber was bewerte ich dann? Thermoskannen? ... Eigentlich keine schlechte Idee." pl="Ty i Henryk, słowo daję. Dobra, niech będzie. Ale co wtedy będę oceniał? Termosy? ... Właściwie niezły pomysł." />
+            </choice>
+            <choice points="-1" en="You rate gas station coffee? Get a hobby." de="Du bewertest Tankstellenkaffee? Such dir ein Hobby." pl="Oceniasz kawę ze stacji? Znajdź sobie hobby.">
+                <item t="npc" en="This IS my hobby. Between harvests it's this or doom-scrolling grain prices." de="Das IST mein Hobby. Zwischen den Ernten ist es das oder stundenlang Getreidepreise scrollen." pl="To JEST moje hobby. Między żniwami albo to, albo godzinami przewijanie cen zboża." />
+            </choice>
+        </item>
+        <item t="npc" en="Okay, tank's full, coffee's lukewarm, life is fine. Four out of ten, final answer. Bye, {player}!" de="Okay, Tank voll, Kaffee lauwarm, das Leben ist gut. Vier von zehn, endgültig. Tschüss, {player}!" pl="Dobra, bak pełny, kawa letnia, życie jest okej. Cztery na dziesięć, ostateczna odpowiedź. Cześć, {player}!" />
+    </conversation>
+    <conversation id="n3b_shop_cooking_1" situation="shop" minLevel="1" maxLevel="10">
+        <item t="npc" en="{player}, help. Lena's coming for dinner tomorrow and I said I'd cook. I don't cook. I microwave. What do I buy so it looks like I know what I'm doing?" de="{player}, Hilfe. Lena kommt morgen zum Abendessen und ich habe gesagt, ich koche. Ich koche nicht. Ich mikrowelle. Was kaufe ich, damit es aussieht, als wüsste ich, was ich tue?" pl="{player}, ratunku. Lena przychodzi jutro na kolację, a ja powiedziałem, że ugotuję. Ja nie gotuję. Ja odgrzewam w mikrofali. Co kupić, żeby wyglądało, że wiem, co robię?" />
+        <item t="choices">
+            <choice points="3" en="Keep it simple. Pasta, a good sauce, a salad." de="Mach was Einfaches. Nudeln, eine gute Soße, ein Salat." pl="Coś prostego. Makaron, dobry sos, sałatka.">
+                <item t="npc" en="Pasta. I can boil water, that's step one done. A good sauce... tomatoes, garlic, olive oil, basil? Okay, I'm writing this down. Like a seed recipe." de="Nudeln. Wasser kochen kann ich, Schritt eins erledigt. Eine gute Soße... Tomaten, Knoblauch, Olivenöl, Basilikum? Okay, ich schreibe es auf. Wie eine Saatmischung." pl="Makaron. Wodę umiem zagotować, krok pierwszy zaliczony. Dobry sos... pomidory, czosnek, oliwa, bazylia? Dobra, zapisuję. Jak recepturę mieszanki nasion." />
+            </choice>
+            <choice points="2" en="Ask Teresa for a lesson. Her pierogi are legendary." de="Frag Teresa nach einer Lektion. Ihre Piroggen sind legendär." pl="Poproś Teresę o lekcję. Jej pierogi są legendarne.">
+                <item t="npc" en="Teresa! Yes! She'll teach me and probably feed me twice in the process. Although then Lena will want Teresa's pierogi forever, and I can't compete with that." de="Teresa! Ja! Sie bringt es mir bei und füttert mich dabei wahrscheinlich zweimal. Obwohl Lena dann für immer Teresas Piroggen will, und da komme ich nicht mit." pl="Teresa! Tak! Nauczy mnie i pewnie po drodze dwa razy nakarmi. Chociaż potem Lena będzie chciała już tylko pierogów Teresy, a z tym nie wygram." />
+            </choice>
+            <choice points="-2" en="Just order a pizza and hide the box." de="Bestell einfach Pizza und versteck den Karton." pl="Zamów pizzę i schowaj karton.">
+                <item t="npc" en="Tempting. But Lena's sister's boyfriend did that once, and the whole family still talks about it. I'm not becoming the pizza box guy." de="Verlockend. Aber der Freund von Lenas Schwester hat das mal gemacht, und die ganze Familie redet heute noch darüber. Ich werde nicht der Pizzakarton-Typ." pl="Kuszące. Ale chłopak siostry Leny tak kiedyś zrobił i cała rodzina do dziś o tym gada. Nie zostanę gościem od kartonu po pizzy." />
+            </choice>
+        </item>
+        <item t="npc" en="Okay, basket: pasta, tomatoes, garlic, something green and a fire extinguisher. Just in case. Wish me luck!" de="Okay, Korb: Nudeln, Tomaten, Knoblauch, irgendwas Grünes und ein Feuerlöscher. Nur für alle Fälle. Drück mir die Daumen!" pl="Dobra, koszyk: makaron, pomidory, czosnek, coś zielonego i gaśnica. Tak na wszelki wypadek. Trzymaj kciuki!" />
+    </conversation>
+    <conversation id="n3b_trade_malting_1" situation="trade" minLevel="2" maxLevel="10">
+        <item t="npc" en="{player}! Monika told me about a malting barley contract with the brewery. Better price, but the specs are tough. Protein not too high, no broken grains, germination above ninety-five percent." de="{player}! Monika hat mir von einem Braugerstenvertrag mit der Brauerei erzählt. Besserer Preis, aber harte Vorgaben. Nicht zu viel Eiweiß, kein Bruchkorn, Keimfähigkeit über fünfundneunzig Prozent." pl="{player}! Monika powiedziała mi o kontrakcie na jęczmień browarny z browarem. Lepsza cena, ale wymagania ostre. Białko nie za wysokie, żadnych połamanych ziaren, kiełkowanie powyżej dziewięćdziesięciu pięciu procent." />
+        <item t="choices">
+            <choice points="3" en="Go for it, but go easy on the nitrogen." de="Mach es, aber sei sparsam mit Stickstoff." pl="Bierz, ale nie przesadź z azotem.">
+                <item t="npc" en="Exactly what I was thinking. Too much fertiliser and the protein goes up, then the brewery says no and it's feed barley. So I'll split the dose and test the plants." de="Genau das dachte ich auch. Zu viel Dünger und das Eiweiß steigt, dann sagt die Brauerei nein und es ist Futtergerste. Also teile ich die Gabe und teste die Pflanzen." pl="Dokładnie tak myślałem. Za dużo nawozu, białko rośnie, browar mówi nie i zostaje jęczmień paszowy. Więc podzielę dawkę i będę badał rośliny." />
+                <item t="choices">
+                    <choice points="2" en="And set the combine gently. Broken grains don't germinate." de="Und stell den Mähdrescher schonend ein. Bruchkorn keimt nicht." pl="I ustaw delikatnie kombajn. Połamane ziarno nie kiełkuje.">
+                        <item t="npc" en="Ooh, right, drum speed down. Slower threshing, cleaner grain. Write that on my hand, {player}. Actually, I'll put it in the app." de="Oh, stimmt, Trommeldrehzahl runter. Langsamer dreschen, saubereres Korn. Schreib mir das auf die Hand, {player}. Nee, ich trage es in die App ein." pl="O, racja, obroty bębna w dół. Wolniejsze młócenie, czystsze ziarno. Napisz mi to na ręce, {player}. Dobra, wpiszę do aplikacji." />
+                    </choice>
+                    <choice points="0" en="What if it fails the test?" de="Und wenn sie durch den Test fällt?" pl="A jak nie przejdzie badań?">
+                        <item t="npc" en="Then it's feed barley and I've lost nothing except my pride. Dad would enjoy that a bit too much." de="Dann ist es Futtergerste, und ich habe nur meinen Stolz verloren. Papa würde das ein bisschen zu sehr genießen." pl="To będzie paszowy i stracę tylko dumę. Tata cieszyłby się z tego trochę za bardzo." />
+                    </choice>
+                </item>
+            </choice>
+            <choice points="1" en="Beer from our barley? That's cool." de="Bier aus unserer Gerste? Cool." pl="Piwo z naszego jęczmienia? Super.">
+                <item t="npc" en="Right? Imagine having a beer at the village festival and knowing the barley came from my field. That's the dream. A local dream." de="Oder? Stell dir vor, du trinkst auf dem Dorffest ein Bier und weißt, die Gerste kommt von meinem Feld. Das ist der Traum. Ein regionaler Traum." pl="No nie? Wyobraź sobie, że pijesz piwo na festynie i wiesz, że jęczmień jest z mojego pola. To jest marzenie. Lokalne marzenie." />
+            </choice>
+            <choice points="-2" en="Contracts are a trap. Sell on the open market." de="Verträge sind eine Falle. Verkauf frei am Markt." pl="Kontrakty to pułapka. Sprzedawaj na wolnym rynku.">
+                <item t="npc" en="A trap with a guaranteed price, though. I'll take my chances. But thanks, I guess." de="Eine Falle mit garantiertem Preis, immerhin. Ich riskiere es. Aber danke, schätze ich." pl="Pułapka z gwarantowaną ceną. Zaryzykuję. Ale dzięki, chyba." />
+            </choice>
+        </item>
+        <item t="npc" en="Okay, I'm signing for ten hectares. Not the whole farm. See? I'm learning. Slowly. See you, {player}!" de="Okay, ich unterschreibe für zehn Hektar. Nicht für den ganzen Hof. Siehst du? Ich lerne. Langsam. Bis dann, {player}!" pl="Dobra, podpisuję na dziesięć hektarów. Nie na całe gospodarstwo. Widzisz? Uczę się. Powoli. Do zobaczenia, {player}!" />
+    </conversation>
+    <conversation id="n3b_walk_hares_1" situation="walk" minLevel="1" maxLevel="10" season="autumn">
+        <item t="npc" en="{player}, look! Over there, in the stubble. A hare. And another one. I've been counting wildlife along this field. More every year since I left that flower strip by the hedge." de="{player}, schau! Da drüben in den Stoppeln. Ein Hase. Und noch einer. Ich zähle die Tiere an diesem Feld. Jedes Jahr mehr, seit ich den Blühstreifen an der Hecke stehen lasse." pl="{player}, patrz! Tam, na ściernisku. Zając. I drugi. Liczę zwierzynę przy tym polu. Co roku jest jej więcej, odkąd zostawiłem pas kwietny przy żywopłocie." />
+        <item t="choices">
+            <choice points="3" en="A flower strip? Tell me more." de="Ein Blühstreifen? Erzähl mehr." pl="Pas kwietny? Opowiedz coś więcej.">
+                <item t="npc" en="Six metres along the edge, wildflowers instead of crop. The bees go crazy in summer, birds nest there, hares hide in it. I lose a bit of yield, but the beetles living there eat aphids for free." de="Sechs Meter am Rand, Wildblumen statt Getreide. Im Sommer drehen die Bienen durch, Vögel brüten dort, Hasen verstecken sich. Ich verliere ein bisschen Ertrag, aber die Käfer, die da wohnen, fressen gratis Blattläuse." pl="Sześć metrów wzdłuż brzegu, dzikie kwiaty zamiast zboża. Latem pszczoły szaleją, ptaki tam gniazdują, zające się chowają. Tracę trochę plonu, ale chrząszcze, które tam mieszkają, za darmo zjadają mszyce." />
+                <item t="choices">
+                    <choice points="2" en="So it pays for itself, in a way." de="Dann rechnet er sich also irgendwie." pl="Czyli na swój sposób się opłaca.">
+                        <item t="npc" en="That's what I'm trying to measure! Fewer aphids, less spraying. If the numbers work, I'll do it on every field. Henryk will say his grandmother did it a hundred years ago. And he'll be right." de="Genau das versuche ich zu messen! Weniger Läuse, weniger Spritzen. Wenn die Zahlen stimmen, mache ich das an jedem Feld. Henryk wird sagen, seine Oma hat das schon vor hundert Jahren gemacht. Und er wird recht haben." pl="Właśnie to próbuję zmierzyć! Mniej mszyc, mniej oprysków. Jak liczby się zgodzą, zrobię to przy każdym polu. Henryk powie, że jego babcia robiła tak sto lat temu. I będzie miał rację." />
+                    </choice>
+                    <choice points="1" en="Is there any support money for that?" de="Gibt es dafür eine Förderung?" pl="Są na to jakieś dopłaty?">
+                        <item t="npc" en="There is, actually! A small payment per metre. Richard showed me the form. Only six pages. Henryk says that's a miracle." de="Gibt es tatsächlich! Eine kleine Zahlung pro Meter. Richard hat mir das Formular gezeigt. Nur sechs Seiten. Henryk sagt, das ist ein Wunder." pl="Są, serio! Mała dopłata za metr. Richard pokazał mi formularz. Tylko sześć stron. Henryk mówi, że to cud." />
+                    </choice>
+                </item>
+            </choice>
+            <choice points="1" en="Do you hunt them?" de="Jagst du sie?" pl="Polujesz na nie?">
+                <item t="npc" en="Me? No way. I just like seeing them. A hare is like a sign that the land is healthy, you know?" de="Ich? Auf keinen Fall. Ich sehe sie einfach gern. Ein Hase ist wie ein Zeichen, dass das Land gesund ist, weißt du?" pl="Ja? W życiu. Po prostu lubię na nie patrzeć. Zając to jakby znak, że ziemia jest zdrowa, wiesz?" />
+            </choice>
+            <choice points="-2" en="Waste of good land, if you ask me." de="Verschwendung von gutem Land, wenn du mich fragst." pl="Jak dla mnie to marnowanie dobrej ziemi.">
+                <item t="npc" en="It's three percent of the field. And it's doing more work than you'd think. But okay. Opinions." de="Es sind drei Prozent vom Feld. Und es leistet mehr, als du denkst. Aber okay. Meinungen." pl="To trzy procent pola. I robi więcej, niż myślisz. Ale okej. Każdy ma swoje zdanie." />
+            </choice>
+        </item>
+        <item t="npc" en="Autumn, man. Stubble, hares and a cold nose. I love this time of year. Later, {player}!" de="Herbst, Mann. Stoppeln, Hasen und eine kalte Nase. Ich liebe diese Jahreszeit. Bis dann, {player}!" pl="Jesień, stary. Ścierniska, zające i zimny nos. Kocham tę porę roku. Na razie, {player}!" />
+    </conversation>
+    <conversation id="n3b_any_channel_1" situation="any" minLevel="1" maxLevel="10">
+        <item t="npc" en="{player}! I started a farm video channel. Short clips. Drilling, drones, Dad grumbling. Forty followers already. Thirty are Lena's family, but still. Can I film you for one?" de="{player}! Ich habe einen Hof-Videokanal gestartet. Kurze Clips. Säen, Drohnen, Papa beim Grummeln. Schon vierzig Follower. Dreißig davon sind Lenas Familie, aber trotzdem. Darf ich dich für einen filmen?" pl="{player}! Założyłem kanał z filmikami z gospodarstwa. Krótkie klipy. Siew, drony, tata, jak marudzi. Już czterdziestu obserwujących. Trzydziestu to rodzina Leny, ale zawsze. Mogę cię nagrać do jednego?" />
+        <item t="choices">
+            <choice points="3" en="Sure, what do you want me to do?" de="Klar, was soll ich machen?" pl="Jasne, co mam robić?">
+                <item t="npc" en="Just be yourself! Say hello, show your favourite machine and say something wise about farming. Like a neighbour in a film. ... Okay, maybe not wise. Just friendly." de="Sei einfach du selbst! Sag hallo, zeig deine Lieblingsmaschine und sag was Weises über die Landwirtschaft. Wie ein Nachbar im Film. ... Okay, vielleicht nicht weise. Einfach freundlich." pl="Bądź sobą! Powiedz cześć, pokaż ulubioną maszynę i powiedz coś mądrego o rolnictwie. Jak sąsiad z filmu. ... Dobra, może nie mądrego. Po prostu sympatycznego." />
+            </choice>
+            <choice points="1" en="What gets the most views?" de="Was bekommt die meisten Aufrufe?" pl="Co ma najwięcej wyświetleń?">
+                <item t="npc" en="Weirdly? Not my drone. Sarah's cow licking the camera. Two thousand views. My best data analysis video? Twelve. The internet is a strange place." de="Seltsamerweise? Nicht meine Drohne. Sarahs Kuh, die die Kamera ableckt. Zweitausend Aufrufe. Mein bestes Datenanalyse-Video? Zwölf. Das Internet ist ein seltsamer Ort." pl="Dziwne, ale nie mój dron. Krowa Sarah liżąca kamerę. Dwa tysiące wyświetleń. Mój najlepszy filmik o analizie danych? Dwanaście. Internet to dziwne miejsce." />
+            </choice>
+            <choice points="-2" en="No way. I'm not going on the internet." de="Auf keinen Fall. Ich komme nicht ins Internet." pl="Nie ma mowy. Nie pojawię się w internecie.">
+                <item t="npc" en="Fair. No pressure. Some people want privacy, some want to be famous for cow videos. I respect both." de="Verstehe. Kein Druck. Manche wollen Privatsphäre, manche wollen mit Kuhvideos berühmt werden. Ich respektiere beides." pl="Rozumiem. Bez presji. Jedni chcą prywatności, inni chcą być sławni dzięki filmikom z krowami. Szanuję jedno i drugie." />
+            </choice>
+        </item>
+        <item t="npc" en="Okay, coming soon: 'Jonas tries to drive a straight line without GPS.' Spoiler: it's not straight. See you, {player}!" de="Okay, demnächst: 'Jonas versucht, ohne GPS gerade zu fahren.' Spoiler: Es ist nicht gerade. Bis dann, {player}!" pl="Dobra, już wkrótce: 'Jonas próbuje jechać prosto bez GPS'. Spoiler: nie jest prosto. Do zobaczenia, {player}!" />
+    </conversation>
+    <conversation id="n3b_any_tired_5" situation="any" minLevel="5" maxLevel="10">
+        <item t="npc" en="{player}. I need to tell someone. Last night, on the way back from the field, I... nodded off at the wheel. Just a second. The tractor drifted towards the ditch. I woke up in time. But I'm still shaking." de="{player}. Ich muss es jemandem erzählen. Gestern Nacht, auf dem Rückweg vom Feld, bin ich... am Steuer eingenickt. Nur eine Sekunde. Der Traktor ist Richtung Graben gezogen. Ich bin rechtzeitig aufgewacht. Aber ich zittere immer noch." pl="{player}. Muszę to komuś powiedzieć. Wczoraj w nocy, jak wracałem z pola... przysnąłem za kierownicą. Na sekundę. Ciągnik zjechał w stronę rowu. Obudziłem się w porę. Ale dalej się trzęsę." />
+        <item t="choices">
+            <choice points="4" en="Jonas, that's serious. How many hours are you working?" de="Jonas, das ist ernst. Wie viele Stunden arbeitest du?" pl="Jonas, to poważna sprawa. Ile godzin dziennie pracujesz?">
+                <item t="npc" en="Sixteen. Sometimes more. I thought I could do everything. The land, the contract work, the videos, the leased fields. I'm young, I thought I was unbreakable." de="Sechzehn. Manchmal mehr. Ich dachte, ich schaffe alles. Das Land, die Lohnarbeiten, die Videos, die Pachtflächen. Ich bin jung, ich dachte, ich bin unzerstörbar." pl="Szesnaście. Czasem więcej. Myślałem, że ogarnę wszystko. Ziemię, usługi, filmiki, dzierżawy. Jestem młody, myślałem, że jestem niezniszczalny." />
+                <item t="choices">
+                    <choice points="3" en="Nobody's unbreakable. Let me take some of that work." de="Niemand ist unzerstörbar. Lass mich einen Teil übernehmen." pl="Nikt nie jest niezniszczalny. Pozwól, że przejmę część roboty.">
+                        <item t="npc" en="You'd do that? ... Okay. Maybe the contract mowing for Sarah. You'd do it better anyway, she says I drive too fast. Thank you, {player}. I mean it." de="Das würdest du machen? ... Okay. Vielleicht das Lohnmähen für Sarah. Das machst du eh besser, sie sagt, ich fahre zu schnell. Danke, {player}. Ich meine es ernst." pl="Zrobiłbyś to? ... Dobra. Może koszenie dla Sarah. I tak zrobisz to lepiej, ona mówi, że za szybko jeżdżę. Dzięki, {player}. Naprawdę." />
+                    </choice>
+                    <choice points="2" en="Tell your dad. He'd want to know." de="Sag es deinem Vater. Er würde es wissen wollen." pl="Powiedz tacie. Chciałby wiedzieć.">
+                        <item t="npc" en="He'd say 'I told you so.' ... But then he'd take the evening shift. I know he would. Okay. I'll tell him. Tonight." de="Er würde sagen: 'Hab ich doch gesagt.' ... Aber dann würde er die Abendschicht übernehmen. Ich weiß es. Okay. Ich sag's ihm. Heute Abend." pl="Powie: 'A nie mówiłem?'. ... Ale potem weźmie wieczorną zmianę. Wiem, że weźmie. Dobra. Powiem mu. Dziś wieczorem." />
+                    </choice>
+                </item>
+            </choice>
+            <choice points="2" en="I'm so glad you're okay." de="Ich bin so froh, dass dir nichts passiert ist." pl="Tak się cieszę, że nic ci się nie stało.">
+                <item t="npc" en="Me too. I keep thinking, one more second. That's all it would have taken. One second. Sorry, I'm not usually like this." de="Ich auch. Ich denke immer: noch eine Sekunde. Mehr hätte es nicht gebraucht. Eine Sekunde. Sorry, so bin ich sonst nicht." pl="Ja też. Ciągle myślę: jeszcze jedna sekunda. Tylko tyle by wystarczyło. Jedna sekunda. Sorry, zwykle taki nie jestem." />
+            </choice>
+            <choice points="-2" en="Well, just drink more coffee." de="Na, dann trink halt mehr Kaffee." pl="To pij więcej kawy.">
+                <item t="npc" en="Coffee was part of the problem, I think. Never mind. Forget I said anything." de="Kaffee war wohl Teil des Problems. Egal. Vergiss, dass ich was gesagt habe." pl="Kawa chyba była częścią problemu. Nieważne. Zapomnij, że coś mówiłem." />
+            </choice>
+        </item>
+        <item t="npc" en="Henryk always says a tired farmer makes mistakes. I used to laugh at that. I'm not laughing anymore. Thanks for listening, {player}." de="Henryk sagt immer, ein müder Bauer macht Fehler. Früher habe ich darüber gelacht. Jetzt lache ich nicht mehr. Danke fürs Zuhören, {player}." pl="Henryk zawsze mówi, że zmęczony rolnik popełnia błędy. Kiedyś się z tego śmiałem. Już się nie śmieję. Dzięki, że wysłuchałeś, {player}." />
+    </conversation>
+    <conversation id="n3b_morning_hens_1" situation="morning" minLevel="1" maxLevel="10">
+        <item t="npc" en="Morning, {player}... don't laugh. My automatic chicken door broke. It's supposed to open at sunrise and close at sunset. Last night it stayed shut. All twelve hens slept in the tractor cab." de="Morgen, {player}... nicht lachen. Meine automatische Hühnerklappe ist kaputt. Sie soll bei Sonnenaufgang auf- und bei Sonnenuntergang zugehen. Gestern Abend blieb sie zu. Alle zwölf Hühner haben in der Traktorkabine geschlafen." pl="Dzień dobry, {player}... nie śmiej się. Zepsuły mi się automatyczne drzwiczki do kurnika. Mają się otwierać o wschodzie i zamykać o zachodzie. Wczoraj zostały zamknięte. Wszystkie dwanaście kur spało w kabinie ciągnika." />
+        <item t="choices">
+            <choice points="3" en="Want me to look at the door? Maybe it's just the sensor." de="Soll ich mir die Klappe mal ansehen? Vielleicht ist es nur der Sensor." pl="Mam zerknąć na te drzwiczki? Może to tylko czujnik.">
+                <item t="npc" en="Would you? I bet it's the light sensor, it's covered in dust. Or the batteries. Or an app update. There's always an app update." de="Würdest du? Ich wette, es ist der Lichtsensor, der ist voller Staub. Oder die Batterien. Oder ein App-Update. Es gibt immer ein App-Update." pl="Serio? Założę się, że to czujnik światła, cały zakurzony. Albo baterie. Albo aktualizacja aplikacji. Zawsze jest jakaś aktualizacja." />
+            </choice>
+            <choice points="2" en="In the tractor? How did they get in?" de="Im Traktor? Wie sind die da reingekommen?" pl="W ciągniku? Jak one tam weszły?">
+                <item t="npc" en="I left the cab door open. Classic. They loved it. Heated seat, nice view. One laid an egg on the dashboard. Fresh breakfast, I guess." de="Ich habe die Kabinentür offen gelassen. Klassiker. Sie fanden es toll. Sitzheizung, schöne Aussicht. Eine hat ein Ei aufs Armaturenbrett gelegt. Frisches Frühstück, schätze ich." pl="Zostawiłem otwarte drzwi kabiny. Klasyk. Były zachwycone. Podgrzewany fotel, ładny widok. Jedna zniosła jajko na desce rozdzielczej. Świeże śniadanie, chyba." />
+            </choice>
+            <choice points="-1" en="That's what you get for automating chickens." de="Das hast du davon, wenn du Hühner automatisierst." pl="Masz za automatyzowanie kur.">
+                <item t="npc" en="Hey, it worked for a whole year! Henryk's hens have a simple latch and a grumpy old man. Fair, his system never crashes." de="Hey, das hat ein ganzes Jahr funktioniert! Henryks Hühner haben einen einfachen Riegel und einen grantigen alten Mann. Zugegeben, sein System stürzt nie ab." pl="Hej, działało cały rok! Kury Henryka mają prosty skobel i marudnego staruszka. Fakt, jego system się nie zawiesza." />
+            </choice>
+        </item>
+        <item t="npc" en="Now I have to clean the cab. If my tractor smells like a henhouse at the next drilling, you know why. Bye, {player}!" de="Jetzt muss ich die Kabine putzen. Wenn mein Traktor bei der nächsten Aussaat nach Hühnerstall riecht, weißt du, warum. Tschüss, {player}!" pl="Teraz muszę wyczyścić kabinę. Jak przy następnym siewie mój ciągnik będzie pachniał kurnikiem, wiesz dlaczego. Cześć, {player}!" />
+    </conversation>
+</conversations>

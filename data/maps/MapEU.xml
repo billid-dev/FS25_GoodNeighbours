@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<goodNeighbours map="MapEU" preset="true">
+    <homes>
+        <home neighbour="1" x="-39.29" z="-578.14" ry="-1.7184"/>
+        <home neighbour="2" x="-44.04" z="687.84" ry="-1.8861"/>
+        <home neighbour="3" x="-561.01" z="605.26" ry="2.2131"/>
+        <home neighbour="4" x="-284.11" z="115.70" ry="-0.0000"/>
+        <home neighbour="5" x="-429.23" z="-640.92" ry="0.0000"/>
+        <home neighbour="6" x="-425.23" z="-377.52" ry="0.0000"/>
+        <home neighbour="7" x="-394.90" z="-607.16" ry="0.0000"/>
+    </homes>
+    <slots>
+        <slot neighbour="1" x="-54.98" z="-578.12" ry="-1.5992" size="vehicle"/>
+        <slot neighbour="1" x="-54.64" z="-565.04" ry="3.1250" size="attach"/>
+        <slot neighbour="1" x="-59.40" z="-565.34" ry="3.1249" size="attach"/>
+        <slot neighbour="1" x="-8.86" z="-560.95" ry="-1.5813" size="attach"/>
+        <slot neighbour="1" x="-9.05" z="-556.29" ry="-1.5662" size="attach"/>
+        <slot neighbour="1" x="-9.31" z="-551.90" ry="-1.5851" size="attach"/>
+        <slot neighbour="1" x="-35.32" z="-552.96" ry="-1.5836" size="attach"/>
+        <slot neighbour="1" x="-7.73" z="-575.46" ry="3.1349" size="attach"/>
+        <slot neighbour="1" x="-12.14" z="-588.43" ry="-0.1821" size="attach"/>
+        <slot neighbour="1" x="-63.93" z="-565.60" ry="3.1160" size="attach"/>
+        <slot neighbour="1" x="-60.79" z="-551.36" ry="-1.5591" size="attach"/>
+        <slot neighbour="1" x="-16.77" z="-562.54" ry="3.1195" size="oversize"/>
+        <slot neighbour="1" x="2.87" z="-596.30" ry="-3.1132" size="attach"/>
+        <slot neighbour="1" x="-50.60" z="-562.41" ry="-3.1343" size="silo"/>
+        <slot neighbour="1" x="-60.44" z="-591.43" ry="-3.1294" size="vehicle"/>
+        <slot neighbour="1" x="-54.64" z="-585.96" ry="-1.5545" size="vehicle"/>
+        <slot neighbour="2" x="-31.70" z="679.66" ry="3.1226" size="attach"/>
+        <slot neighbour="2" x="-38.68" z="697.56" ry="-0.0110" size="attach"/>
+        <slot neighbour="2" x="-51.21" z="703.15" ry="-1.5915" size="attach"/>
+        <slot neighbour="2" x="-68.14" z="703.37" ry="-1.5669" size="attach"/>
+        <slot neighbour="2" x="-56.21" z="721.11" ry="-2.3274" size="vehicle"/>
+        <slot neighbour="2" x="-34.57" z="726.26" ry="-0.0045" size="attach"/>
+        <slot neighbour="2" x="-30.33" z="726.31" ry="0.0062" size="attach"/>
+        <slot neighbour="2" x="-25.62" z="726.21" ry="0.0010" size="attach"/>
+        <slot neighbour="2" x="-48.32" z="731.31" ry="-1.5537" size="attach"/>
+        <slot neighbour="2" x="-65.14" z="740.35" ry="-1.4960" size="attach"/>
+        <slot neighbour="2" x="-42.53" z="678.56" ry="-3.1317" size="vehicle"/>
+        <slot neighbour="2" x="-30.27" z="700.82" ry="-1.5969" size="attach"/>
+        <slot neighbour="2" x="-29.00" z="705.18" ry="-1.6003" size="attach"/>
+        <slot neighbour="2" x="-24.15" z="734.24" ry="-3.1395" size="oversize"/>
+        <slot neighbour="2" x="-20.76" z="709.74" ry="-1.5917" size="vehicle"/>
+        <slot neighbour="2" x="-38.79" z="718.68" ry="3.1305" size="silo"/>
+        <slot neighbour="3" x="-599.84" z="575.01" ry="-0.0246" size="attach"/>
+        <slot neighbour="3" x="-603.78" z="575.02" ry="-0.0035" size="attach"/>
+        <slot neighbour="3" x="-608.25" z="575.01" ry="-0.0176" size="attach"/>
+        <slot neighbour="3" x="-606.59" z="592.13" ry="1.5717" size="attach"/>
+        <slot neighbour="3" x="-612.54" z="574.91" ry="0.0081" size="vehicle"/>
+        <slot neighbour="3" x="-594.94" z="578.02" ry="-0.0027" size="attach"/>
+        <slot neighbour="3" x="-599.74" z="604.51" ry="1.5786" size="attach"/>
+        <slot neighbour="3" x="-599.99" z="600.22" ry="1.5474" size="attach"/>
+        <slot neighbour="3" x="-577.03" z="593.16" ry="-1.5767" size="attach"/>
+        <slot neighbour="3" x="-581.40" z="603.41" ry="0.0064" size="vehicle"/>
+        <slot neighbour="3" x="-577.70" z="603.25" ry="0.0149" size="vehicle"/>
+        <slot neighbour="3" x="-606.52" z="557.38" ry="1.5665" size="attach"/>
+        <slot neighbour="3" x="-594.74" z="557.20" ry="0.0008" size="attach"/>
+        <slot neighbour="3" x="-29.12" z="-599.21" ry="1.5021" size="attach"/>
+        <slot neighbour="3" x="-609.66" z="586.70" ry="1.5787" size="oversize"/>
+        <slot neighbour="3" x="-571.68" z="543.11" ry="1.5598" size="attach"/>
+        <slot neighbour="3" x="-585.99" z="558.69" ry="-3.1343" size="silo"/>
+        <slot neighbour="4" x="-294.79" z="125.18" ry="1.5600" size="vehicle"/>
+        <slot neighbour="4" x="-262.55" z="128.60" ry="-0.0196" size="attach"/>
+        <slot neighbour="4" x="-268.88" z="120.39" ry="1.5421" size="attach"/>
+        <slot neighbour="4" x="-269.49" z="125.35" ry="1.5377" size="vehicle"/>
+        <slot neighbour="4" x="-270.53" z="131.01" ry="1.5634" size="oversize"/>
+        <slot neighbour="4" x="-235.34" z="96.09" ry="1.5688" size="attach"/>
+        <slot neighbour="4" x="-235.35" z="101.09" ry="1.5703" size="attach"/>
+        <slot neighbour="4" x="-274.06" z="101.55" ry="-1.5821" size="attach"/>
+        <slot neighbour="4" x="-268.33" z="96.11" ry="-1.5923" size="attach"/>
+        <slot neighbour="4" x="-242.75" z="117.64" ry="0.0093" size="attach"/>
+        <slot neighbour="4" x="-232.85" z="121.79" ry="3.1323" size="attach"/>
+        <slot neighbour="4" x="-233.00" z="114.95" ry="-0.0128" size="attach"/>
+        <slot neighbour="4" x="-253.24" z="115.73" ry="-0.0207" size="silo"/>
+        <slot neighbour="4" x="-297.76" z="128.76" ry="-1.5816" size="vehicle"/>
+        <slot neighbour="4" x="-171.17" z="134.72" ry="-0.7564" size="attach"/>
+        <slot neighbour="4" x="-147.51" z="131.47" ry="-0.0055" size="attach"/>
+        <slot neighbour="7" x="-367.43" z="-620.00" ry="-0.0087" size="vehicle"/>
+        <slot neighbour="6" x="-426.95" z="-367.68" ry="-1.6131" size="vehicle"/>
+        <slot neighbour="5" x="-466.43" z="-600.84" ry="-0.0129" size="vehicle"/>
+    </slots>
+    <places>
+        <place type="public" x="-447.98" z="-352.37" ry="-0.0159"/>
+        <place type="public" x="-819.51" z="79.63" ry="-0.0085"/>
+        <place type="public" x="-454.32" z="-319.90" ry="-1.5557"/>
+        <place type="public" x="-441.96" z="-352.20" ry="-0.0163"/>
+        <place type="public" x="-286.66" z="-396.39" ry="1.5836"/>
+        <place type="public" x="-279.59" z="-399.56" ry="-1.5781"/>
+        <place type="public" x="-279.10" z="-390.48" ry="-1.5708"/>
+        <place type="public" x="-800.49" z="122.61" ry="1.5719"/>
+        <place type="public" x="-496.43" z="-205.21" ry="0.0000"/>
+        <place type="public" x="-451.13" z="-552.59" ry="-0.0000"/>
+        <place type="public" x="-467.12" z="-536.87" ry="3.1416"/>
+        <place type="public" x="303.08" z="449.97" ry="-0.7911"/>
+        <place type="public" x="317.86" z="434.99" ry="-0.7865"/>
+        <place type="public" x="322.35" z="428.77" ry="-0.8037"/>
+        <place type="trade" x="182.05" z="113.30" ry="-0.0128"/>
+        <place type="trade" x="212.69" z="144.28" ry="0.0151"/>
+        <place type="trade" x="-816.02" z="94.33" ry="1.5265"/>
+        <place type="trade" x="-558.18" z="549.11" ry="0.0000"/>
+        <place type="trade" x="-393.00" z="370.73" ry="-0.0000"/>
+        <place type="trade" x="579.53" z="-708.14" ry="2.0902"/>
+        <place type="trade" x="-460.51" z="-766.89" ry="0.0000"/>
+        <place type="trade" x="-830.33" z="99.88" ry="0.0000"/>
+        <place type="trade" x="-320.68" z="-647.62" ry="-1.5708"/>
+        <place type="trade" x="589.15" z="-655.19" ry="-2.6180"/>
+        <place type="shop" x="-508.48" z="213.77" ry="-0.0000"/>
+        <place type="shop" x="-528.55" z="-205.95" ry="0.0000"/>
+        <place type="shop" x="-499.92" z="-285.71" ry="2.2468"/>
+        <place type="shop" x="-515.63" z="-206.58" ry="1.5741"/>
+        <place type="shop" x="-516.41" z="217.66" ry="1.5741"/>
+        <place type="walk" x="-531.35" z="242.61" ry="-0.0000"/>
+        <place type="walk" x="-595.41" z="957.75" ry="1.3307"/>
+        <place type="walk" x="-391.68" z="632.06" ry="2.4830"/>
+        <place type="walk" x="-67.36" z="852.63" ry="3.1197"/>
+        <place type="walk" x="-376.11" z="-851.17" ry="-1.5907"/>
+        <place type="walk" x="-269.58" z="-327.52" ry="0.0069"/>
+        <place type="walk" x="330.96" z="475.62" ry="-1.4508"/>
+        <place type="walk" x="-62.14" z="503.58" ry="-1.5136"/>
+        <place type="walk" x="-51.20" z="111.87" ry="1.1516"/>
+        <place type="walk" x="440.05" z="427.85" ry="0.9497"/>
+        <place type="walk" x="626.73" z="270.67" ry="2.8948"/>
+        <place type="walk" x="350.39" z="-823.54" ry="0.5344"/>
+        <place type="gas" x="-497.16" z="267.52" ry="3.1303"/>
+        <place type="gas" x="-502.17" z="281.37" ry="-0.0079"/>
+        <place type="gas" x="-508.89" z="269.62" ry="3.1346"/>
+        <place type="gas" x="-490.51" z="280.55" ry="-0.0113"/>
+        <place type="gas" x="-499.98" z="257.69" ry="-0.0000"/>
+        <place type="church" x="-488.53" z="55.16" ry="-0.0000"/>
+        <place type="church" x="-499.98" z="46.80" ry="-0.0000"/>
+        <place type="relax" x="-491.60" z="-561.52" ry="-0.7854"/>
+        <place type="relax" x="-270.30" z="40.61" ry="-3.1416"/>
+        <place type="relax" x="-562.58" z="77.34" ry="2.9167"/>
+        <place type="relax" x="-609.92" z="-27.20" ry="0.0000"/>
+        <place type="relax" x="-489.31" z="-114.16" ry="-0.0000"/>
+        <place type="relax" x="-432.98" z="-274.53" ry="0.7854"/>
+        <place type="relax" x="-462.45" z="209.53" ry="0.0000"/>
+        <place type="relax" x="-693.90" z="-15.16" ry="2.9353"/>
+        <place type="relax" x="-410.42" z="45.29" ry="3.0075"/>
+        <place type="relax" x="-364.48" z="41.91" ry="-1.9629"/>
+        <place type="relax" x="-426.27" z="51.10" ry="0.0000"/>
+        <place type="relax" x="208.69" z="124.45" ry="0.0000"/>
+        <place type="workshop" x="-248.91" z="88.56" ry="1.5405"/>
+        <place type="workshop" x="-224.66" z="73.65" ry="3.1288"/>
+        <place type="workshop" x="-224.39" z="53.17" ry="3.1281"/>
+        <place type="workshop" x="-259.19" z="59.92" ry="-0.0087"/>
+        <place type="workshop" x="-259.37" z="79.81" ry="-0.0090"/>
+        <place type="townhall" x="-602.39" z="102.04" ry="-0.0000"/>
+    </places>
+</goodNeighbours>

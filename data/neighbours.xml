@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!--
+  Good Neighbours - characters
+  contracts="true": the neighbour farms NPC fields of the map and calls players for help.
+  portrait: images/portraits/<file>.dds (512x512). A missing portrait shows a silhouette.
+  lines: prefix of the l10n texts used in calls (gn_line_<lines>_<n>).
+-->
+<neighbours>
+    <neighbour id="1" name="Henryk Wolski"    gender="male"   role="farmer"   contracts="true"  portrait="henryk_wolski"    lines="henryk" />
+    <neighbour id="2" name="Sarah Mitchell"   gender="female" role="farmer"   contracts="true"  portrait="sarah_mitchell"   lines="sarah" />
+    <neighbour id="3" name="Jonas Becker"     gender="male"   role="farmer"   contracts="true"  portrait="jonas_becker"     lines="jonas" />
+    <neighbour id="4" name="Teresa Nowak"     gender="female" role="farmer"   contracts="true"  portrait="teresa_nowak"     lines="teresa" />
+    <neighbour id="5" name="Richard Hale"     gender="male"   role="mayor"    contracts="false" portrait="richard_hale"     lines="richard" />
+    <neighbour id="6" name="Monika Zielinska" gender="female" role="trader"   contracts="false" portrait="monika_zielinska" lines="monika" />
+    <neighbour id="7" name="Frank Weber"      gender="male"   role="dealer"   contracts="false" portrait="frank_weber"      lines="frank" />
+</neighbours>
