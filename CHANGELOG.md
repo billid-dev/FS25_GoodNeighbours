@@ -6,6 +6,11 @@
 
 ## Polski
 
+### 1.9.8.3 — 2026-10-10
+Poprawki z GIANTS TestRunnera:
+- Ikona moda w formacie DXT1.
+- Błędy nie są już przechwytywane i ukrywane – trafiają do logu z pełnym opisem.
+
 ### 1.9.8.2 — 2026-10-10
 - Nowe logo moda.
 
@@ -134,6 +139,11 @@ Poprawki z GIANTS TestRunnera:
 ---
 
 ## English
+
+### 1.9.8.3 — 2026-10-10
+GIANTS TestRunner fixes:
+- Mod icon in DXT1 format.
+- Errors are no longer caught and hidden – they go to the log with full details.
 
 ### 1.9.8.2 — 2026-10-10
 - New mod logo.

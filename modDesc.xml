@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="113">
     <author>billiD</author>
-    <version>1.9.8.2</version>
+    <version>1.9.8.3</version>
     <title>
         <en>Good Neighbours</en>
         <de>Gute Nachbarn</de>
@@ -23,11 +23,12 @@ Features:
 - Made for dedicated servers: per-farm relationships and calls, admin settings in ESC - Settings
 - Help pages in the game help
 
-Changelog 1.9.8.2:
+Changelog 1.9.8.3:
 - More neighbour calls a day as set in the settings, airplane mode, fair pay per hectare
 - Neighbours really work their fields, fold their machines and park them on their places
 - Silo building on the silo place, gates of the neighbour's yard open during his contracts
-- Over 90 new conversations, default outfits, many fixes]]></en>
+- Over 90 new conversations, default outfits, many fixes
+- Errors are no longer hidden, they are written to the log]]></en>
         <de><![CDATA[Gute Nachbarn erweckt das Dorf nebenan zum Leben - eine Rollenspiel-Mod für Einzel- und Mehrspieler.
 
 Sieben Nachbarn leben auf deiner Karte: vier Landwirte, die die NPC-Felder bewirtschaften, der Bürgermeister, die Getreidehändlerin und der Landmaschinenhändler. Jeder hat einen Tagesplan, ein Auto, ein Zuhause und seinen eigenen Charakter.
@@ -43,11 +44,12 @@ Funktionen:
 - Für dedizierte Server: Beziehungen und Anrufe pro Hof, Admin-Einstellungen unter ESC - Einstellungen
 - Hilfeseiten in der Spielhilfe
 
-Changelog 1.9.8.2:
+Changelog 1.9.8.3:
 - Mehr Anrufe der Nachbarn pro Tag wie eingestellt, Flugmodus, fairer Lohn pro Hektar
 - Die Nachbarn bearbeiten ihre Felder wirklich, klappen ihre Maschinen zusammen und parken sie auf ihren Plätzen
 - Silo auf dem Siloplatz, Tore des Nachbarhofs öffnen sich während seiner Aufträge
-- Über 90 neue Gespräche, Standard-Outfits, viele Fehlerbehebungen]]></de>
+- Über 90 neue Gespräche, Standard-Outfits, viele Fehlerbehebungen
+- Fehler werden nicht mehr verborgen, sie stehen im Log]]></de>
         <pl><![CDATA[Dobrzy Sąsiedzi ożywiają wieś za miedzą - mod roleplay do gry jednoosobowej i multiplayer.
 
 Na twojej mapie mieszka siedmioro sąsiadów: czterech rolników uprawiających pola NPC, burmistrz, handlarka zbożem i dealer maszyn. Każdy ma plan dnia, samochód, dom i własny charakter.
@@ -63,11 +65,12 @@ Funkcje:
 - Zrobione pod serwery dedykowane: relacje i telefony dla każdej farmy, ustawienia admina w ESC - Ustawienia
 - Strony pomocy w pomocy gry
 
-Changelog 1.9.8.2:
+Changelog 1.9.8.3:
 - Tyle telefonów dziennie, ile w ustawieniach, tryb samolotowy, uczciwa stawka za hektar
 - Sąsiedzi naprawdę obrabiają pola, składają maszyny i odstawiają je na swoje miejsca
 - Silos na miejscu silosu, bramy zagrody sąsiada otwierają się podczas jego kontraktów
-- Ponad 90 nowych rozmów, domyślne stroje, wiele poprawek]]></pl>
+- Ponad 90 nowych rozmów, domyślne stroje, wiele poprawek
+- Błędy nie są już ukrywane, trafiają do logu]]></pl>
     </description>
     <iconFilename>icon_GoodNeighbours.dds</iconFilename>
     <multiplayer supported="true"/>
