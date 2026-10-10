@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Farming%20Simulator-25-4c9a2a" alt="Farming Simulator 25">
   <img src="https://img.shields.io/badge/multiplayer-supported-2b7bb9" alt="multiplayer supported">
-  <a href="https://github.com/billid-dev/FS25_GoodNeighbours/releases/latest"><img src="https://img.shields.io/badge/version-1.9.10.11-e08a1e" alt="version 1.9.10.11"></a>
+  <a href="https://github.com/billid-dev/FS25_GoodNeighbours/releases/latest"><img src="https://img.shields.io/badge/version-1.9.10.12-e08a1e" alt="version 1.9.10.12"></a>
   <img src="https://img.shields.io/badge/status-beta-c0392b" alt="beta">
   <a href="https://discord.gg/gxwC8vUUch"><img src="https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white" alt="discord join"></a>
 </p>
@@ -45,7 +45,7 @@
 - Tryb samolotowy dla całej farmy, oznaczanie wiadomości jako przeczytane, gdy jeden gracz odbierze – u pozostałych przestaje dzwonić.
 
 **Kontrakty sąsiadów**
-- Zapłata za hektar jak w modzie **Invoices** (praca, uprawa, poziom trudności) + premia za relację.
+- Zapłata za hektar według cennika sąsiadów (rodzaj pracy, uprawa, poziom trudności) + premia za relację.
 - Wykonujesz własnymi maszynami albo **maszyną sąsiada** – odbiór, pola i zwrot zaznaczone na mapie; kontrakt zalicza się po odstawieniu maszyny na miejsce.
 - Nasiona, nawóz, herbicyd i wapno czekają przy silosie sąsiada; jego bramy otwierasz w czasie kontraktu.
 
@@ -83,7 +83,7 @@ Otwórz [Issue](../../issues) i dołącz fragment `log.txt` (linie z `[GoodNeigh
 ### Features
 - **Conversations** (Shift+N near a neighbour): 230+ conversations in EN/DE/PL with answers to choose; good answers add 40–80 relationship points, bad ones take 40–80 away (once a day per neighbour).
 - **Phone** (Shift+N): messages, contacts with day plans, calls with real contracts on the neighbours' fields, calls per day in the settings, a retry after a missed call, airplane mode, mark messages as read.
-- **Contracts**: pay per hectare as in the Invoices mod plus a relationship bonus; use your own machines or borrow the neighbour's (pick-up, fields and return on the map), supplies at his silo, his gates open during the contract.
+- **Contracts**: pay per hectare from the neighbours' price list plus a relationship bonus; use your own machines or borrow the neighbour's (pick-up, fields and return on the map), supplies at his silo, his gates open during the contract.
 - **Neighbours work themselves** with their own fixed fleets, only on their own fields, until 22:00; machines are folded and parked on their places after work.
 - **Living world**: day plans, visits to your yard, outfits, portraits, map icons, a silo on every farmer's yard.
 - **Works on any map**: automatic set-up plus presets for the three base maps; own construction category with place sizes (Shift+Q), remove all (Shift+Del), fill missing (Shift+G) and a "My farm" place.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="113">
     <author>billiD</author>
-    <version>1.9.10.11</version>
+    <version>1.9.10.12</version>
     <title>
         <en>Good Neighbours</en>
         <de>Gute Nachbarn</de>
@@ -23,7 +23,8 @@ Features:
 - Made for dedicated servers: per-farm relationships and calls, admin settings in ESC - Settings
 - Help pages in the game help
 
-Changelog 1.9.10.11:
+Changelog 1.9.10.12:
+- New contract prices per hectare (the neighbours' own price list)
 - Mayor, trader and dealer: their vehicle places can be set with the tool (Shift+Q)
 - Mod maps: the places are remembered by the mod and used for every new game on that map
 - Combines really get emptied at 60 % (they stopped with a full tank before)
@@ -76,7 +77,8 @@ Funktionen:
 - Für dedizierte Server: Beziehungen und Anrufe pro Hof, Admin-Einstellungen unter ESC - Einstellungen
 - Hilfeseiten in der Spielhilfe
 
-Changelog 1.9.10.11:
+Changelog 1.9.10.12:
+- Neue Auftragspreise pro Hektar (eigene Preisliste der Nachbarn)
 - Bürgermeister, Händlerin und Händler: Fahrzeugplätze mit dem Werkzeug setzbar (Shift+Q)
 - Mod-Karten: die Plätze werden gespeichert und in jedem neuen Spiel auf der Karte genutzt
 - Mähdrescher werden bei 60 % wirklich geleert
@@ -129,7 +131,8 @@ Funkcje:
 - Zrobione pod serwery dedykowane: relacje i telefony dla każdej farmy, ustawienia admina w ESC - Ustawienia
 - Strony pomocy w pomocy gry
 
-Changelog 1.9.10.11:
+Changelog 1.9.10.12:
+- Nowe stawki za hektar w kontraktach (własny cennik sąsiadów)
 - Burmistrz, handlarka i dealer: miejsca ich pojazdów można ustawić narzędziem (Shift+Q)
 - Mapy z modów: mod sam zapamiętuje miejsca i używa ich w każdej nowej grze na tej mapie
 - Kombajny naprawdę opróżniają się przy 60 % (wcześniej stawały z pełnym zbiornikiem)

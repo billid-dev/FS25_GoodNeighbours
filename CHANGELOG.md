@@ -6,6 +6,13 @@
 
 ## Polski
 
+### 1.9.10.12 — 2026-10-10
+- Zmienione kwoty w kontraktach – nowy cennik sąsiadów (€/ha, mnożone przez poziom trudności ekonomii: łatwy ×1,2, normalny ×1,1, trudny ×1,0):
+  - orka 2600, kultywator 2100, brona 1700, siew 1900, nawożenie 1400, wapnowanie 1400, oprysk 1300, pielenie 1400, wałowanie 1000, zbieranie kamieni 2000, mulczowanie 1800
+  - koszenie 2200, przetrząsanie 1100, żniwa 2700
+  - zbiór: ziemniaki / buraki / warzywa / ryż 3600–3300, trzcina 4200, bawełna 3500, winogrona / oliwki 3200
+  - siew / sadzenie: ziemniaki / trzcina 2600, ryż 2300, buraki / warzywa 2200
+
 ### 1.9.10.11 — 2026-10-10
 - Burmistrz, handlarka zbożem i dealer: narzędzie sąsiada ma teraz tę samą listę rozmiarów miejsc co rolnicy (Shift+Q).
 
@@ -157,7 +164,7 @@ Poprawki z GIANTS TestRunnera:
 - Punkty relacji za rozmowę raz dziennie, zależne od dopasowania odpowiedzi, z dźwiękiem i komunikatem.
 
 ### 1.9.6.4 — 2026-10-09
-- Zapłata za kontrakty jak w modzie Invoices (stawka za hektar wg pracy i uprawy × trudność ekonomiczna).
+- Zapłata za kontrakty według stawki za hektar (wg pracy i uprawy × trudność ekonomiczna).
 
 ### 1.9.6.3 — 2026-10-09
 - Bez wynajmu maszyn z gry – pożyczenie tylko wtedy, gdy sąsiad ma własną maszynę do tej pracy.
@@ -240,6 +247,13 @@ Poprawki z GIANTS TestRunnera:
 ---
 
 ## English
+
+### 1.9.10.12 — 2026-10-10
+- Changed contract amounts – the neighbours' new price list (€/ha, times the economic difficulty: easy ×1.2, normal ×1.1, hard ×1.0):
+  - plowing 2600, cultivating 2100, harrowing 1700, sowing 1900, fertilizing 1400, liming 1400, spraying 1300, weeding 1400, rolling 1000, stone picking 2000, mulching 1800
+  - mowing 2200, tedding 1100, harvest 2700
+  - harvesting: potatoes / beets / vegetables / rice 3600–3300, sugarcane 4200, cotton 3500, grapes / olives 3200
+  - sowing / planting: potatoes / sugarcane 2600, rice 2300, beets / vegetables 2200
 
 ### 1.9.10.11 — 2026-10-10
 - Mayor, grain trader and dealer: the neighbour tool now has the same place sizes as the farmers (Shift+Q).
@@ -377,7 +391,7 @@ GIANTS TestRunner fixes:
 - Conversations change the relationship by 40–80 points once a day per neighbour: good answers add, bad answers take away.
 
 ### 1.9.6.4 — 2026-10-09
-- Contract pay as in the Invoices mod (price per hectare by work and crop × difficulty).
+- Contract pay by price per hectare (by work and crop × difficulty).
 
 ### 1.9.6.3 — 2026-10-09
 - No leased machines; borrowing only when the neighbour has his own machine for the job.
