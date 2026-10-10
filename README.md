@@ -13,7 +13,7 @@
   <img src="docs/neighbours.png" alt="The seven neighbours">
 </p>
 
-🇵🇱 [Polski](#-polski) · 🇬🇧 [English](#-english) · 📜 [Changelog](CHANGELOG.md)
+🇵🇱 [Polski](#-polski) · 🇬🇧 [English](#-english) · 📜 [Changelog](CHANGELOG.md) ·  [Discord]((https://discord.gg/gxwC8vUUch))
 
 ---
 
