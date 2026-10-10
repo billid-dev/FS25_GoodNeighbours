@@ -6,6 +6,55 @@
 
 ## Polski
 
+### 1.9.9.7 — 2026-10-10
+- Pożyczoną maszynę i materiały znów odbiera się u sąsiada na podwórku (bez przywożenia na miejsce „Moja farma”).
+
+### 1.9.9.6 — 2026-10-10
+- Kontrakt przyjęty przez telefon trzeba wykonać w ciągu 10 godzin (czasu gry); po tym czasie przepada.
+
+### 1.9.9.5 — 2026-10-10
+- Sąsiad nie przejmuje na czas pracy gruntu, na którym stoją budynki gracza (dom, szopy) – budynek nie zmienia już właściciela razem z gruntem.
+
+### 1.9.9.4 — 2026-10-10
+- Gdy masz postawione miejsce „Moja farma”, sąsiad przywozi pożyczoną maszynę i materiały (nasiona, nawóz, herbicyd) na twoje podwórko i tam je potem odbiera – zamknięte bramy nie przeszkadzają.
+- Naprawione: kontrakt z telefonu mógł od razu przepaść, gdy sąsiad akurat trzymał ten grunt na czas swojej pracy.
+
+### 1.9.9.3 — 2026-10-10
+- Nowa treść SMS-a po nieodebranym telefonie: „Masz pewnie już zaplanowany dzień – w takim razie wezmę się za to sam”.
+
+### 1.9.9.2 — 2026-10-10
+- Długie teksty w telefonie można przewijać (kółko myszy, strzałki, pasek z suwakiem).
+- Sąsiedzi planują telefony o 8:00 i dzwonią najpóźniej do 12:00; po wykorzystaniu dziennej liczby telefonów kolejne planują następnego dnia o 8:00.
+
+### 1.9.9.1 — 2026-10-10
+- Ikony maszyn sąsiadów na mapie są chowane także wtedy, gdy gra zrobiła je wcześniej, niż dotarła informacja, czyje to maszyny.
+
+### 1.9.9.0 — 2026-10-10
+- Maszyny sąsiadów nie pokazują się na mapie także po wczytaniu zapisu (gracz dołączający do serwera dostaje stan wszystkich maszyn sąsiadów).
+
+### 1.9.8.9 — 2026-10-10
+- Zbiornik kombajnu jest opróżniany przy 60 % (każdy kombajn, także z modów), więc sąsiad nie staje z pełnym zbiornikiem.
+- Po zakończonej pracy każda maszyna jest opróżniana do zera (ziarno, nasiona, nawóz, oprysk); paliwo zostaje.
+- Materiały od sąsiada (nasiona, nawóz, herbicyd) są do twojej dyspozycji: palety należą na czas kontraktu do twojej farmy, a materiał trafia też do jego silosa, z którego możesz ładować (także pożyczoną maszyną).
+
+### 1.9.8.8 — 2026-10-10
+- Naprawiony błąd „table index is nil” przy sprawdzaniu bram (obiekt bez farmy).
+
+### 1.9.8.7 — 2026-10-10
+- Jak w Fields of Stories: po postawieniu, przesunięciu lub usunięciu miejsca maszyny sąsiad przyprowadza, przestawia lub zabiera maszyny dopiero wtedy, gdy zmienia czynność w planie dnia. Maszyny z usuniętych miejsc znikają od razu.
+
+### 1.9.8.6 — 2026-10-10
+- Pożyczona maszyna: bramy podwórka sąsiada otwierają się dla ciebie.
+- Narzędzie usuwania zabiera tylko miejsce pod kursorem (zamiast w promieniu 30 m).
+- Wiele poprawek bezpieczeństwa: błąd nie zostawi już zablokowanego pola, nie zatrzyma wczytywania i nie będzie się powtarzał co klatkę.
+
+### 1.9.8.5 — 2026-10-10
+- Naprawione: przy wczytywaniu gry błąd przerywał ładowanie – nie wczytywały się podstawowe miejsca z mapy (domy, miejsca maszyn) ani domyślne stroje.
+- Przerwane wczytywanie nigdy nie nadpisze zapisanych danych sąsiadów.
+- Miejsca, stroje i relacje wczytują się przed maszynami; każdy krok wczytywania jest w logu.
+- Sąsiedzi mają swoje stroje z moda – usunięta opcja „Ubierz jak mnie”.
+- Pożyczona maszyna: każde pole oznaczone jednym czerwonym kółkiem, zielone kółko odbioru dokładnie na maszynie.
+
 ### 1.9.8.3 — 2026-10-10
 Poprawki z GIANTS TestRunnera:
 - Ikona moda w formacie DXT1.
@@ -139,6 +188,55 @@ Poprawki z GIANTS TestRunnera:
 ---
 
 ## English
+
+### 1.9.9.7 — 2026-10-10
+- The lent machine and the material are picked up at the neighbour's yard again (no delivery to the “My farm” place).
+
+### 1.9.9.6 — 2026-10-10
+- A contract taken in a call has to be done within 10 hours (game time); after that it fails.
+
+### 1.9.9.5 — 2026-10-10
+- A neighbour no longer holds land with a player's buildings on it (house, sheds) while he works – the building no longer changes owner with the land.
+
+### 1.9.9.4 — 2026-10-10
+- With a “My farm” place set, the neighbour brings the lent machine and the material (seeds, fertilizer, herbicide) to your farm and fetches them there afterwards – closed yard gates are no problem.
+- Fixed: a contract from a call could fail at once when the neighbour was holding that land for his own work.
+
+### 1.9.9.3 — 2026-10-10
+- New text of the SMS after a missed call: “You probably have your day planned already – then I'll take care of it myself.”
+
+### 1.9.9.2 — 2026-10-10
+- Long texts in the phone scroll (mouse wheel, arrows, scroll bar).
+- Neighbours plan their calls at 8:00 and call until 12:00 at the latest; when the calls of the day are used up, the next ones are planned the next day at 8:00.
+
+### 1.9.9.1 — 2026-10-10
+- The map icons of the neighbours' machines are hidden also when the game made them before it knew whose machines they are.
+
+### 1.9.9.0 — 2026-10-10
+- The neighbours' machines stay off the map also after loading a savegame (a joining player gets the state of all neighbour machines).
+
+### 1.9.8.9 — 2026-10-10
+- The combine's grain tank is emptied at 60 % (any combine, also from mods), so the neighbour does not stop with a full tank.
+- After the work every machine is emptied (grain, seeds, fertilizer, spray); fuel stays.
+- Material from the neighbour (seeds, fertilizer, herbicide) is yours to use: the pallets belong to your farm during the contract, and the material also goes into his silo, which you may load from (also with the borrowed machine).
+
+### 1.9.8.8 — 2026-10-10
+- Fixed “table index is nil” in the gate check (object without a farm).
+
+### 1.9.8.7 — 2026-10-10
+- Like in Fields of Stories: after a machine place is set, moved or removed, the neighbour brings, moves or takes away his machines when he changes his activity. Machines of a removed place go at once.
+
+### 1.9.8.6 — 2026-10-10
+- Borrowed machine: the gates of the neighbour's yard open for you.
+- The remove tool takes only the place under the cursor (instead of within 30 m).
+- Many safety fixes: an error no longer leaves a field locked, stops loading or repeats every frame.
+
+### 1.9.8.5 — 2026-10-10
+- Fixed: an error stopped loading the game data – map presets (homes, machine places) and default outfits were not loaded.
+- An unfinished load never overwrites the saved neighbour data.
+- Places, outfits and relations load before the machines; every load step is logged.
+- The neighbours wear their own outfits from the mod – the “dress like me” option is gone.
+- Borrowed machine: one red circle per field, the green pickup circle sits exactly on the machine.
 
 ### 1.9.8.3 — 2026-10-10
 GIANTS TestRunner fixes:
