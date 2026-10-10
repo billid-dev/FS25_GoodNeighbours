@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="113">
+    <author>billiD</author>
+    <version>1.9.8.2</version>
+    <title>
+        <en>Good Neighbours</en>
+        <de>Gute Nachbarn</de>
+        <pl>Dobrzy Sąsiedzi</pl>
+    </title>
+    <description>
+        <en><![CDATA[Good Neighbours brings the village next door to life - a roleplay mod for single player and multiplayer.
+
+Seven neighbours live on your map: four farmers who farm the NPC fields, the mayor, the grain trader and the machinery dealer. Each has a day plan, a car, a home and a character of his own.
+
+Features:
+- Conversations: walk up to a neighbour and talk (Shift+N). Over 230 conversations with answers to choose, depending on where he is, what he is doing, the season and how well you know each other. Good answers raise the relationship, bad ones lower it (once a day per neighbour)
+- Day plans: the neighbours work, run errands, go to the shop, the filling station, the workshop, the grain trade, church or for a walk - and visit your farm yard
+- Phone (Shift+N): messages, contacts with day plans, calls with real contracts on their fields (number of calls per day in the settings), airplane mode
+- Contracts by phone paid per hectare; do them with your own machines or the neighbour's own machine (pick-up, fields and return shown on the map), seeds and fertilizer at his silo
+- Relationships per farm with a bonus on the pay
+- The neighbours work their own fields with their own tractors, implements and combines
+- Sets itself up on any map: homes, machine places, silos and visit places; admins correct them in the construction menu
+- Made for dedicated servers: per-farm relationships and calls, admin settings in ESC - Settings
+- Help pages in the game help
+
+Changelog 1.9.8.2:
+- More neighbour calls a day as set in the settings, airplane mode, fair pay per hectare
+- Neighbours really work their fields, fold their machines and park them on their places
+- Silo building on the silo place, gates of the neighbour's yard open during his contracts
+- Over 90 new conversations, default outfits, many fixes]]></en>
+        <de><![CDATA[Gute Nachbarn erweckt das Dorf nebenan zum Leben - eine Rollenspiel-Mod für Einzel- und Mehrspieler.
+
+Sieben Nachbarn leben auf deiner Karte: vier Landwirte, die die NPC-Felder bewirtschaften, der Bürgermeister, die Getreidehändlerin und der Landmaschinenhändler. Jeder hat einen Tagesplan, ein Auto, ein Zuhause und seinen eigenen Charakter.
+
+Funktionen:
+- Gespräche: geh zu einem Nachbarn und rede mit ihm (Umschalt+N). Über 230 Gespräche mit Antworten zur Auswahl, je nach Ort, Tätigkeit, Jahreszeit und wie gut ihr euch kennt. Gute Antworten verbessern die Beziehung, schlechte verschlechtern sie (einmal am Tag pro Nachbar)
+- Tagespläne: die Nachbarn arbeiten, erledigen Besorgungen, fahren zum Laden, zur Tankstelle, in die Werkstatt, zum Getreidehandel, in die Kirche oder spazieren - und besuchen deinen Hof
+- Handy (Umschalt+N): Nachrichten, Kontakte mit Tagesplan, Anrufe mit echten Aufträgen auf ihren Feldern (Anzahl pro Tag in den Einstellungen), Flugmodus
+- Aufträge per Telefon mit Lohn pro Hektar; mit eigenen Maschinen oder der Maschine des Nachbarn (Abholen, Felder und Rückgabe auf der Karte), Saatgut und Dünger an seinem Silo
+- Beziehungen pro Hof mit Bonus auf den Lohn
+- Die Nachbarn bearbeiten ihre Felder selbst mit eigenen Traktoren, Geräten und Mähdreschern
+- Richtet sich auf jeder Karte selbst ein: Häuser, Maschinenplätze, Silos und Ausflugsorte; Admins korrigieren sie im Baumenü
+- Für dedizierte Server: Beziehungen und Anrufe pro Hof, Admin-Einstellungen unter ESC - Einstellungen
+- Hilfeseiten in der Spielhilfe
+
+Changelog 1.9.8.2:
+- Mehr Anrufe der Nachbarn pro Tag wie eingestellt, Flugmodus, fairer Lohn pro Hektar
+- Die Nachbarn bearbeiten ihre Felder wirklich, klappen ihre Maschinen zusammen und parken sie auf ihren Plätzen
+- Silo auf dem Siloplatz, Tore des Nachbarhofs öffnen sich während seiner Aufträge
+- Über 90 neue Gespräche, Standard-Outfits, viele Fehlerbehebungen]]></de>
+        <pl><![CDATA[Dobrzy Sąsiedzi ożywiają wieś za miedzą - mod roleplay do gry jednoosobowej i multiplayer.
+
+Na twojej mapie mieszka siedmioro sąsiadów: czterech rolników uprawiających pola NPC, burmistrz, handlarka zbożem i dealer maszyn. Każdy ma plan dnia, samochód, dom i własny charakter.
+
+Funkcje:
+- Rozmowy: podejdź do sąsiada i porozmawiaj (Shift+N). Ponad 230 rozmów z wyborem odpowiedzi, zależnych od miejsca, zajęcia, pory roku i tego, jak dobrze się znacie. Dobre odpowiedzi poprawiają relację, złe ją psują (raz dziennie u każdego sąsiada)
+- Plany dnia: sąsiedzi pracują, załatwiają sprawy, jeżdżą do sklepu, na stację, do warsztatu, do skupu, do kościoła, na spacer - i odwiedzają twoje podwórko
+- Telefon (Shift+N): wiadomości, kontakty z planem dnia, telefony z prawdziwymi kontraktami na ich polach (liczba telefonów dziennie w ustawieniach), tryb samolotowy
+- Kontrakty przez telefon płatne za hektar; własnymi maszynami albo maszyną sąsiada (odbiór, pola i zwrot na mapie), nasiona i nawóz przy jego silosie
+- Relacje dla każdej farmy z premią do zapłaty
+- Sąsiedzi sami obrabiają swoje pola własnymi ciągnikami, maszynami i kombajnami
+- Sam ustawia się na każdej mapie: domy, miejsca na maszyny, silosy i miejsca odwiedzin; admin poprawia je w menu budowania
+- Zrobione pod serwery dedykowane: relacje i telefony dla każdej farmy, ustawienia admina w ESC - Ustawienia
+- Strony pomocy w pomocy gry
+
+Changelog 1.9.8.2:
+- Tyle telefonów dziennie, ile w ustawieniach, tryb samolotowy, uczciwa stawka za hektar
+- Sąsiedzi naprawdę obrabiają pola, składają maszyny i odstawiają je na swoje miejsca
+- Silos na miejscu silosu, bramy zagrody sąsiada otwierają się podczas jego kontraktów
+- Ponad 90 nowych rozmów, domyślne stroje, wiele poprawek]]></pl>
+    </description>
+    <iconFilename>icon_GoodNeighbours.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/GNUtil.lua"/>
+        <sourceFile filename="scripts/GNEvent.lua"/>
+        <sourceFile filename="scripts/GNServer.lua"/>
+        <sourceFile filename="scripts/GNClient.lua"/>
+        <sourceFile filename="scripts/GNPhone.lua"/>
+        <sourceFile filename="scripts/GNSettingsMenu.lua"/>
+        <sourceFile filename="scripts/GNPlan.lua"/>
+        <sourceFile filename="scripts/GNWorld.lua"/>
+        <sourceFile filename="scripts/GNMapIcons.lua"/>
+        <sourceFile filename="scripts/GNCharacters.lua"/>
+        <sourceFile filename="scripts/GNWork.lua"/>
+        <sourceFile filename="scripts/GNBorrow.lua"/>
+        <sourceFile filename="scripts/GNTools.lua"/>
+        <sourceFile filename="scripts/GNAuto.lua"/>
+        <sourceFile filename="scripts/GNSituations.lua"/>
+        <sourceFile filename="scripts/GNSilo.lua" />
+        <sourceFile filename="scripts/GNSupply.lua" />
+        <sourceFile filename="scripts/GNTalk.lua"/>
+        <sourceFile filename="scripts/GNMain.lua"/>
+    </extraSourceFiles>
+
+    <l10n filenamePrefix="l10n/l10n"/>
+
+    <placeableSpecializations>
+        <specialization name="gnTool" className="PlaceableGNTool" filename="scripts/PlaceableGNTool.lua"/>
+    </placeableSpecializations>
+    <placeableTypes>
+        <type name="gnTool" parent="placeable" className="Placeable" filename="$dataS/scripts/placeables/Placeable.lua">
+            <specialization name="placement"/>
+            <specialization name="gnTool"/>
+        </type>
+    </placeableTypes>
+    <storeItems>
+        <storeItem xmlFilename="placeables/gn_home_1.xml"/>
+        <storeItem xmlFilename="placeables/gn_home_2.xml"/>
+        <storeItem xmlFilename="placeables/gn_home_3.xml"/>
+        <storeItem xmlFilename="placeables/gn_home_4.xml"/>
+        <storeItem xmlFilename="placeables/gn_home_5.xml"/>
+        <storeItem xmlFilename="placeables/gn_home_6.xml"/>
+        <storeItem xmlFilename="placeables/gn_home_7.xml"/>
+        <storeItem xmlFilename="placeables/gn_place_gas.xml"/>
+        <storeItem xmlFilename="placeables/gn_place_shop.xml"/>
+        <storeItem xmlFilename="placeables/gn_place_public.xml"/>
+        <storeItem xmlFilename="placeables/gn_place_church.xml"/>
+        <storeItem xmlFilename="placeables/gn_place_townhall.xml"/>
+        <storeItem xmlFilename="placeables/gn_place_workshop.xml"/>
+        <storeItem xmlFilename="placeables/gn_place_trade.xml"/>
+        <storeItem xmlFilename="placeables/gn_place_relax.xml"/>
+        <storeItem xmlFilename="placeables/gn_place_walk.xml"/>
+        <storeItem xmlFilename="placeables/gn_place_myfarm.xml"/>
+        <storeItem xmlFilename="placeables/gn_remove.xml"/>
+    </storeItems>
+
+    <actions>
+        <action name="GN_PHONE"/>
+        <action name="GN_PLACE_SIZE"/>
+        <action name="GN_PLACE_BULK_REMOVE"/>
+        <action name="GN_PLACE_AUTO"/>
+    </actions>
+    <inputBinding>
+        <actionBinding action="GN_PHONE">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_n"/>
+        </actionBinding>
+        <actionBinding action="GN_PLACE_SIZE">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_q"/>
+        </actionBinding>
+        <actionBinding action="GN_PLACE_AUTO">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_g"/>
+        </actionBinding>
+        <actionBinding action="GN_PLACE_BULK_REMOVE">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_delete"/>
+        </actionBinding>
+    </inputBinding>
+</modDesc>
