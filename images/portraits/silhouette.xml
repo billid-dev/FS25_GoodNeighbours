@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<texture>
+    <meta>
+        <filename>silhouette.dds</filename>
+        <size width="256" height="256"/>
+    </meta>
+    <slices>
+        <slice id="img" uvs="0px 0px 256px 256px"/>
+    </slices>
+</texture>

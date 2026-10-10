@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- Good Neighbours - phone (author: billiD) -->
+<GUI onOpen="onOpen" onClose="onClose">
+    <GuiElement profile="newLayer"/>
+    <Bitmap profile="dialogFullscreenBg"/>
+
+    <GuiElement profile="gn_phone" id="dialogElement">
+        <!-- wallpaper under the frame: the frame's transparent screen shows it with rounded corners -->
+        <Bitmap profile="gn_wallpaper_deere" id="wallpaper_deere" visible="false"/>
+        <Bitmap profile="gn_wallpaper_claas" id="wallpaper_claas" visible="false"/>
+        <Bitmap profile="gn_wallpaper_silage" id="wallpaper_silage" visible="false"/>
+        <Bitmap profile="gn_wallpaper_krone" id="wallpaper_krone" visible="false"/>
+        <Bitmap profile="gn_shade" id="shadeElement"/>
+        <Bitmap profile="gn_frame"/>
+
+        <GuiElement profile="gn_screen" id="screenElement">
+            <Bitmap profile="gn_portrait_1" id="portrait1" visible="false"/>
+            <Bitmap profile="gn_portrait_2" id="portrait2" visible="false"/>
+            <Bitmap profile="gn_portrait_3" id="portrait3" visible="false"/>
+            <Bitmap profile="gn_portrait_4" id="portrait4" visible="false"/>
+            <Bitmap profile="gn_portrait_5" id="portrait5" visible="false"/>
+            <Bitmap profile="gn_portrait_6" id="portrait6" visible="false"/>
+            <Bitmap profile="gn_portrait_7" id="portrait7" visible="false"/>
+
+            <!-- screens without a photo -->
+            <Text profile="gn_titleTop" id="titleTop" text=""/>
+            <Text profile="gn_bodyTop" id="bodyTop" text=""/>
+            <!-- screens with a photo -->
+            <Text profile="gn_titleLow" id="titleLow" text="" visible="false"/>
+            <Text profile="gn_bodyLow" id="bodyLow" text="" visible="false"/>
+
+            <!-- settings app -->
+            <Button profile="gn_rowWallpaper" id="wallpaperButton" text="" onClick="onClickWallpaper" visible="false"/>
+            <Button profile="gn_rowVolume" id="volumeButton" text="" onClick="onClickVolume" visible="false"/>
+            <Button profile="gn_rowMute" id="muteButton" text="" onClick="onClickMute" visible="false"/>
+            <Button profile="gn_rowSms" id="smsButton" text="" onClick="onClickSms" visible="false"/>
+            <Button profile="gn_pillRead" id="readButton" text="-" onClick="onClickRead" visible="false"/>
+            <Button profile="gn_pillAirplane" id="airplaneButton" text="-" onClick="onClickAirplane" visible="false"/>
+            <Text profile="gn_adminTitle" id="adminTitle" text="" visible="false"/>
+            <Button profile="gn_pillCalls" id="callsButton" text="-" onClick="onClickCallsPerDay" visible="false"/>
+            <Button profile="gn_pillFields" id="fieldsButton" text="-" onClick="onClickFieldsPerCall" visible="false"/>
+            <Button profile="gn_pillWork" id="workButton" text="-" onClick="onClickNpcWork" visible="false"/>
+
+            <!-- call -->
+            <Button profile="gn_bigLeftAnswer" id="answerButton" text="" onClick="onClickAnswer" visible="false"/>
+            <Button profile="gn_bigLeftAccept" id="acceptButton" text="" onClick="onClickAccept" visible="false"/>
+            <Button profile="gn_bigCenterBorrow" id="borrowButton" text="" onClick="onClickBorrow" visible="false"/>
+            <Button profile="gn_bigRightDecline" id="declineButton" text="" onClick="onClickDecline" visible="false"/>
+            <Text profile="gn_labelLeft" id="labelLeft" text="" visible="false"/>
+            <Text profile="gn_labelCenter" id="labelCenter" text="" visible="false"/>
+            <Text profile="gn_labelRight" id="labelRight" text="" visible="false"/>
+
+            <Button profile="gn_pillParking" id="parkingButton" text="-" onClick="onClickParkingHere" visible="false"/>
+            <Button profile="gn_pillOutfit" id="outfitButton" text="-" onClick="onClickOutfit" visible="false"/>
+            <Button profile="gn_pillHome" id="homeButton" text="-" onClick="onClickHomeHere" visible="false"/>
+
+            <!-- bottom bar -->
+            <Button profile="gn_barLeftContacts" id="contactsButton" text="" onClick="onClickContacts" visible="false"/>
+            <Button profile="gn_barLeftBack" id="backButton" text="" onClick="onClickBackButton" visible="false"/>
+            <Button profile="gn_barCenterClose" id="closeButton" text="" onClick="onClickClose" visible="false"/>
+            <Button profile="gn_barRightSettings" id="settingsButton" text="" onClick="onClickSettings" visible="false"/>
+            <Button profile="gn_barMidLeftPrev" id="prevButton" text="" onClick="onClickPrev" visible="false"/>
+            <Button profile="gn_barMidRightNext" id="nextButton" text="" onClick="onClickNext" visible="false"/>
+        </GuiElement>
+    </GuiElement>
+
+    <GUIProfiles>
+        <Profile name="gn_phone" extends="baseReference" with="pivotMiddleCenter">
+            <size value="420px 800px"/>
+            <alignmentX value="center"/>
+            <alignmentY value="center"/>
+            <imageColor value="0 0 0 0"/>
+            <color value="0 0 0 0"/>
+        </Profile>
+        <Profile name="gn_wallpaper" extends="baseReference" with="anchorMiddleCenter pivotMiddleCenter">
+            <size value="384px 764px"/>
+            <imageColor value="1 1 1 1"/>
+        </Profile>
+        <Profile name="gn_wallpaper_deere" extends="gn_wallpaper" with="anchorMiddleCenter pivotMiddleCenter">
+            <imageSliceId value="gnWp_deere.img"/>
+        </Profile>
+        <Profile name="gn_wallpaper_claas" extends="gn_wallpaper" with="anchorMiddleCenter pivotMiddleCenter">
+            <imageSliceId value="gnWp_claas.img"/>
+        </Profile>
+        <Profile name="gn_wallpaper_silage" extends="gn_wallpaper" with="anchorMiddleCenter pivotMiddleCenter">
+            <imageSliceId value="gnWp_silage.img"/>
+        </Profile>
+        <Profile name="gn_wallpaper_krone" extends="gn_wallpaper" with="anchorMiddleCenter pivotMiddleCenter">
+            <imageSliceId value="gnWp_krone.img"/>
+        </Profile>
+        <Profile name="gn_shade" extends="baseReference" with="anchorMiddleCenter pivotMiddleCenter">
+            <size value="384px 764px"/>
+            <imageSliceId value="gnIcons.white"/>
+            <imageColor value="0.02 0.03 0.04 0.35"/>
+        </Profile>
+        <Profile name="gn_frame" extends="baseReference" with="anchorStretchingYStretchingX">
+            <size value="100% 100%"/>
+            <imageSliceId value="gnPhoneFrame.frame"/>
+            <imageColor value="1 1 1 1"/>
+        </Profile>
+        <Profile name="gn_screen" extends="baseReference" with="anchorMiddleCenter pivotMiddleCenter">
+            <size value="380px 760px"/>
+            <imageColor value="0 0 0 0"/>
+            <color value="0 0 0 0"/>
+        </Profile>
+
+        <Profile name="gn_portrait" extends="baseReference" with="anchorTopCenter pivotTopCenter">
+            <size value="150px 150px"/>
+            <position value="0px -70px"/>
+            <imageColor value="1 1 1 1"/>
+        </Profile>
+        <Profile name="gn_portrait_1" extends="gn_portrait" with="anchorTopCenter pivotTopCenter">
+            <imageSliceId value="gnPortrait_henryk_wolski.img"/>
+        </Profile>
+        <Profile name="gn_portrait_2" extends="gn_portrait" with="anchorTopCenter pivotTopCenter">
+            <imageSliceId value="gnPortrait_sarah_mitchell.img"/>
+        </Profile>
+        <Profile name="gn_portrait_3" extends="gn_portrait" with="anchorTopCenter pivotTopCenter">
+            <imageSliceId value="gnPortrait_jonas_becker.img"/>
+        </Profile>
+        <Profile name="gn_portrait_4" extends="gn_portrait" with="anchorTopCenter pivotTopCenter">
+            <imageSliceId value="gnPortrait_teresa_nowak.img"/>
+        </Profile>
+        <Profile name="gn_portrait_5" extends="gn_portrait" with="anchorTopCenter pivotTopCenter">
+            <imageSliceId value="gnPortrait_richard_hale.img"/>
+        </Profile>
+        <Profile name="gn_portrait_6" extends="gn_portrait" with="anchorTopCenter pivotTopCenter">
+            <imageSliceId value="gnPortrait_monika_zielinska.img"/>
+        </Profile>
+        <Profile name="gn_portrait_7" extends="gn_portrait" with="anchorTopCenter pivotTopCenter">
+            <imageSliceId value="gnPortrait_frank_weber.img"/>
+        </Profile>
+
+        <Profile name="gn_textBase" extends="baseReference" with="anchorTopStretchingX">
+            <textColor value="0.96 0.97 1 1"/>
+            <textAlignment value="center"/>
+            <imageColor value="0 0 0 0"/>
+        </Profile>
+        <Profile name="gn_titleTop" extends="gn_textBase" with="anchorTopStretchingX">
+            <size value="100% 32px"/>
+            <position value="0px -62px"/>
+            <textSize value="26px"/>
+            <textBold value="true"/>
+            <textVerticalAlignment value="middle"/>
+        </Profile>
+        <Profile name="gn_titleLow" extends="gn_titleTop" with="anchorTopStretchingX">
+            <position value="0px -232px"/>
+        </Profile>
+        <Profile name="gn_bodyTop" extends="gn_textBase" with="anchorTopStretchingX">
+            <size value="100% 520px"/>
+            <position value="0px -104px"/>
+            <textSize value="16px"/>
+            <textVerticalAlignment value="top"/>
+            <textMaxWidth value="330px"/>
+            <textMaxNumLines value="26"/>
+            <textLineHeightScale value="1.25"/>
+            <textColor value="0.88 0.9 0.94 1"/>
+        </Profile>
+        <Profile name="gn_bodyLow" extends="gn_bodyTop" with="anchorTopStretchingX">
+            <size value="100% 270px"/>
+            <position value="0px -272px"/>
+            <textMaxNumLines value="14"/>
+        </Profile>
+
+        <!-- icon buttons -->
+        <Profile name="gn_iconButton" extends="baseReference">
+            <size value="56px 56px"/>
+            <imageColor value="1 1 1 0.85"/>
+            <imageFocusedColor value="1 1 1 1"/>
+            <imageHighlightedColor value="0.75 0.95 0.45 1"/>
+            <imagePressedColor value="0.6 0.85 0.3 1"/>
+            <imageSelectedColor value="1 1 1 1"/>
+            <imageDisabledColor value="1 1 1 0.3"/>
+            <textSize value="1px"/>
+            <textColor value="0 0 0 0"/>
+            <textFocusedColor value="0 0 0 0"/>
+            <textHighlightedColor value="0 0 0 0"/>
+            <textPressedColor value="0 0 0 0"/>
+            <textSelectedColor value="0 0 0 0"/>
+            <textDisabledColor value="0 0 0 0"/>
+        </Profile>
+        <Profile name="gn_barLeftContacts" extends="gn_iconButton" with="anchorBottomLeft pivotBottomLeft">
+            <position value="34px 26px"/>
+            <imageSliceId value="gnIcons.contacts"/>
+        </Profile>
+        <Profile name="gn_barLeftBack" extends="gn_iconButton" with="anchorBottomLeft pivotBottomLeft">
+            <position value="34px 26px"/>
+            <imageSliceId value="gnIcons.back"/>
+        </Profile>
+        <Profile name="gn_barCenterClose" extends="gn_iconButton" with="anchorBottomCenter pivotBottomCenter">
+            <position value="0px 26px"/>
+            <imageSliceId value="gnIcons.close"/>
+        </Profile>
+        <Profile name="gn_barRightSettings" extends="gn_iconButton" with="anchorBottomRight pivotBottomRight">
+            <position value="-34px 26px"/>
+            <imageSliceId value="gnIcons.gear"/>
+        </Profile>
+        <Profile name="gn_barMidLeftPrev" extends="gn_iconButton" with="anchorTopCenter pivotTopCenter">
+            <size value="48px 48px"/>
+            <position value="-125px -121px"/>
+            <imageSliceId value="gnIcons.back"/>
+        </Profile>
+        <Profile name="gn_barMidRightNext" extends="gn_iconButton" with="anchorTopCenter pivotTopCenter">
+            <size value="48px 48px"/>
+            <position value="125px -121px"/>
+            <imageSliceId value="gnIcons.next"/>
+        </Profile>
+
+        <Profile name="gn_bigButton" extends="gn_iconButton">
+            <size value="84px 84px"/>
+            <imageColor value="1 1 1 1"/>
+            <imageHighlightedColor value="0.85 0.85 0.85 1"/>
+            <imagePressedColor value="0.7 0.7 0.7 1"/>
+        </Profile>
+        <Profile name="gn_bigLeftAnswer" extends="gn_bigButton" with="anchorBottomLeft pivotBottomLeft">
+            <position value="34px 120px"/>
+            <imageSliceId value="gnIcons.answer"/>
+        </Profile>
+        <Profile name="gn_bigLeftAccept" extends="gn_bigButton" with="anchorBottomLeft pivotBottomLeft">
+            <position value="34px 120px"/>
+            <imageSliceId value="gnIcons.accept"/>
+        </Profile>
+        <Profile name="gn_bigCenterBorrow" extends="gn_bigButton" with="anchorBottomCenter pivotBottomCenter">
+            <position value="0px 120px"/>
+            <imageSliceId value="gnIcons.borrow"/>
+        </Profile>
+        <Profile name="gn_bigRightDecline" extends="gn_bigButton" with="anchorBottomRight pivotBottomRight">
+            <position value="-34px 120px"/>
+            <imageSliceId value="gnIcons.decline"/>
+        </Profile>
+
+        <Profile name="gn_label" extends="gn_textBase" with="anchorBottomCenter pivotBottomCenter">
+            <size value="120px 36px"/>
+            <textSize value="13px"/>
+            <textVerticalAlignment value="top"/>
+            <textMaxWidth value="118px"/>
+            <textMaxNumLines value="2"/>
+        </Profile>
+        <Profile name="gn_labelLeft" extends="gn_label" with="anchorBottomCenter pivotBottomCenter">
+            <position value="-114px 78px"/>
+        </Profile>
+        <Profile name="gn_labelCenter" extends="gn_label" with="anchorBottomCenter pivotBottomCenter">
+            <position value="0px 78px"/>
+        </Profile>
+        <Profile name="gn_labelRight" extends="gn_label" with="anchorBottomCenter pivotBottomCenter">
+            <position value="114px 78px"/>
+        </Profile>
+
+        <!-- settings row -->
+        <Profile name="gn_rowButton" extends="gn_iconButton" with="anchorTopCenter pivotTopCenter">
+            <size value="60px 60px"/>
+        </Profile>
+        <Profile name="gn_rowWallpaper" extends="gn_rowButton" with="anchorTopCenter pivotTopCenter">
+            <position value="-120px -300px"/>
+            <imageSliceId value="gnIcons.wallpaper"/>
+        </Profile>
+        <Profile name="gn_rowVolume" extends="gn_rowButton" with="anchorTopCenter pivotTopCenter">
+            <position value="-40px -300px"/>
+            <imageSliceId value="gnIcons.volume"/>
+        </Profile>
+        <Profile name="gn_rowMute" extends="gn_rowButton" with="anchorTopCenter pivotTopCenter">
+            <position value="40px -300px"/>
+            <imageSliceId value="gnIcons.mute"/>
+        </Profile>
+        <Profile name="gn_rowSms" extends="gn_rowButton" with="anchorTopCenter pivotTopCenter">
+            <position value="120px -300px"/>
+            <imageSliceId value="gnIcons.sms"/>
+        </Profile>
+
+        <!-- admin pills -->
+        <Profile name="gn_pill" extends="baseReference" with="anchorTopCenter pivotTopCenter">
+            <size value="320px 46px"/>
+            <imageSliceId value="gnIcons.pill"/>
+            <imageColor value="0.08 0.1 0.12 0.8"/>
+            <imageFocusedColor value="0.15 0.25 0.1 0.9"/>
+            <imageHighlightedColor value="0.2 0.35 0.12 0.95"/>
+            <imagePressedColor value="0.25 0.45 0.15 1"/>
+            <imageSelectedColor value="0.08 0.1 0.12 0.8"/>
+            <textSize value="16px"/>
+            <textColor value="1 1 1 1"/>
+            <textFocusedColor value="1 1 1 1"/>
+            <textHighlightedColor value="1 1 1 1"/>
+            <textPressedColor value="1 1 1 1"/>
+            <textSelectedColor value="1 1 1 1"/>
+            <textAlignment value="center"/>
+            <textVerticalAlignment value="middle"/>
+        </Profile>
+        <Profile name="gn_adminTitle" extends="gn_textBase" with="anchorTopStretchingX">
+            <size value="100% 24px"/>
+            <position value="0px -430px"/>
+            <textSize value="16px"/>
+            <textBold value="true"/>
+            <textVerticalAlignment value="middle"/>
+        </Profile>
+        <Profile name="gn_pillHome" extends="gn_pill" with="anchorBottomCenter pivotBottomCenter">
+            <size value="300px 36px"/>
+            <position value="0px 90px"/>
+            <textSize value="14px"/>
+        </Profile>
+        <Profile name="gn_pillParking" extends="gn_pillHome" with="anchorBottomCenter pivotBottomCenter">
+            <position value="0px 174px"/>
+        </Profile>
+        <Profile name="gn_pillOutfit" extends="gn_pillHome" with="anchorBottomCenter pivotBottomCenter">
+            <position value="0px 132px"/>
+        </Profile>
+        <Profile name="gn_pillRead" extends="gn_pillHome" with="anchorBottomCenter pivotBottomCenter">
+            <position value="0px 90px"/>
+        </Profile>
+        <Profile name="gn_pillAirplane" extends="gn_pill" with="anchorTopCenter pivotTopCenter">
+            <size value="320px 40px"/>
+            <position value="0px -374px"/>
+        </Profile>
+        <Profile name="gn_pillCalls" extends="gn_pill" with="anchorTopCenter pivotTopCenter">
+            <position value="0px -470px"/>
+        </Profile>
+        <Profile name="gn_pillFields" extends="gn_pill" with="anchorTopCenter pivotTopCenter">
+            <position value="0px -526px"/>
+        </Profile>
+        <Profile name="gn_pillWork" extends="gn_pill" with="anchorTopCenter pivotTopCenter">
+            <position value="0px -582px"/>
+        </Profile>
+    </GUIProfiles>
+</GUI>

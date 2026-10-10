@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<helpLines>
+    <category title="$l10n_gn_help_category">
+        <page title="$l10n_gn_help_overview_title">
+            <paragraph>
+                <text text="$l10n_gn_help_overview_1"/>
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_gn_help_overview_2"/>
+            </paragraph>
+        </page>
+        <page title="$l10n_gn_help_phone_title">
+            <paragraph>
+                <text text="$l10n_gn_help_phone_1"/>
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_gn_help_phone_2"/>
+            </paragraph>
+        </page>
+        <page title="$l10n_gn_help_talk_title">
+            <paragraph>
+                <text text="$l10n_gn_help_talk_1"/>
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_gn_help_talk_2"/>
+            </paragraph>
+        </page>
+        <page title="$l10n_gn_help_contracts_title">
+            <paragraph>
+                <text text="$l10n_gn_help_contracts_1"/>
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_gn_help_contracts_2"/>
+            </paragraph>
+        </page>
+        <page title="$l10n_gn_help_lend_title">
+            <paragraph>
+                <text text="$l10n_gn_help_lend_1"/>
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_gn_help_lend_2"/>
+            </paragraph>
+        </page>
+        <page title="$l10n_gn_help_work_title">
+            <paragraph>
+                <text text="$l10n_gn_help_work_1"/>
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_gn_help_work_2"/>
+            </paragraph>
+        </page>
+        <page title="$l10n_gn_help_tools_title">
+            <paragraph>
+                <text text="$l10n_gn_help_tools_1"/>
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_gn_help_tools_2"/>
+            </paragraph>
+        </page>
+        <page title="$l10n_gn_help_settings_title">
+            <paragraph>
+                <text text="$l10n_gn_help_settings_1"/>
+            </paragraph>
+            <paragraph>
+                <text text="$l10n_gn_help_settings_2"/>
+            </paragraph>
+        </page>
+    </category>
+</helpLines>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<texture>
+    <meta>
+        <filename>gnIcons.dds</filename>
+        <size width="512" height="512"/>
+    </meta>
+    <slices>
+        <slice id="gear" uvs="2px 2px 124px 124px"/>
+        <slice id="back" uvs="130px 2px 124px 124px"/>
+        <slice id="next" uvs="258px 2px 124px 124px"/>
+        <slice id="close" uvs="386px 2px 124px 124px"/>
+        <slice id="wallpaper" uvs="2px 130px 124px 124px"/>
+        <slice id="volume" uvs="130px 130px 124px 124px"/>
+        <slice id="mute" uvs="258px 130px 124px 124px"/>
+        <slice id="contacts" uvs="386px 130px 124px 124px"/>
+        <slice id="sms" uvs="2px 258px 124px 124px"/>
+        <slice id="answer" uvs="130px 258px 124px 124px"/>
+        <slice id="decline" uvs="258px 258px 124px 124px"/>
+        <slice id="accept" uvs="386px 258px 124px 124px"/>
+        <slice id="borrow" uvs="2px 386px 124px 124px"/>
+        <slice id="white" uvs="130px 386px 124px 124px"/>
+        <slice id="pill" uvs="258px 412px 248px 72px"/>
+    </slices>
+</texture>

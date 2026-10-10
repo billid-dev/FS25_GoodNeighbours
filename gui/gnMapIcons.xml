@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<texture>
+    <meta>
+        <filename>gnMapIcons.dds</filename>
+        <size width="512" height="256"/>
+    </meta>
+    <slices>
+        <slice id="n1" uvs="0px 0px 128px 128px"/>
+        <slice id="n2" uvs="128px 0px 128px 128px"/>
+        <slice id="n3" uvs="256px 0px 128px 128px"/>
+        <slice id="n4" uvs="384px 0px 128px 128px"/>
+        <slice id="n5" uvs="0px 128px 128px 128px"/>
+        <slice id="n6" uvs="128px 128px 128px 128px"/>
+        <slice id="n7" uvs="256px 128px 128px 128px"/>
+    </slices>
+</texture>

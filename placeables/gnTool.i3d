@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Good Neighbours - placement tool: no visible model, only the nodes the construction brush needs -->
+<i3D name="gnTool.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="Good Neighbours" version="1.0"/>
+  </Asset>
+  <Files>
+  </Files>
+  <Materials>
+  </Materials>
+  <Shapes>
+  </Shapes>
+  <Dynamics>
+  </Dynamics>
+  <Scene>
+    <TransformGroup name="gnTool" nodeId="1">
+      <TransformGroup name="testAreas" nodeId="2">
+        <TransformGroup name="testAreaStart" translation="-1 0 -1" nodeId="3">
+          <TransformGroup name="testAreaEnd" translation="2 0 2" nodeId="4"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="clearAreas" nodeId="5">
+        <TransformGroup name="clearAreaStart01" translation="-0.1 0 -0.1" nodeId="6">
+          <TransformGroup name="clearAreaWidth01" translation="0.2 0 0" nodeId="7"/>
+          <TransformGroup name="clearAreaHeight01" translation="0 0 0.2" nodeId="8"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="levelAreas" nodeId="9">
+        <TransformGroup name="levelAreaStart01" translation="-0.1 0 -0.1" nodeId="10">
+          <TransformGroup name="levelAreaWidth01" translation="0.2 0 0" nodeId="11"/>
+          <TransformGroup name="levelAreaHeight01" translation="0 0 0.2" nodeId="12"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+</i3D>

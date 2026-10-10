@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="input_GN_PHONE" text="Telefon (Dobrzy sąsiedzi)"/>
+        <text name="gn_input_answer" text="Odbierz telefon"/>
+        <text name="gn_key_hint" text="Shift+N"/>
+        <text name="gn_title_messages" text="Wiadomości"/>
+        <text name="gn_title_settings" text="Ustawienia"/>
+        <text name="gn_sms_none" text="Brak wiadomości na dziś."/>
+        <text name="gn_sms_off" text="Wiadomości są wyłączone w ustawieniach."/>
+        <text name="gn_sms_body_one" text="Zadzwonię do ciebie ok. %s - mam dziś %d pole, przy którym przyda mi się pomoc."/>
+        <text name="gn_sms_body_few" text="Zadzwonię do ciebie ok. %s - mam dziś %d pola, przy których przyda mi się pomoc."/>
+        <text name="gn_sms_body_many" text="Zadzwonię do ciebie ok. %s - mam dziś %d pól, przy których przyda mi się pomoc."/>
+        <text name="gn_sms_missed" text="%s - nieodebrane połączenie od: %s"/>
+        <text name="gn_calling" text="dzwoni..."/>
+        <text name="gn_notify_sms" text="Nowa wiadomość od: %s - otwórz telefon, żeby ją przeczytać."/>
+        <text name="gn_notify_call" text="%s dzwoni do ciebie - naciśnij %s, żeby odebrać."/>
+        <text name="gn_notify_taken" text="Inny gracz z twojej farmy odebrał telefon od: %s."/>
+        <text name="gn_notify_missed" text="Nieodebrane połączenie od: %s."/>
+        <text name="gn_notify_accepted" text="Rozpoczęto kontrakty (%d) od: %s - zobacz menu zleceń."/>
+        <text name="gn_notify_not_started" text="Nie udało się rozpocząć kontraktów: %d (już zajęte albo osiągnięto limit zleceń)."/>
+        <text name="gn_notify_thanks" text="%s dziękuje za pomoc (+%d pkt relacji)."/>
+        <text name="gn_notify_bonus" text="Premia od sąsiada: %s."/>
+        <text name="gn_notify_failed" text="%s jest rozczarowany - kontrakt nie został wykonany."/>
+        <text name="gn_notify_levelup" text="Twoja relacja z: %s ma teraz poziom %d!"/>
+        <text name="gn_offer_job" text="Pole %s: %s, %s ha - %s"/>
+        <text name="gn_offer_total" text="Razem zapłata: %s"/>
+        <text name="gn_offer_bonus" text="Premia od sąsiada +%d%%: %s"/>
+        <text name="gn_offer_lease_refund" text="Jeśli weźmiesz moje maszyny, oddam ci %d%% kosztu wypożyczenia."/>
+        <text name="gn_choice_accept" text="Biorę"/>
+        <text name="gn_choice_borrow" text="Z twoimi maszynami"/>
+        <text name="gn_choice_decline" text="Nie dziś"/>
+        <text name="gn_job_harvest" text="żniwa"/>
+        <text name="gn_job_plow" text="orka"/>
+        <text name="gn_job_cultivate" text="kultywatorowanie"/>
+        <text name="gn_job_sow" text="siew"/>
+        <text name="gn_job_fertilize" text="nawożenie"/>
+        <text name="gn_job_spray" text="oprysk"/>
+        <text name="gn_job_weed" text="pielenie"/>
+        <text name="gn_job_mow" text="koszenie"/>
+        <text name="gn_job_tedd" text="przetrząsanie"/>
+        <text name="gn_job_wrap" text="owijanie bel"/>
+        <text name="gn_job_bale" text="belowanie"/>
+        <text name="gn_job_roll" text="wałowanie"/>
+        <text name="gn_job_stones" text="zbieranie kamieni"/>
+        <text name="gn_job_lime" text="wapnowanie"/>
+        <text name="gn_job_mulch" text="mulczowanie"/>
+        <text name="gn_job_fieldwork" text="prace polowe"/>
+        <text name="gn_role_farmer" text="Rolnik, sąsiad"/>
+        <text name="gn_role_mayor" text="Burmistrz"/>
+        <text name="gn_role_trader" text="Handlarka zbożem"/>
+        <text name="gn_role_dealer" text="Dealer maszyn i mechanik"/>
+        <text name="gn_contact_level" text="Relacja: poziom %d (%d / %d pkt)"/>
+        <text name="gn_contact_fields" text="Uprawia działek: %d, %s ha"/>
+        <text name="gn_benefits_title" text="Co daje ci ta relacja:"/>
+        <text name="gn_benefits_none" text="Na razie nic - więcej w kolejnych wersjach."/>
+        <text name="gn_benefit_pay" text="- Premia za kontrakty: +%d%%"/>
+        <text name="gn_benefit_lease" text="- Zwrot kosztu wypożyczenia maszyn: %d%%"/>
+        <text name="gn_benefit_next" text="- Następny poziom: +%d%% premii"/>
+        <text name="gn_benefit_calls" text="- Częściej dzwoni do twojej farmy niż do farm, które zna słabiej"/>
+        <text name="gn_unlimited" text="bez limitu"/>
+        <text name="gn_set_wallpaper" text="Tapeta: %s"/>
+        <text name="gn_wallpaper_none" text="brak"/>
+        <text name="gn_wallpaper_deere" text="zielony ciągnik"/>
+        <text name="gn_wallpaper_claas" text="ciągnik na podwórku"/>
+        <text name="gn_wallpaper_silage" text="sieczkarnia przy kukurydzy"/>
+        <text name="gn_wallpaper_krone" text="sieczkarnie samojezdne"/>
+        <text name="gn_set_volume" text="Głośność dzwonka: %d%%"/>
+        <text name="gn_set_muted" text="Dźwięk: wyciszony"/>
+        <text name="gn_set_sound_on" text="Dźwięk: włączony"/>
+        <text name="gn_set_sms_on" text="Wiadomości: włączone"/>
+        <text name="gn_set_sms_off" text="Wiadomości: wyłączone"/>
+        <text name="gn_set_home_here" text="Mieszka tutaj (moja pozycja)"/>
+        <text name="gn_notify_home_set" text="Dom: %s ustawiony w twojej pozycji."/>
+        <text name="gn_set_outfit" text="Ubierz jak mnie (mój strój)"/>
+        <text name="gn_notify_outfit_saved" text="%s ma teraz twój strój."/>
+        <text name="gn_notify_outfit_failed" text="Nie udało się odczytać twojego stroju."/>
+        <text name="gn_set_work_on" text="Sąsiedzi pracują sami: wł."/>
+        <text name="gn_set_work_off" text="Sąsiedzi pracują sami: wył."/>
+        <text name="gn_input_talk" text="Rozpocznij rozmowę: %s"/>
+        <text name="gn_greet_1" text="Miło cię widzieć! Co cię sprowadza?"/>
+        <text name="gn_greet_2" text="O, cześć sąsiedzie! Dzień pełen roboty."/>
+        <text name="gn_greet_3" text="Cześć! Jak będę miał robotę, zadzwonię - obiecuję."/>
+        <text name="gn_npc_farm" text="Sąsiedzi"/>
+        <text name="gn_set_parking_here" text="Parking maszyn tutaj"/>
+        <text name="gn_notify_parking_set" text="%s parkuje teraz maszyny tutaj: w rzędzie na prawo od ciebie, przodem tam, gdzie patrzysz."/>
+        <text name="gn_plan_title" text="Plan dnia:"/>
+        <text name="gn_plan_now" text="Teraz: %s"/>
+        <text name="gn_plan_chores" text="poranny obrządek"/>
+        <text name="gn_plan_work" text="praca w gospodarstwie i w polu"/>
+        <text name="gn_plan_lunch" text="obiad"/>
+        <text name="gn_plan_evening" text="wieczór"/>
+        <text name="gn_plan_sleep" text="sen"/>
+        <text name="gn_plan_morning" text="poranek w domu"/>
+        <text name="gn_plan_office" text="w urzędzie"/>
+        <text name="gn_plan_town" text="spotkania w mieście"/>
+        <text name="gn_plan_trading" text="handel zbożem"/>
+        <text name="gn_plan_workshop" text="w warsztacie"/>
+        <text name="gn_offer_lend" text="Mogę ci pożyczyć: %s - odbierz u mnie na podwórku."/>
+        <text name="gn_choice_borrow_own" text="Pożycz mi maszynę"/>
+        <text name="gn_notify_lent" text="%s pożycza ci: %s - odbierz na podwórku (ikona na mapie). Wróci do niego po kontrakcie."/>
+        <text name="gn_notify_returned" text="%s wróciła do: %s."/>
+        <text name="gn_info_lent" text="Pożyczona"/>
+        <text name="gn_info_lent_value" text="do końca kontraktu"/>
+        <text name="gn_tool_home" text="dom"/>
+        <text name="gn_tool_home_desc" text="Wszystko dla tego sąsiada w jednym narzędziu. Shift+Q zmienia rozmiar miejsca: dom (gdzie stoi i jego zdjęcie na mapie), pojazd (ciągnik), pojazd + maszyna (długie miejsce na maszynę), ponadgabarytowe (kombajn), silos (darmowe nasiona i nawozy). Obrót ustawia kierunek. Panel w prawym dolnym rogu pokazuje ile jest / ile potrzeba."/>
+        <text name="gn_tool_parking" text="parking maszyn"/>
+        <text name="gn_tool_parking_desc" text="Pierwsze miejsce parkingowe maszyn sąsiada; kolejne w rzędzie na prawo. W kierunku obrotu będą stały przodem maszyny."/>
+        <text name="gn_label_home" text="Dom: %s"/>
+        <text name="gn_label_parking" text="Maszyny: %s"/>
+        <text name="gn_plan_field_today" text="Dziś wyjeżdża w pole ok. %s"/>
+        <text name="gn_settings_section" text="Dobrzy sąsiedzi"/>
+        <text name="gn_settings_calls_info" text="Ile razy dziennie (czas gry) sąsiedzi mogą dzwonić do każdej farmy z kontraktami. Zmienia tylko admin serwera."/>
+        <text name="gn_settings_fields_info" text="Ile pól sąsiad proponuje w jednym telefonie."/>
+        <text name="gn_settings_work_info" text="Sąsiedzi sami obrabiają swoje pola własnymi maszynami."/>
+        <text name="gn_settings_calls_title" text="Telefony od sąsiadów dziennie"/>
+        <text name="gn_settings_fields_title" text="Pola na jeden telefon"/>
+        <text name="gn_settings_work_title" text="Sąsiedzi pracują sami"/>
+        <text name="gn_on" text="Wł."/>
+        <text name="gn_off" text="Wył."/>
+        <text name="gn_nav_field" text="%s podpięta - teraz pola (zielone kręgi na mapie)."/>
+        <text name="gn_nav_return" text="Praca na polu zrobiona - odstaw: %s do: %s i odczep w zielonym kręgu. Dopiero wtedy kontrakt zostanie zaliczony."/>
+        <text name="gn_notify_borrow_thanks" text="%s ma maszynę z powrotem - dzięki! (+20 pkt relacji)"/>
+        <text name="gn_notify_borrow_late" text="%s musiał sam odebrać maszynę (-40 pkt relacji)."/>
+        <text name="gn_notify_supplied" text="%s napełnił: %s na kontrakt."/>
+        <text name="gn_offer_supplies" text="Nasiona, nawóz albo środek do oprysku nalejesz za darmo u mnie na podwórku."/>
+        <text name="gn_tool_slot_desc" text="Jedno miejsce na jedną maszynę tego sąsiada (najpierw ciągnik, potem maszyny). Obrót ustawia, w którą stronę maszyna stoi przodem. Lista w prawym dolnym rogu pokazuje, ile miejsc jeszcze brakuje."/>
+        <text name="gn_tool_place_desc" text="Miejsce, które sąsiedzi odwiedzają w ciągu dnia (plan dnia w telefonie)."/>
+        <text name="gn_tool_remove_desc" text="Postaw obok miejsca sąsiada - najbliższe w promieniu 30 m (zaznaczone na czerwono) zostanie usunięte."/>
+        <text name="gn_notify_slot_set" text="Dodano miejsce dla: %s - %s (%d z %d)."/>
+        <text name="gn_notify_place_set" text="Dodano miejsce: %s."/>
+        <text name="gn_notify_removed" text="Usunięto najbliższe miejsce sąsiadów."/>
+        <text name="gn_notify_removed_none" text="Brak miejsca sąsiadów w promieniu 30 m."/>
+        <text name="gn_label_slot" text="%s - maszyna %d"/>
+        <text name="gn_hud_neighbour" text="%s: miejsca na maszyny %d / %d, dom: %s"/>
+        <text name="gn_hud_yes" text="tak"/>
+        <text name="gn_hud_no" text="nie"/>
+        <text name="gn_plan_errands" text="sprawunki"/>
+        <text name="gn_place_gas" text="stacja paliw"/>
+        <text name="gn_place_shop" text="sklep"/>
+        <text name="gn_place_public" text="rynek"/>
+        <text name="gn_place_church" text="kościół"/>
+        <text name="gn_place_townhall" text="urząd gminy"/>
+        <text name="gn_place_workshop" text="warsztat"/>
+        <text name="gn_place_trade" text="skup zboża"/>
+        <text name="gn_set_admin_title" text="Ustawienia serwera (admin)"/>
+        <text name="gn_set_calls" text="Telefony od sąsiadów dziennie: %s"/>
+        <text name="gn_set_fields" text="Pola na jeden telefon: %s"/>
+        <text name="gn_line_henryk_1" text="Dzień dobry! Tu Henryk. Plecy już nie te, a roboty przybywa."/>
+        <text name="gn_line_henryk_2" text="Mówi Henryk. Kiedyś robiło się to wszystko ręcznie, dziś wolę zapłacić dobremu sąsiadowi."/>
+        <text name="gn_line_henryk_3" text="Henryk z tej strony. Pogoda nie poczeka, a ja nie rozdwoję się."/>
+        <text name="gn_line_sarah_1" text="Cześć, tu Sarah! Krowy zajmują mi cały dzień - pomożesz mi na polach?"/>
+        <text name="gn_line_sarah_2" text="Dzwoni Sarah. Dojenie, karmienie, weterynarz... a pola też czekają."/>
+        <text name="gn_line_sarah_3" text="Hej, to Sarah. Moje pola powierzam ci chętniej niż komukolwiek tutaj."/>
+        <text name="gn_line_jonas_1" text="Tu Jonas! Mam nową maszynę, ale nie obrobię nią trzech pól naraz."/>
+        <text name="gn_line_jonas_2" text="Siema, Jonas z tej strony. Według GPS-a jestem do tyłu z robotą - wpadniesz pomóc?"/>
+        <text name="gn_line_jonas_3" text="Jonas dzwoni. Ojciec mówi, że wziąłem za dużo ziemi. Pomożesz mi udowodnić, że się myli?"/>
+        <text name="gn_line_teresa_1" text="Dzień dobry, tu Teresa. Warzywa nie dają mi chwili wytchnienia, więc szukam pomocy przy polach."/>
+        <text name="gn_line_teresa_2" text="Mówi Teresa. Płacę uczciwie i na czas, wiesz o tym."/>
+        <text name="gn_line_teresa_3" text="Teresa z tej strony. Prawdziwych sąsiadów poznaje się w potrzebie, a ja dziś potrzebuję."/>
+        <text name="input_GN_PLACE_SIZE" text="Rozmiar miejsca (Dobrzy sąsiedzi)"/>
+        <text name="input_GN_PLACE_BULK_REMOVE" text="Usuń wszystkie tego rodzaju (Dobrzy sąsiedzi)"/>
+        <text name="gn_tab_places" text="Miejsca"/>
+        <text name="gn_tab_neighbours" text="Sąsiedzi"/>
+        <text name="gn_size_home" text="dom (postać)"/>
+        <text name="gn_size_vehicle" text="pojazd"/>
+        <text name="gn_size_attach" text="pojazd + maszyna"/>
+        <text name="gn_size_oversize" text="ponadgabarytowe (kombajn)"/>
+        <text name="gn_size_silo" text="silos (nasiona, nawozy)"/>
+        <text name="gn_tool_size_now" text="Rozmiar miejsca: %s"/>
+        <text name="gn_tool_place_size" text="Rozmiar miejsca:"/>
+        <text name="gn_tool_keys_hint" text="Shift+Q: rozmiar  |  Shift+Del: usuń wszystkie"/>
+        <text name="gn_tool_remove_hint" text="Usuwa najbliższe miejsce w promieniu 30 m (czerwone)"/>
+        <text name="gn_tool_overall" text="Wszyscy sąsiedzi"/>
+        <text name="gn_tool_complete" text="gotowe"/>
+        <text name="gn_tool_missing" text="brakuje"/>
+        <text name="gn_tool_admin_only" text="Tylko admin może to zrobić."/>
+        <text name="gn_tool_home_no_bulk" text="Domu nie da się usunąć - po prostu postaw go w innym miejscu."/>
+        <text name="gn_tool_bulk_confirm" text="Usunąć WSZYSTKIE miejsca &quot;%s&quot;? Naciśnij Shift+Del jeszcze raz, aby potwierdzić."/>
+        <text name="gn_notify_bulk_removed" text="Usunięto miejsc: %d."/>
+        <text name="gn_menu_section_server" text="Dobrzy sąsiedzi - serwer (admin)"/>
+        <text name="gn_menu_section_phone" text="Dobrzy sąsiedzi - twój telefon"/>
+        <text name="gn_menu_wallpaper" text="Tapeta telefonu"/>
+        <text name="gn_menu_wallpaper_info" text="Obrazek na ekranie twojego telefonu."/>
+        <text name="gn_menu_volume" text="Głośność dzwonka"/>
+        <text name="gn_menu_volume_info" text="Głośność połączeń i wiadomości."/>
+        <text name="gn_menu_muted" text="Wycisz telefon"/>
+        <text name="gn_menu_muted_info" text="Bez dzwonka i dźwięku wiadomości."/>
+        <text name="gn_menu_sms" text="Wiadomości od sąsiadów"/>
+        <text name="gn_menu_sms_info" text="Poranne SMS-y zapowiadające telefon."/>
+        <text name="gn_place_visit" text="gospodarstwo gracza"/>
+        <text name="gn_place_relax" text="miejsce odpoczynku"/>
+        <text name="gn_place_walk" text="spacer"/>
+        <text name="gn_talk_info" text="Poziom relacji %d  -  %s"/>
+        <text name="gn_talk_continue" text="..."/>
+        <text name="gn_talk_ask_plan" text="Co dziś porabiasz?"/>
+        <text name="gn_talk_open_contact" text="Pokaż kontakt w telefonie"/>
+        <text name="gn_talk_bye" text="Do widzenia!"/>
+        <text name="gn_talk_you" text="sąsiedzie"/>
+        <text name="gn_talk_work_start" text="Dziś wyjeżdżam w pole ok. %s."/>
+        <text name="gn_talk_fallback_1" text="Cześć, {player}! Miło cię widzieć. Co cię sprowadza?"/>
+        <text name="gn_talk_fallback_2" text="O, {player}! Dużo roboty, ale dla sąsiada zawsze znajdę chwilę."/>
+        <text name="gn_talk_fallback_3" text="Dzień dobry, {player}. Wszystko w porządku u ciebie w gospodarstwie?"/>
+        <text name="gn_notify_visitor" text="%s przyjechał(a) na twoje podwórko. Podejdź i porozmawiaj (%s)."/>
+        <text name="input_GN_PLACE_AUTO" text="Ustaw brakujące miejsca automatycznie (Dobrzy sąsiedzi)"/>
+        <text name="gn_tool_keys_hint2" text="Shift+G: brakujące miejsca automatycznie (2x: od nowa)"/>
+        <text name="gn_tool_auto_fill" text="Brakujące miejsca są ustawiane automatycznie..."/>
+        <text name="gn_tool_auto_redo" text="Wszystkie automatyczne miejsca są ustawiane od nowa..."/>
+        <text name="gn_tool_auto_started" text="Serwer szuka dobrych miejsc - ramki pojawią się za chwilę."/>
+        <text name="gn_help_category" text="Dobrzy sąsiedzi"/>
+        <text name="gn_help_overview_title" text="Sąsiedzi"/>
+        <text name="gn_help_overview_1" text="Na mapie mieszka siedmioro sąsiadów: czterech rolników uprawiających pola NPC, burmistrz, handlarka zbożem i dealer maszyn. Każdy ma plan dnia: pracuje, je obiad, załatwia sprawy, odwiedza miejsca, a czasem twoje podwórko. Jego zdjęcie na mapie pokazuje, gdzie jest teraz."/>
+        <text name="gn_help_overview_2" text="Im lepiej znasz sąsiada, tym więcej płaci i tym bardziej ci ufa. Każda farma ma własną relację z każdym sąsiadem."/>
+        <text name="gn_help_phone_title" text="Telefon i połączenia"/>
+        <text name="gn_help_phone_1" text="Shift+N otwiera telefon: wiadomości, kontakty z planem dnia każdego sąsiada i ustawienia. Rano rolnik wysyła SMS, a potem dzwoni z pracą na swoich polach - odbierz zieloną słuchawką."/>
+        <text name="gn_help_phone_2" text="Admin ustala, ile telefonów dziennie dostaje każda farma i ile pól proponuje jeden telefon (ESC - Ustawienia)."/>
+        <text name="gn_help_talk_title" text="Rozmowy"/>
+        <text name="gn_help_talk_1" text="Podejdź do sąsiada i naciśnij Shift+N, żeby porozmawiać. O czym mówi, zależy od tego, gdzie jest i co robi, od pory roku i od tego, jak dobrze się znacie."/>
+        <text name="gn_help_talk_2" text="Twoje odpowiedzi mają znaczenie: miłe i pomocne dają punkty relacji, niegrzeczne je odbierają. Liczy się pierwsza rozmowa z każdym sąsiadem danego dnia."/>
+        <text name="gn_help_contracts_title" text="Kontrakty i zapłata"/>
+        <text name="gn_help_contracts_1" text="Kontrakty na polach sąsiadów to zwykłe kontrakty z gry, wymieszane z innymi. Sąsiad płaci stawkę usługową za hektar, nigdy mniej niż gra."/>
+        <text name="gn_help_contracts_2" text="Każdy poziom relacji dodaje premię do zapłaty (do 30 procent) i zwraca część kosztu wypożyczenia maszyn (do 50 procent)."/>
+        <text name="gn_help_lend_title" text="Pożyczanie maszyn"/>
+        <text name="gn_help_lend_1" text="Odbierz telefon środkowym przyciskiem, żeby pracować maszyną sąsiada. Migający zielony okrąg na mapie pokazuje, gdzie jechać teraz, czerwony - następny etap: odbierz, obrób pola, odstaw."/>
+        <text name="gn_help_lend_2" text="Odczep ją na jej miejscu na jego podwórku, a podziękuje. Oddana za późno (po 8:00 następnego dnia) - będzie rozczarowany. Nasiona i nawóz do jego kontraktów są darmowe na jego podwórku i przy silosie."/>
+        <text name="gn_help_work_title" text="Sąsiedzi pracują"/>
+        <text name="gn_help_work_1" text="Kontrakty, których nikt nie weźmie, sąsiedzi robią sami własnym ciągnikiem, maszynami i kombajnem. Codziennie wyjeżdżają o innej porze."/>
+        <text name="gn_help_work_2" text="Ich samochód i ciągnik też jeżdżą według planu dnia: na stację, do warsztatu, do skupu, do sklepu albo na twoje podwórko."/>
+        <text name="gn_help_tools_title" text="Ustawianie mapy"/>
+        <text name="gn_help_tools_1" text="Mod sam ustawia każdą mapę: domy na ziemi sąsiadów przy zabudowaniach, miejsca na każdą maszynę wokół domu (poza polami) i miejsca odwiedzin znalezione po budynkach mapy."/>
+        <text name="gn_help_tools_2" text="Admin poprawia je w menu budowania, kategoria Dobrzy sąsiedzi: Shift+Q zmienia rozmiar miejsca, Shift+Del usuwa wszystkie danego rodzaju, Shift+G ustawia brakujące od nowa. Panel w prawym dolnym rogu pokazuje ile jest / ile trzeba."/>
+        <text name="gn_help_settings_title" text="Ustawienia"/>
+        <text name="gn_help_settings_1" text="ESC - Ustawienia, sekcja Dobrzy sąsiedzi: telefony dziennie, pola na telefon i czy sąsiedzi pracują sami (tylko admin), oraz twój telefon: tapeta, głośność, wyciszenie i wiadomości."/>
+        <text name="gn_help_settings_2" text="W telefonie admin może też ubrać sąsiada jak siebie i przenieść jego dom albo parking tam, gdzie stoi."/>
+        <text name="gn_notify_supply_ready" text="%s wystawił(a) %s do twojego kontraktu przy swoim silosie (%d l). Załaduj tam."/>
+        <text name="gn_fill_SEEDS" text="nasiona"/>
+        <text name="gn_fill_FERTILIZER" text="nawóz"/>
+        <text name="gn_fill_LIQUIDFERTILIZER" text="nawóz płynny"/>
+        <text name="gn_fill_HERBICIDE" text="herbicyd"/>
+        <text name="gn_fill_LIME" text="wapno"/>
+        <text name="gn_notify_deadline" text="Termin: %d dzień/dni - potem sąsiad odda pracę komuś innemu."/>
+        <text name="gn_notify_slot_overlap" text="Uwaga: to miejsce nachodzi na inne - maszyny stałyby na sobie. Usuń je i postaw z większym odstępem."/>
+        <text name="gn_set_airplane_on" text="Tryb samolotowy: WŁ."/>
+        <text name="gn_set_airplane_off" text="Tryb samolotowy: wył."/>
+        <text name="gn_set_airplane_info_on" text="Tryb samolotowy włączony - sąsiedzi nie dzwonią do twojej farmy."/>
+        <text name="gn_set_airplane_info_off" text="Tryb samolotowy wyłącza telefony od sąsiadów dla całej twojej farmy."/>
+        <text name="gn_notify_airplane_on" text="Tryb samolotowy włączony: sąsiedzi nie będą dzwonić do twojej farmy."/>
+        <text name="gn_notify_airplane_off" text="Tryb samolotowy wyłączony: sąsiedzi znów mogą dzwonić."/>
+        <text name="gn_sms_busy" text="Widzę, że jesteś zajęty - nic nie szkodzi, zajmę się tym sam."/>
+        <text name="gn_sms_busy_f" text="Widzę, że jesteś zajęty - nic nie szkodzi, zajmę się tym sama."/>
+        <text name="gn_sms_mark_read" text="Oznacz jako przeczytane (%d)"/>
+        <text name="gn_lang_code" text="pl"/>
+        <text name="gn_talk_points_plus" text="Rozmowa z: %s - relacja +%d pkt."/>
+        <text name="gn_talk_points_today" text="Już dziś rozmawiałeś z: %s - punkty relacji tylko raz dziennie."/>
+        <text name="gn_talk_points_minus" text="Rozmowa z: %s poszła źle - relacja -%d pkt."/>
+        <text name="gn_talk_points_short_plus" text="+%d pkt relacji"/>
+        <text name="gn_talk_points_short_minus" text="-%d pkt relacji"/>
+        <text name="gn_place_myfarm" text="moja farma"/>
+        <text name="gn_tool_myfarm_desc" text="Postaw tam, gdzie jest twoja farma: tu odwiedzają cię sąsiedzi (jeden na farmę)."/>
+    </texts>
+</l10n>

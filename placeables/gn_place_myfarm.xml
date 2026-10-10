@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- Good Neighbours - construction tool -->
+<placeable type="gnTool">
+    <storeData>
+        <name>
+            <en>My farm (neighbours visit me here)</en>
+            <de>Mein Hof (hier besuchen mich die Nachbarn)</de>
+            <pl>Moja farma (tu odwiedzają mnie sąsiedzi)</pl>
+        </name>
+        <functions>
+            <function>$l10n_gn_tool_myfarm_desc</function>
+        </functions>
+        <image>placeables/store_place_myfarm.dds</image>
+        <price>0</price>
+        <dailyUpkeep>0</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>PLACEABLE</species>
+        <category>decoration</category>
+        <brush>
+            <type>placeable</type>
+            <category>decoration</category>
+            <tab>decoration</tab>
+        </brush>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+    </storeData>
+    <base>
+        <filename>placeables/gnTool.i3d</filename>
+    </base>
+    <placement useRandomYRotation="false" useManualYRotation="true">
+        <testAreas>
+            <testArea startNode="testAreaStart" endNode="testAreaEnd"/>
+        </testAreas>
+        <sounds>
+            <place template="smallImp" pitchScale="1.6"/>
+        </sounds>
+    </placement>
+    <clearAreas>
+        <clearArea startNode="clearAreaStart01" widthNode="clearAreaWidth01" heightNode="clearAreaHeight01"/>
+    </clearAreas>
+    <leveling>
+        <levelAreas>
+            <levelArea startNode="levelAreaStart01" widthNode="levelAreaWidth01" heightNode="levelAreaHeight01"/>
+        </levelAreas>
+    </leveling>
+    <gnTool action="place_myfarm"/>
+    <i3dMappings>
+        <i3dMapping id="testAreaStart" node="0>0|0"/>
+        <i3dMapping id="testAreaEnd" node="0>0|0|0"/>
+        <i3dMapping id="clearAreaStart01" node="0>1|0"/>
+        <i3dMapping id="clearAreaWidth01" node="0>1|0|0"/>
+        <i3dMapping id="clearAreaHeight01" node="0>1|0|1"/>
+        <i3dMapping id="levelAreaStart01" node="0>2|0"/>
+        <i3dMapping id="levelAreaWidth01" node="0>2|0|0"/>
+        <i3dMapping id="levelAreaHeight01" node="0>2|0|1"/>
+    </i3dMappings>
+</placeable>
