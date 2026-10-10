@@ -6,6 +6,51 @@
 
 ## Polski
 
+### 1.9.10.9 — 2026-10-10
+- Kombajny sąsiadów naprawdę opróżniają się przy 60 % (sprawdzane co sekundę) – wcześniej gra odmawiała opróżnienia, zbiornik dochodził do 100 % i kombajn stawał.
+- Sąsiad nie dzwoni, gdy farma ma już maksymalną liczbę kontraktów dozwoloną przez grę, i proponuje najwyżej tyle pól, ile jeszcze się zmieści.
+
+### 1.9.10.8 — 2026-10-10
+- Ikony sąsiadów na mapie (menu mapy) można kliknąć: imię, rola, poziom relacji, co teraz robi i zdjęcie.
+- Pożyczone maszyny na mapie można kliknąć – gdy utkną, „Reset maszyny” odstawia je na miejsce odbioru u sąsiada (w trakcie pracy trzeba ją odebrać ponownie, przy zwrocie liczy się jako oddana).
+
+### 1.9.10.7 — 2026-10-10
+- Sąsiedzi zaczynają pracę od razu w miejscu, w którym pojawiają się na polu – nie jadą już drogami na poprzednie pole, kombajny znów ruszają (wcześniej „not in transport mode”).
+- Anulowany lub zawalony kontrakt z pożyczoną maszyną: sąsiad od razu zabiera maszynę (pustą), -50 pkt relacji i koniec – bez odstawiania.
+
+### 1.9.10.6 — 2026-10-10
+- Kontrakt zawalony lub zniknięty (np. usunięty przez grę) zawsze zwraca pożyczoną maszynę sąsiadowi i zabiera materiały; kontrakty z zapisu, których już nie ma, zamykają się minutę po wczytaniu.
+- Materiały tylko raz: najpierw palety, do silosu sąsiada trafia tylko to, czego palety nie pokryły; ilość w silosie jest zapisywana w zapisie gry.
+- Palety, które pojawiły się po zakończeniu kontraktów, są od razu usuwane.
+- Gdy trwa już kontrakt z danym sąsiadem, nie proponuje drugiej maszyny ani drugiej dostawy materiałów.
+- Odebrany telefon bez odpowiedzi nie dzwoni ponownie w tej samej sprawie.
+- Usunięcie miejsca: znika tylko maszyna bez miejsca, pozostałe przestawiają się przy następnej zmianie czynności sąsiada.
+
+### 1.9.10.5 — 2026-10-10
+- Sąsiad wystawia tyle nasion / nawozu / herbicydu / wapna, ile gra zużywa na to pole (według danych gry dla uprawy i środka, na hektar), plus 25 % zapasu – zawsze starcza.
+
+### 1.9.10.4 — 2026-10-10
+- Pożyczona maszyna jest pusta – trzeba ją załadować materiałem od sąsiada (palety przy jego silosie / jego silos). Koniec z automatycznym napełnianiem maszyn na podwórku sąsiada.
+
+### 1.9.10.3 — 2026-10-10
+- Sąsiedzi pojawiają się od razu na swoim polu i tam zaczynają pracę – pomocnik nie dojeżdża już drogami do pola (dojazd przyjdzie później z obsługą AutoDrive).
+
+### 1.9.10.2 — 2026-10-10
+- O 22:00 wszyscy pomocnicy sąsiadów kończą pracę na polach, bez względu na to, co robią – także pomocnicy pozostali z zapisu gry.
+- Wypożyczenie: gdy oferowana maszyna jest zajęta, sąsiad szuka innej do tej pracy; log pokazuje wybór i powód.
+
+### 1.9.10.1 — 2026-10-10
+- Kombajny sąsiadów składają rurę wysypową przed pracą i na postoju – pomocnik nie odmawia już startu („not in transport mode”).
+
+### 1.9.10.0 — 2026-10-10
+- Opcja wypożyczenia maszyny pojawia się tylko wtedy, gdy sąsiad naprawdę ma maszynę do tej pracy i stoi ona na swoim miejscu na jego podwórku.
+
+### 1.9.9.9 — 2026-10-10
+- Zaparkowane maszyny sąsiadów są zawsze puste – także kombajny z pełnym zbiornikiem ze starszych zapisów (opróżniane przy wczytaniu gry i przy każdym odstawianiu).
+
+### 1.9.9.8 — 2026-10-10
+- Pożyczona maszyna ma na mapie własną jasnozieloną ikonę (ciągnik z kluczem) przez cały kontrakt; dopóki jej nie odbierzesz, prowadzi do niej nawigacja.
+
 ### 1.9.9.7 — 2026-10-10
 - Pożyczoną maszynę i materiały znów odbiera się u sąsiada na podwórku (bez przywożenia na miejsce „Moja farma”).
 
@@ -188,6 +233,51 @@ Poprawki z GIANTS TestRunnera:
 ---
 
 ## English
+
+### 1.9.10.9 — 2026-10-10
+- The neighbours' combines are really emptied at 60 % (checked every second) – the game refused it before, tanks reached 100 % and the combines stopped.
+- No call when the farm already has the most contracts the game allows; never more fields offered than still fit.
+
+### 1.9.10.8 — 2026-10-10
+- Neighbour icons in the map menu can be clicked: name, role, relationship level, what he is doing and his photo.
+- Lent machines on the map can be clicked – when stuck, "Reset machine" puts them back on the pick-up place (during work pick it up again; on the way back it counts as returned).
+
+### 1.9.10.7 — 2026-10-10
+- Neighbours start working right where they appear on the field – no more driving by road to their previous field; combines start again (was "not in transport mode").
+- Cancelled or failed contract with a lent machine: the neighbour takes it back at once (empty), -50 relationship points, done – no return trip.
+
+### 1.9.10.6 — 2026-10-10
+- A failed or vanished contract always returns the lent machine and takes the material back; savegame contracts that no longer exist are closed a minute after loading.
+- Material only once: pallets first, the neighbour's silo only gets what the pallets did not cover; the silo amount is kept in the savegame.
+- Pallets that appear after the contracts ended are removed at once.
+- While a contract with a neighbour runs he offers no second machine or second delivery.
+- An answered call without a reply does not ring again about the same fields.
+- Removing a place: only the machine without a place disappears; the others move with the neighbour's next activity.
+
+### 1.9.10.5 — 2026-10-10
+- The neighbour puts out as much seed / fertilizer / herbicide / lime as the game uses on the field (game data of the crop and the material, per hectare), plus 25 % – always enough.
+
+### 1.9.10.4 — 2026-10-10
+- A lent machine comes empty – load it with the material from the neighbour (pallets next to his silo / his silo). No more automatic filling at the neighbour's yard.
+
+### 1.9.10.3 — 2026-10-10
+- Neighbours appear right on their field and start working there – the helper no longer drives along the roads to the field (driving there will come later with AutoDrive support).
+
+### 1.9.10.2 — 2026-10-10
+- At 22:00 every helper of the neighbours stops working the fields, whatever it does – also helpers left over from a savegame.
+- Borrowing: if the offered machine is busy, the neighbour looks for another one for the job; the log shows the choice and the reason.
+
+### 1.9.10.1 — 2026-10-10
+- The neighbours' combines fold their grain pipe before work and when parked – the helper no longer refuses to start (“not in transport mode”).
+
+### 1.9.10.0 — 2026-10-10
+- Borrowing a machine is offered only when the neighbour really has one for the job and it stands on its place in his yard.
+
+### 1.9.9.9 — 2026-10-10
+- Parked machines of the neighbours are always empty – also combines with a full tank from older savegames (emptied when the game loads and whenever they are parked).
+
+### 1.9.9.8 — 2026-10-10
+- A machine lent to you has its own light green map icon (tractor with a key) during the whole contract; until you pick it up, navigation leads to it.
 
 ### 1.9.9.7 — 2026-10-10
 - The lent machine and the material are picked up at the neighbour's yard again (no delivery to the “My farm” place).

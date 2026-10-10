@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Farming%20Simulator-25-4c9a2a" alt="Farming Simulator 25">
   <img src="https://img.shields.io/badge/multiplayer-supported-2b7bb9" alt="multiplayer supported">
-  <a href="https://github.com/billid-dev/FS25_GoodNeighbours/releases/latest"><img src="https://img.shields.io/badge/version-1.9.9.7-e08a1e" alt="version 1.9.9.7"></a>
+  <a href="https://github.com/billid-dev/FS25_GoodNeighbours/releases/latest"><img src="https://img.shields.io/badge/version-1.9.10.9-e08a1e" alt="version 1.9.10.9"></a>
   <img src="https://img.shields.io/badge/status-beta-c0392b" alt="beta">
   <a href="https://discord.gg/gxwC8vUUch"><img src="https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white" alt="discord join"></a>
 </p>

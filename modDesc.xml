@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="113">
     <author>billiD</author>
-    <version>1.9.9.7</version>
+    <version>1.9.10.9</version>
     <title>
         <en>Good Neighbours</en>
         <de>Gute Nachbarn</de>
@@ -23,7 +23,15 @@ Features:
 - Made for dedicated servers: per-farm relationships and calls, admin settings in ESC - Settings
 - Help pages in the game help
 
-Changelog 1.9.9.7:
+Changelog 1.9.10.9:
+- Combines really get emptied at 60 % (they stopped with a full tank before)
+- No call when the farm already has the most contracts the game allows
+- Neighbour icons on the map can be clicked: name, role, level, what he does now, photo
+- Lent machines on the map can be clicked and reset when stuck (back to the pick-up place)
+- Neighbours start working right where they appear on the field (no driving by road, combines start again)
+- Cancelled or failed contract: the neighbour takes his machine back at once, minus relationship points
+- Contracts that disappear or fail always give the lent machine and the material back
+- Material only once: pallets first, the silo only for the rest; kept in the savegame
 - More neighbour calls a day as set in the settings, airplane mode, fair pay per hectare
 - Neighbours really work their fields, fold their machines and park them on their places
 - Silo building on the silo place, gates of the neighbour's yard open during his contracts
@@ -41,7 +49,16 @@ Changelog 1.9.9.7:
 - Material from the neighbour is yours to use: pallets belong to your farm, his silo can be loaded from
 - The neighbours' machines stay off the map also after loading a savegame
 - Calls are planned at 8:00 for the morning (until 12:00), the next ones the next day; long phone texts scroll
-- A contract from a call has to be done within 10 hours]]></en>
+- A contract from a call has to be done within 10 hours
+- A machine lent to you has its own green map icon
+- Parked machines of the neighbours are always empty
+- Borrowing is offered only when the neighbour's machine for the job stands in his yard
+- Combines fold their grain pipe before work and when parked
+- Borrowing: if the offered machine is busy, the neighbour lends another one for the job
+- At 22:00 every helper of the neighbours stops, also helpers left over from a savegame
+- Neighbours appear right on their field and start working there
+- A lent machine comes empty: load it with the material the neighbour puts out
+- The neighbour gives as much material as the game uses on the field, plus 25 %]]></en>
         <de><![CDATA[Gute Nachbarn erweckt das Dorf nebenan zum Leben - eine Rollenspiel-Mod für Einzel- und Mehrspieler.
 
 Sieben Nachbarn leben auf deiner Karte: vier Landwirte, die die NPC-Felder bewirtschaften, der Bürgermeister, die Getreidehändlerin und der Landmaschinenhändler. Jeder hat einen Tagesplan, ein Auto, ein Zuhause und seinen eigenen Charakter.
@@ -57,7 +74,15 @@ Funktionen:
 - Für dedizierte Server: Beziehungen und Anrufe pro Hof, Admin-Einstellungen unter ESC - Einstellungen
 - Hilfeseiten in der Spielhilfe
 
-Changelog 1.9.9.7:
+Changelog 1.9.10.9:
+- Mähdrescher werden bei 60 % wirklich geleert
+- Kein Anruf, wenn der Hof schon die maximale Zahl an Aufträgen hat
+- Nachbar-Symbole auf der Karte anklickbar: Name, Rolle, Stufe, aktuelle Tätigkeit, Foto
+- Geliehene Maschinen auf der Karte anklickbar und zurücksetzbar, wenn sie feststecken
+- Die Nachbarn arbeiten sofort dort, wo sie auf dem Feld erscheinen (Mähdrescher starten wieder)
+- Abgebrochener oder gescheiterter Auftrag: der Nachbar nimmt seine Maschine sofort zurück
+- Verschwundene oder gescheiterte Aufträge geben die geliehene Maschine und das Material immer zurück
+- Material nur einmal: zuerst Paletten, das Silo nur für den Rest
 - Mehr Anrufe der Nachbarn pro Tag wie eingestellt, Flugmodus, fairer Lohn pro Hektar
 - Die Nachbarn bearbeiten ihre Felder wirklich, klappen ihre Maschinen zusammen und parken sie auf ihren Plätzen
 - Silo auf dem Siloplatz, Tore des Nachbarhofs öffnen sich während seiner Aufträge
@@ -75,7 +100,16 @@ Changelog 1.9.9.7:
 - Material vom Nachbarn darfst du nutzen: Paletten gehören deinem Hof, sein Silo kann beladen werden
 - Die Maschinen der Nachbarn bleiben auch nach dem Laden eines Spielstands von der Karte verborgen
 - Anrufe werden um 8:00 für den Vormittag geplant (bis 12:00), die nächsten am nächsten Tag; lange Texte im Handy lassen sich scrollen
-- Ein Auftrag aus einem Anruf muss in 10 Stunden erledigt sein]]></de>
+- Ein Auftrag aus einem Anruf muss in 10 Stunden erledigt sein
+- Eine geliehene Maschine hat ein eigenes grünes Kartensymbol
+- Geparkte Maschinen der Nachbarn sind immer leer
+- Ausleihen gibt es nur, wenn die Maschine des Nachbarn auf seinem Hof steht
+- Mähdrescher klappen ihr Abtankrohr vor der Arbeit und beim Parken ein
+- Ausleihen: ist die angebotene Maschine belegt, leiht der Nachbar eine andere für die Arbeit
+- Um 22:00 hören alle Helfer der Nachbarn auf, auch übrig gebliebene aus einem Spielstand
+- Nachbarn erscheinen direkt auf ihrem Feld und fangen dort an
+- Eine geliehene Maschine kommt leer: belade sie mit dem Material des Nachbarn
+- Der Nachbar gibt so viel Material, wie das Spiel auf dem Feld braucht, plus 25 %]]></de>
         <pl><![CDATA[Dobrzy Sąsiedzi ożywiają wieś za miedzą - mod roleplay do gry jednoosobowej i multiplayer.
 
 Na twojej mapie mieszka siedmioro sąsiadów: czterech rolników uprawiających pola NPC, burmistrz, handlarka zbożem i dealer maszyn. Każdy ma plan dnia, samochód, dom i własny charakter.
@@ -91,7 +125,15 @@ Funkcje:
 - Zrobione pod serwery dedykowane: relacje i telefony dla każdej farmy, ustawienia admina w ESC - Ustawienia
 - Strony pomocy w pomocy gry
 
-Changelog 1.9.9.7:
+Changelog 1.9.10.9:
+- Kombajny naprawdę opróżniają się przy 60 % (wcześniej stawały z pełnym zbiornikiem)
+- Brak telefonu, gdy farma ma już maksymalną liczbę kontraktów w grze
+- Ikony sąsiadów na mapie można kliknąć: imię, rola, poziom, co teraz robi, zdjęcie
+- Pożyczone maszyny na mapie można kliknąć i zresetować, gdy utkną (wracają na miejsce odbioru)
+- Sąsiedzi zaczynają pracę od razu tam, gdzie pojawiają się na polu (bez jazdy drogami, kombajny znów ruszają)
+- Anulowany lub zawalony kontrakt: sąsiad od razu zabiera swoją maszynę, minus punkty relacji
+- Zniknięte lub zawalone kontrakty zawsze zwracają pożyczoną maszynę i materiały
+- Materiały tylko raz: najpierw palety, do silosu tylko reszta
 - Tyle telefonów dziennie, ile w ustawieniach, tryb samolotowy, uczciwa stawka za hektar
 - Sąsiedzi naprawdę obrabiają pola, składają maszyny i odstawiają je na swoje miejsca
 - Silos na miejscu silosu, bramy zagrody sąsiada otwierają się podczas jego kontraktów
@@ -109,7 +151,16 @@ Changelog 1.9.9.7:
 - Materiały od sąsiada są do twojej dyspozycji: palety należą do twojej farmy, z jego silosa można ładować
 - Maszyny sąsiadów nie pokazują się na mapie także po wczytaniu zapisu
 - Telefony planowane o 8:00 na przedpołudnie (do 12:00), kolejne następnego dnia; długie teksty w telefonie można przewijać
-- Kontrakt z telefonu trzeba wykonać w 10 godzin]]></pl>
+- Kontrakt z telefonu trzeba wykonać w 10 godzin
+- Pożyczona maszyna ma własną zieloną ikonę na mapie
+- Zaparkowane maszyny sąsiadów są zawsze puste
+- Wypożyczenie tylko wtedy, gdy maszyna sąsiada do tej pracy stoi na jego podwórku
+- Kombajny składają rurę wysypową przed pracą i na postoju
+- Wypożyczenie: gdy oferowana maszyna jest zajęta, sąsiad szuka innej do tej pracy
+- O 22:00 kończą pracę wszyscy pomocnicy sąsiadów, także pozostali z zapisu gry
+- Sąsiedzi pojawiają się od razu na polu i tam zaczynają pracę
+- Pożyczona maszyna jest pusta: załaduj ją materiałem, który daje sąsiad
+- Sąsiad daje tyle materiału, ile gra zużywa na to pole, plus 25 %]]></pl>
     </description>
     <iconFilename>icon_GoodNeighbours.dds</iconFilename>
     <multiplayer supported="true"/>
