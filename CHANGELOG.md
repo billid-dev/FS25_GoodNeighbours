@@ -6,6 +6,13 @@
 
 ## Polski
 
+### 1.9.10.11 — 2026-10-10
+- Burmistrz, handlarka zbożem i dealer: narzędzie sąsiada ma teraz tę samą listę rozmiarów miejsc co rolnicy (Shift+Q).
+
+### 1.9.10.10 — 2026-10-10
+- Mapy spoza gry podstawowej: mod sam zapamiętuje miejsca (domy, miejsca maszyn, miejsca odwiedzin, pola) przy każdym zapisie gry w `modSettings/FS25_GoodNeighbours/maps/<mapa>.xml` i używa ich w każdej nowej grze na tej mapie.
+- Presety w modzie działają dla każdej mapy (`data/maps/<mapa>.xml`), nie tylko podstawowych.
+
 ### 1.9.10.9 — 2026-10-10
 - Kombajny sąsiadów naprawdę opróżniają się przy 60 % (sprawdzane co sekundę) – wcześniej gra odmawiała opróżnienia, zbiornik dochodził do 100 % i kombajn stawał.
 - Sąsiad nie dzwoni, gdy farma ma już maksymalną liczbę kontraktów dozwoloną przez grę, i proponuje najwyżej tyle pól, ile jeszcze się zmieści.
@@ -86,7 +93,7 @@
 - Naprawiony błąd „table index is nil” przy sprawdzaniu bram (obiekt bez farmy).
 
 ### 1.9.8.7 — 2026-10-10
-- Jak w Fields of Stories: po postawieniu, przesunięciu lub usunięciu miejsca maszyny sąsiad przyprowadza, przestawia lub zabiera maszyny dopiero wtedy, gdy zmienia czynność w planie dnia. Maszyny z usuniętych miejsc znikają od razu.
+- Po postawieniu, przesunięciu lub usunięciu miejsca maszyny sąsiad przyprowadza, przestawia lub zabiera maszyny dopiero wtedy, gdy zmienia czynność w planie dnia. Maszyny z usuniętych miejsc znikają od razu.
 
 ### 1.9.8.6 — 2026-10-10
 - Pożyczona maszyna: bramy podwórka sąsiada otwierają się dla ciebie.
@@ -234,6 +241,13 @@ Poprawki z GIANTS TestRunnera:
 
 ## English
 
+### 1.9.10.11 — 2026-10-10
+- Mayor, grain trader and dealer: the neighbour tool now has the same place sizes as the farmers (Shift+Q).
+
+### 1.9.10.10 — 2026-10-10
+- Maps from outside the base game: the mod remembers the places (homes, machine places, visit places, fields) on every save in `modSettings/FS25_GoodNeighbours/maps/<map>.xml` and uses them for every new game on that map.
+- Presets inside the mod work for any map (`data/maps/<map>.xml`), not only the base maps.
+
 ### 1.9.10.9 — 2026-10-10
 - The neighbours' combines are really emptied at 60 % (checked every second) – the game refused it before, tanks reached 100 % and the combines stopped.
 - No call when the farm already has the most contracts the game allows; never more fields offered than still fit.
@@ -314,7 +328,7 @@ Poprawki z GIANTS TestRunnera:
 - Fixed “table index is nil” in the gate check (object without a farm).
 
 ### 1.9.8.7 — 2026-10-10
-- Like in Fields of Stories: after a machine place is set, moved or removed, the neighbour brings, moves or takes away his machines when he changes his activity. Machines of a removed place go at once.
+- After a machine place is set, moved or removed, the neighbour brings, moves or takes away his machines when he changes his activity. Machines of a removed place go at once.
 
 ### 1.9.8.6 — 2026-10-10
 - Borrowed machine: the gates of the neighbour's yard open for you.
