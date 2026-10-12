@@ -6,6 +6,130 @@
 
 ## Polski
 
+### 1.9.17.0 — 2026-10-12
+- Przyczepa do sieczki na serwerze dedykowanym: serwer wysyła stan rozładowanej przyczepy razem z komunikatem o rozładunku i powrocie, a gra gracza ustawia go u siebie (zwykła synchronizacja gry nie zawsze docierała i przyczepa u gracza wyglądała na pełną).
+
+### 1.9.16.9 — 2026-10-12
+- Sąsiedzi nie proponują przez telefon (ani nie robią sami) nawożenia, oprysku ani pielenia na uprawie, która jest już gotowa do zbioru – gra zostawia takie stare kontrakty na liście, a postęp liczy się tylko tam, gdzie koła zniszczą uprawę. Zbiór jest proponowany tylko na dojrzałym polu.
+- Jeśli taki kontrakt nie wyjdzie, bo uprawa dojrzała, sąsiad nie odbiera punktów relacji.
+
+### 1.9.16.8 — 2026-10-12
+- Przyczepa do sieczki jest opróżniana sposobem gry (wszystkie zbiorniki naraz), potem sprawdzana; log serwera podaje poziom, pojemność i ile zostało.
+
+### 1.9.16.7 — 2026-10-12
+- Przyczepa do sieczki na serwerze dedykowanym: po rozładunku wraca pusta także u graczy (serwer wysyła stan napełnienia, a gra gracza odświeża widok przyczepy).
+
+### 1.9.16.6 — 2026-10-12
+- Kontrakty z telefonu, których gra „nie może teraz rozpocząć” (np. zaraz po północy, gdy aktualizuje pola), są ponawiane do 3 razy co kilka sekund.
+- Komunikat o nierozpoczętych kontraktach podaje powód: limit kontraktów gry (z jego wartością), gra nie pozwala teraz, kontrakt nieaktualny, ktoś już go wziął, sąsiad pracuje na tej ziemi.
+
+### 1.9.16.5 — 2026-10-12
+- Test żniw (Shift+M): gdy gra nie wystawiła na ziemi sąsiada kontraktu żniw, sąsiad i tak zbiera jedno ze swoich dojrzałych pól (najpierw kukurydzę), a po pracy pole jest zebrane jak przy kontrakcie.
+
+### 1.9.16.4 — 2026-10-12
+- Edytor maszyn na serwerze dedykowanym: można wybierać maszyny z modów. Wcześniej gracz wysyłał ścieżkę moda ze swojego komputera (C:/Users/...), a serwer ma mody gdzie indziej, więc nie znajdował maszyny. Teraz ścieżki idą w formie „$moddir$NazwaModa/...”, tak jak przesyła je sama gra.
+- Maszyna, która dopiero przyjechała, jest wymieniana na inną dopiero po kilku sekundach – szybkie klikanie w edytorze psuło Courseplay u graczy (błąd CpCourseManager w kółko).
+
+### 1.9.16.3 — 2026-10-12
+- Przyczepa do sieczki: przy wyborze strony za stojący łan liczy się tylko zbierana uprawa. Łąka lub inne pole obok nie są już brane za nieskoszony łan, więc przyczepa nie wjeżdża w kukurydzę przy brzegu pola.
+
+### 1.9.16.2 — 2026-10-12
+- Odstęp przyczepy do sieczki jest liczony od rozłożonego hedera (z jego pola roboczego), a nie od złożonego – ciągnik nie jedzie już pod hederem.
+
+### 1.9.16.1 — 2026-10-12
+- Rura sieczkarni jest rozkładana do pozycji roboczej i obracana do przyczepy (po aktualizacji pojazdu przez grę, żeby gra jej nie cofała); strumień sieczki jest podtrzymywany. Po pracy rura się składa.
+
+### 1.9.16.0 — 2026-10-12
+- Przyczepa do sieczki jedzie po skoszonej stronie: przyczepa obok sieczkarni, ciągnik z przodu obok hedera.
+- Rura sieczkarni obraca się w stronę przyczepy i widać lecącą sieczkę.
+- Gdy przyczepa odjeżdża się rozładować, sieczkarnia stoi i czeka, aż wróci.
+
+### 1.9.15.2 — 2026-10-12
+- Shift+G (natychmiastowy spawn wszystkich maszyn) znów działa w menu budowania – klawisz jest też odczytywany bezpośrednio, gdy gra nie przekaże skrótu; działa także bez narzędzia w ręce.
+
+### 1.9.15.1 — 2026-10-12
+- Przyczepa przy sieczkarni jedzie obok niej po stronie rury, z odstępem na szerokość sieczkarni i hedera – ciągnik z przyczepą nie wchodzi już w maszynę. Plandeka przyczepy otwiera się na czas zbierania sieczki i zamyka po pracy.
+
+### 1.9.15.0 — 2026-10-12
+- Edytor maszyn (Shift+M): nowy wiersz „Silos” – dla każdego rolnika można wybrać model silosu ze sklepu (także z modów). Po zmianie stary silos znika, a nowy staje na jego miejscu na silos.
+- Przy stawianiu miejsca na silos widać przy kursorze podgląd wybranego silosu.
+
+### 1.9.14.6 — 2026-10-12
+- Żniwa: heder jest łączony tylko z maszyną, która ma do niego pasujące zaczepienie (wcześniej sąsiad próbował założyć heder do kukurydzy od sieczkarni na kombajn i nie wyjeżdżał).
+
+### 1.9.14.5 — 2026-10-12
+- Shift+Q (zmiana rozmiaru miejsca) i Shift+Del znów działają w menu budowania – klawisze są też odczytywane bezpośrednio, gdy gra nie przekaże skrótu.
+
+### 1.9.14.4 — 2026-10-12
+- Przycisk „Test: żniwa teraz” w edytorze maszyn (Shift+M, admin): wybrany sąsiad od razu jedzie zbierać swoje pole (najpierw kukurydza) maszynami, które ma w edytorze – także po 22:00. Na ekranie widać wynik: wyjechał / nie ma pola gotowego do zbioru / żadna maszyna nie zbierze danej uprawy.
+
+### 1.9.14.3 — 2026-10-12
+- Przy stawianiu miejsca panel pokazuje, która maszyna sąsiada tam stanie („Tu stanie: Krone BiG X 1180 (Inna 1)”).
+
+### 1.9.14.2 — 2026-10-12
+- Edytor maszyn (Shift+M) otwiera się zawsze: listy maszyn są pobierane z serwera przy otwarciu menu budowania i edytora (wcześniej po wczytaniu zapisu pokazywał „Brak maszyn – najpierw ustaw jego miejsca”, choć maszyny stały).
+- Maszyny można wybierać także zanim sąsiad je wystawi – wybór zostanie użyty, gdy przyjdą.
+
+### 1.9.14.1 — 2026-10-12
+- Maszyny sąsiadów bez właściciela (gra przenosiła je do sklepu po „wyrzuceniu poza świat” i powstawały kopie bez nazwy sąsiada, do których nie dało się wsiąść) są po 2 minutach zabierane – sąsiad i tak ma swoje maszyny na miejscach.
+- Przyczyna: po wczytaniu zapisu ciągnik sąsiada był przestawiany razem z podczepioną maszyną, co rozsypywało fizykę. Teraz przed przestawieniem wszystko jest odczepiane, a maszyny trafiają osobno na swoje miejsca.
+- Kontrakt z telefonu nie blokuje się już na „PENDING_MISSION”: przygotowane kontrakty są kończone przed startem nowego, a ten, który wciąż czeka na maszyny, jest wpisywany do logu.
+
+### 1.9.14.0 — 2026-10-12
+- **Materiały do kontraktów według wielkości pola.** Ilość liczona z danych gry (GIANTS): nasiona = zużycie uprawy na m² × hektary, nawozy / środki = zużycie typu oprysku (litry na sekundę przy prędkości roboczej) przeliczone na hektar. Zapas: +25 % nasiona, +50 % nawozy, herbicyd i wapno (siewniki i rozsiewacze zużywają więcej przy wolniejszej jeździe, uwrocia, zakładki).
+- **Dowóz w trakcie kontraktu:** co minutę sąsiad sprawdza, ile materiału zostało przy silosie i ile jeszcze potrzeba na nieskończoną część pól – gdy zostaje mniej niż ok. 1/3 potrzeby, dowozi resztę (komunikat „dowiózł więcej … na resztę pola”).
+
+### 1.9.13.4 — 2026-10-12
+- **Kontrakty z telefonu po godzinie 10:00 znów działają.** Termin 10 godzin był liczony od północy zamiast od teraz – po 10:00 gra uznawała kontrakt za przeterminowany i go usuwała („Nie udało się rozpocząć kontraktów … już zajęte albo osiągnięto limit”). Teraz termin to zawsze 10 godzin od przyjęcia.
+
+### 1.9.13.3 — 2026-10-12
+- Pracujący sąsiad nie zajmuje już ziemi wokół swojego pola, jeśli leży na niej pole proponowane właśnie przez telefon – kontrakt z telefonu da się wtedy przyjąć (wcześniej „już zajęte albo osiągnięto limit”).
+- W logu jest powód, gdy kontrakt nie wystartuje (sąsiad pracuje na tej ziemi / gra już go nie oferuje / odpowiedź gry).
+
+### 1.9.13.2 — 2026-10-12
+- **Gra jednoosobowa:** sąsiedzi pracują na polach także w singlu. Gra w singlu nie tworzy drugiej farmy (farma sąsiadów 15), przez co praca była dotąd wyłączona – teraz maszyny i pola sąsiadów działają bez niej, a ich pomocnicy nic nie kosztują.
+
+### 1.9.13.1 — 2026-10-12
+- Edytor maszyn: po dodaniu innej maszyny zaznaczenie zostaje na „+ Dodaj inną maszynę” (wcześniej przeskakiwało na dodaną maszynę i kolejne „Zastosuj” ją podmieniało zamiast dodać nową).
+
+### 1.9.13.0 — 2026-10-12
+- **Wóz przy sieczkarni:** gdy sąsiad sieczkuje, jego wolny ciągnik z przyczepą na sieczkę jedzie obok sieczkarni pod rurą i odbiera sieczkę. Pełna przyczepa odjeżdża do domu, jest rozładowana i wraca pusta po ok. 45 s (w tym czasie sieczka znika jak wcześniej). Wóz jest prowadzony przez mod, poza fizyką – nie zderza się z niczym.
+- Potrzebne wśród maszyn sąsiada: wolny ciągnik i przyczepa, która przyjmuje sieczkę (dodaj w edytorze maszyn jako „inną maszynę”). Bez nich sieczka po prostu znika.
+- Nowe ustawienie admina „Wóz przy sieczkarni” (ESC → Ustawienia → Dobrzy Sąsiedzi), domyślnie włączone.
+
+### 1.9.12.1 — 2026-10-12
+- Sieczkarnia sąsiada pracuje bez przyczepy obok: pomocnik gry nie czeka już na wóz pod rurą, sieczka trafia do wewnętrznego bufora sieczkarni, który mod opróżnia co sekundę (jakby odbierał ją wóz). Dotyczy tylko maszyn sąsiadów – sieczkarnie graczy działają jak w grze.
+
+### 1.9.12.0 — 2026-10-12
+- **Nowy rozmiar miejsca: HEDER** (Shift+Q w narzędziu sąsiada) – heder kombajnu stoi na własnym, szerokim i krótkim miejscu. W starych zapisach heder dalej stoi na miejscu „pojazd + maszyna”, dopóki nie postawisz mu miejsca HEDER.
+- **Edytor maszyn – inne maszyny:** na dole listy maszyn sąsiada „+ Dodaj inną maszynę”; wybór dowolnej maszyny ze sklepu (także z modów) z przełączaną kategorią (sieczkarnie, kombajny do ziemniaków i buraków, hedery do kukurydzy …), „Usuń” zabiera ją z powrotem. Każda dostaje swoje miejsce (rozmiar według rodzaju maszyny).
+- **Żniwa według uprawy:** sąsiad sam dobiera maszynę do pola – kombajn samobieżny do ziemniaków / buraków, kombajn lub sieczkarnia z hederem dla tej uprawy (np. kukurydza), albo ciągnik z kombajnem przyczepianym. Pól, dla których nie ma maszyny, nie zaczyna. Zbiorniki wszystkich tych maszyn opróżniają się przy 60 % i do zera po pracy.
+
+### 1.9.11.5 — 2026-10-12
+- Po żniwach kombajn sąsiada opróżnia się do zera, chowa rurę i składa, a heder jest składany, odczepiany i odstawiany na swoje miejsce (miejsce „pojazd + maszyna”); kombajn staje sam na swoim miejscu.
+
+### 1.9.11.4 — 2026-10-12
+- Edytor maszyn: wszystkie ciągniki sąsiada razem na górze listy („Ciągnik 1”, „Ciągnik 2” …), potem kombajn, samochód, narzędzia i reszta; krótsze nazwy, żeby mieściła się nazwa maszyny.
+
+### 1.9.11.3 — 2026-10-12
+- Edytor maszyn naprawdę otwiera się ponownie (okno nie zgłaszało grze zamknięcia).
+- Shift+M w menu budowania otwiera edytor bez wybierania narzędzia; po lewej lista sąsiadów, obok maszyny wybranego sąsiada, w głównym panelu wymiana maszyn.
+
+### 1.9.11.2 — 2026-10-12
+- Edytor maszyn otwiera się ponownie po zamknięciu (Shift+M działało tylko raz); klawisze menu budowania wracają po zamknięciu okna.
+
+### 1.9.11.1 — 2026-10-12
+- Edytor maszyn: zdjęcia maszyn ze sklepu – obecna, nowa i przy każdej maszynie na liście.
+
+### 1.9.11.0 — 2026-10-12
+- **Podgląd maszyny przy stawianiu miejsca:** narzędziem sąsiada (rozmiary vehicle / vehicle + attachment / oversize) przy kursorze stoi model maszyny, która dostanie to miejsce, w świecącej ramce (zielona – wolne, czerwona – nachodzi na inne miejsce).
+- **Edytor maszyn (Shift+M, admin)** w menu budowania z narzędziem sąsiada: lista jego maszyn (ciągnik, kombajn, samochód, narzędzia, dodatkowe), obok obecna i nowa maszyna ze zdjęciem, marką, modelem, kategorią i ceną; poniżej maszyny ze sklepu z tej samej kategorii (także z modów), po 8 na stronę. „Zastosuj” – stara maszyna znika, nowa staje na jej miejscu; „Domyślna” – wraca maszyna z moda. Wybór zapisuje się w zapisie gry.
+- Burmistrz, handlarka i dealer: miejsce nie jest już zajmowane przez nieistniejący ciągnik – ich pojazdy dostają właściwe miejsca.
+
+### 1.9.10.13 — 2026-10-12
+- **Shift+G (admin)** w menu budowania: wszyscy sąsiedzi od razu przyprowadzają, przestawiają lub zabierają maszyny zgodnie z postawionymi miejscami – bez czekania na zmianę czynności. Sąsiedzi w trakcie pracy dojadą po jej zakończeniu.
+- Usunięty klawisz automatycznego rozstawiania miejsc (pierwsze ustawienie po wczytaniu nowej gry działa jak dotąd).
+
 ### 1.9.10.12 — 2026-10-10
 - Zmienione kwoty w kontraktach – nowy cennik sąsiadów (€/ha, mnożone przez poziom trudności ekonomii: łatwy ×1,2, normalny ×1,1, trudny ×1,0):
   - orka 2600, kultywator 2100, brona 1700, siew 1900, nawożenie 1400, wapnowanie 1400, oprysk 1300, pielenie 1400, wałowanie 1000, zbieranie kamieni 2000, mulczowanie 1800
@@ -247,6 +371,130 @@ Poprawki z GIANTS TestRunnera:
 ---
 
 ## English
+
+### 1.9.17.0 — 2026-10-12
+- Chaff wagon on a dedicated server: the server sends the emptied trailer's fill with the unload and return messages and the player's game sets it (the game's own sync did not always arrive and the trailer looked full for the player).
+
+### 1.9.16.9 — 2026-10-12
+- Neighbours no longer offer by phone (or do themselves) fertilizing, spraying or weeding on a crop that is already ready to harvest – the game keeps such old contracts in its list and they only count where wheels crush the crop. Harvesting is offered only on a ripe field.
+- If such a contract fails because the crop became ripe, the neighbour takes no relationship points.
+
+### 1.9.16.8 — 2026-10-12
+- The chaff trailer is emptied the game's own way (all fill units at once), then checked; the server log shows the fill, the capacity and what is left.
+
+### 1.9.16.7 — 2026-10-12
+- Chaff wagon on a dedicated server: after unloading it comes back empty for the players too (the server sends the fill level and the player's game refreshes the trailer).
+
+### 1.9.16.6 — 2026-10-12
+- Phone contracts the game "cannot start right now" (e.g. just after midnight while it updates the fields) are tried again up to 3 times a few seconds apart.
+- The message about contracts that did not start gives the reason: the game's contract limit (with its number), not allowed right now, no longer offered, someone else took it, a neighbour works this land.
+
+### 1.9.16.5 — 2026-10-12
+- Harvest test (Shift+M): when the game offers no harvest contract on the neighbour's land, he harvests one of his own ripe fields anyway (maize first); after work the field is harvested as with a contract.
+
+### 1.9.16.4 — 2026-10-12
+- Fleet editor on a dedicated server: machines from mods can be picked. Before, the player sent the mod path of his own PC (C:/Users/...) and the server, with its mods elsewhere, did not find the machine. Paths now travel as "$moddir$ModName/...", the way the game sends them.
+- A machine that just arrived is replaced only a few seconds later – quick clicks in the editor broke Courseplay on the players' PCs (CpCourseManager error in a loop).
+
+### 1.9.16.3 — 2026-10-12
+- Chaff wagon: when choosing the side, only the crop being harvested counts as standing. A meadow or another field beside it no longer looks like uncut crop, so the wagon does not drive into the maize at the field edge.
+
+### 1.9.16.2 — 2026-10-12
+- The chaff wagon's gap is measured from the unfolded header (its work areas), not the folded one – the tractor no longer drives under the header.
+
+### 1.9.16.1 — 2026-10-12
+- The forage harvester's pipe is put into working position and turned to the trailer (after the game's own vehicle update, so the game does not turn it back); the chaff stream is kept on. After work the pipe folds in.
+
+### 1.9.16.0 — 2026-10-12
+- The chaff wagon drives on the harvested side: the trailer beside the forage harvester, the tractor ahead beside the header.
+- The harvester's pipe turns to the trailer and the chaff stream shows.
+- While the wagon is away unloading, the forage harvester stops and waits for it.
+
+### 1.9.15.2 — 2026-10-12
+- Shift+G (spawn all machines now) works again in the construction menu – the key is also read directly when the game does not deliver the binding; it works without a tool in hand too.
+
+### 1.9.15.1 — 2026-10-12
+- The wagon beside the forage harvester drives next to it on the pipe side, with a gap for the chopper and header width – the tractor and trailer no longer end up inside the machine. The trailer's tarp opens while it takes chaff and closes after work.
+
+### 1.9.15.0 — 2026-10-12
+- Fleet editor (Shift+M): new "Silo" row – pick the silo model from the shop (mods too) for each farmer. After a change the old silo goes and the new one is built on his silo place.
+- While setting a silo place, a preview of the picked silo shows at the cursor.
+
+### 1.9.14.6 — 2026-10-12
+- Harvest: a header is only paired with a machine that has a matching hitch for it (before, a neighbour tried to put a forage maize header on his combine and did not drive out).
+
+### 1.9.14.5 — 2026-10-12
+- Shift+Q (place size) and Shift+Del work again in the construction menu – the keys are also read directly when the game does not deliver the binding.
+
+### 1.9.14.4 — 2026-10-12
+- "Test: harvest now" button in the fleet editor (Shift+M, admin): the selected neighbour goes out to harvest one of his fields right away (maize first) with the machines set in the editor, also after 22:00. The result shows on screen: drove out / no field ready / no machine for that crop.
+
+### 1.9.14.3 — 2026-10-12
+- While placing, the panel shows which of the neighbour's machines will stand there ("Here stands: Krone BiG X 1180 (Other 1)").
+
+### 1.9.14.2 — 2026-10-12
+- The fleet editor (Shift+M) always opens: the machine lists are fetched from the server when the construction menu and the editor open (after loading it said "No machines yet – set his places first" although the machines stood there).
+- Machines can be chosen before the neighbour has put them out – the choice is used when they come.
+
+### 1.9.14.1 — 2026-10-12
+- Neighbours' machines without an owner (the game moved them to the shop after "outside the world", leaving copies without the neighbour's name that nobody could enter) are taken away after 2 minutes – the neighbour has his machines on his places anyway.
+- Cause: after loading, a neighbour's tractor was moved together with its hitched implement, which broke the physics. Now everything is uncoupled before moving and the machines go to their places separately.
+- A phone contract no longer gets stuck on "PENDING_MISSION": prepared contracts are finished before a new one starts, one still waiting for its machines is named in the log.
+
+### 1.9.14.0 — 2026-10-12
+- **Contract material by field size.** The amount comes from the game's data (GIANTS): seeds = the crop's use per m² × hectares, fertilizer / sprays = the spray type's use (litres per second at working speed) converted to a hectare. Reserve: +25 % seeds, +50 % fertilizer, herbicide and lime (spreaders and sprayers use more when driving slower, headlands, overlaps).
+- **Delivery during the contract:** every minute the neighbour checks how much is left at his silo and how much the unfinished part of the fields still needs – below about 1/3 he brings the rest ("brought more … for the rest of the field").
+
+### 1.9.13.4 — 2026-10-12
+- **Contracts from calls work again after 10:00.** The 10 hour deadline was counted from midnight instead of from now – after 10:00 the game saw the contract as expired and threw it away ("could not start … already taken or limit reached"). Now the deadline is always 10 hours from accepting.
+
+### 1.9.13.3 — 2026-10-12
+- A working neighbour no longer holds the land around his field when a field offered in a phone call lies on it – the contract from the call can be taken (before: "already taken or limit reached").
+- The log says why a contract did not start (a neighbour works on that land / the game no longer offers it / the game's answer).
+
+### 1.9.13.2 — 2026-10-12
+- **Single player:** the neighbours work their fields in single player too. The game makes no second farm in single player (the neighbours' farm 15), so their work was switched off – now their machines and fields work without it, and their helpers cost nothing.
+
+### 1.9.13.1 — 2026-10-12
+- Fleet editor: after adding another machine the selection stays on "+ Add another machine" (it jumped to the added machine, so the next "Apply" replaced it instead of adding a new one).
+
+### 1.9.13.0 — 2026-10-12
+- **Wagon beside the forage harvester:** while a neighbour chops, his free tractor with a chaff trailer drives beside the chopper under the pipe and takes the chaff. A full trailer drives home, is unloaded and comes back empty after about 45 s (meanwhile the chaff disappears as before). The wagon is moved by the mod, outside the physics – it cannot crash into anything.
+- Needed among the neighbour's machines: a free tractor and a trailer that takes chaff (add it in the fleet editor as an "other machine"). Without them the chaff simply disappears.
+- New admin setting "Wagon beside the forage harvester" (ESC → Settings → Good Neighbours), on by default.
+
+### 1.9.12.1 — 2026-10-12
+- A neighbour's forage harvester works without a trailer beside it: the game's helper no longer waits for a wagon under the pipe, the chaff goes into the harvester's internal buffer, which the mod empties every second (as if a wagon took it). Only the neighbours' machines – players' forage harvesters work as in the game.
+
+### 1.9.12.0 — 2026-10-12
+- **New place size: HEADER** (Shift+Q with the neighbour tool) – the combine's header stands on its own wide, short place. In older savegames the header keeps its "vehicle + attachment" place until you set a HEADER place.
+- **Fleet editor – other machines:** "+ Add another machine" at the bottom of a neighbour's list; any shop machine (mods too) with a category switch (forage harvesters, potato and beet harvesters, corn headers …), "Remove" takes it away. Each gets its own place (size by the kind of machine).
+- **Harvest by crop:** the neighbour picks the machine for the field himself – a self-propelled potato / beet harvester, a combine or forage harvester with a header for that crop (e.g. maize), or a tractor with a trailed harvester. Fields without a fitting machine are not started. The tanks of all these machines are emptied at 60 % and to zero after work.
+
+### 1.9.11.5 — 2026-10-12
+- After harvesting the neighbour's combine is emptied to zero, the pipe comes in and it folds; the header is folded, uncoupled and put on its own place ("vehicle + attachment"); the combine stands on its place alone.
+
+### 1.9.11.4 — 2026-10-12
+- Fleet editor: all of a neighbour's tractors together at the top ("Tractor 1", "Tractor 2" …), then combine, car, implements and the rest; shorter labels so the machine name fits.
+
+### 1.9.11.3 — 2026-10-12
+- The fleet editor really opens again (the window did not tell the game it was closed).
+- Shift+M in the construction menu opens the editor without picking a tool; the neighbours on the left, next to it the machines of the chosen one, the main panel to change them.
+
+### 1.9.11.2 — 2026-10-12
+- The fleet editor opens again after closing it (Shift+M worked only once); the construction menu keys come back after the window closes.
+
+### 1.9.11.1 — 2026-10-12
+- Fleet editor: shop pictures of the machines – the current one, the new one and every machine in the list.
+
+### 1.9.11.0 — 2026-10-12
+- **Machine preview while placing:** with a neighbour tool (sizes vehicle / vehicle + attachment / oversize) the model of the machine that will get this place stands at the cursor, in a glowing frame (green – free, red – overlaps another place).
+- **Fleet editor (Shift+M, admin)** in the construction menu with a neighbour tool: his machines (tractor, combine, car, implements, extras), the current and the new machine with picture, brand, model, category and price, below the shop machines of the same category (mods too), 8 per page. "Apply" – the old machine goes, the new one stands on its place; "Back to default" – the mod's machine again. Saved in the savegame.
+- Mayor, trader and dealer: no place is kept for a tractor they don't have any more – their vehicles get the right places.
+
+### 1.9.10.13 — 2026-10-12
+- **Shift+G (admin)** in the construction menu: all neighbours bring, move or take away their machines for the set places at once – no waiting for their next activity. Neighbours at work follow when they are back.
+- The key for setting places automatically is gone (the first set-up after loading a new game works as before).
 
 ### 1.9.10.12 — 2026-10-10
 - Changed contract amounts – the neighbours' new price list (€/ha, times the economic difficulty: easy ×1.2, normal ×1.1, hard ×1.0):

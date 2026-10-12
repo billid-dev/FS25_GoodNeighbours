@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Farming%20Simulator-25-4c9a2a" alt="Farming Simulator 25">
   <img src="https://img.shields.io/badge/multiplayer-supported-2b7bb9" alt="multiplayer supported">
-  <a href="https://github.com/billid-dev/FS25_GoodNeighbours/releases/latest"><img src="https://img.shields.io/badge/version-1.9.10.12-e08a1e" alt="version 1.9.10.12"></a>
+  <a href="https://github.com/billid-dev/FS25_GoodNeighbours/releases/latest"><img src="https://img.shields.io/badge/version-1.9.17.0-e08a1e" alt="version 1.9.17.0"></a>
   <img src="https://img.shields.io/badge/status-beta-c0392b" alt="beta">
   <a href="https://discord.gg/gxwC8vUUch"><img src="https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white" alt="discord join"></a>
 </p>
@@ -61,7 +61,7 @@
 
 **Konfiguracja mapy**
 - Sam ustawia się na każdej mapie (domy, miejsca maszyn, silosy, miejsca odwiedzin); presety dla trzech map podstawowych.
-- Własna kategoria w menu budowania: rozmiary miejsc (**Shift+Q**), usuwanie wszystkich danego rodzaju (**Shift+Del**), uzupełnianie brakujących (**Shift+G**), panel „jest / potrzeba”, znacznik **„Moja farma”**.
+- Własna kategoria w menu budowania: rozmiary miejsc (**Shift+Q**), usuwanie wszystkich danego rodzaju (**Shift+Del**), natychmiastowe rozstawienie maszyn na postawionych miejscach (**Shift+G**, admin), edytor maszyn każdego sąsiada ze sklepu (**Shift+M**, admin), podgląd maszyny przy stawianiu miejsca, panel „jest / potrzeba”, znacznik **„Moja farma”**.
 - Ustawienia admina w **ESC → Ustawienia → Dobrzy Sąsiedzi**.
 
 ### Instalacja
@@ -86,7 +86,7 @@ Otwórz [Issue](../../issues) i dołącz fragment `log.txt` (linie z `[GoodNeigh
 - **Contracts**: pay per hectare from the neighbours' price list plus a relationship bonus; use your own machines or borrow the neighbour's (pick-up, fields and return on the map), supplies at his silo, his gates open during the contract.
 - **Neighbours work themselves** with their own fixed fleets, only on their own fields, until 22:00; machines are folded and parked on their places after work.
 - **Living world**: day plans, visits to your yard, outfits, portraits, map icons, a silo on every farmer's yard.
-- **Works on any map**: automatic set-up plus presets for the three base maps; own construction category with place sizes (Shift+Q), remove all (Shift+Del), fill missing (Shift+G) and a "My farm" place.
+- **Works on any map**: automatic set-up plus presets for the three base maps; own construction category with place sizes (Shift+Q), remove all (Shift+Del), machines to the set places at once (Shift+G, admin), fleet editor with shop machines for every neighbour (Shift+M, admin), machine preview while placing and a "My farm" place.
 - **Made for dedicated servers**: relationships, calls and messages per farm; admin settings in ESC → Settings.
 
 ### Installation

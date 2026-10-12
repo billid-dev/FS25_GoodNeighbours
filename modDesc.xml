@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="113">
     <author>billiD</author>
-    <version>1.9.10.12</version>
+    <version>1.9.17.0</version>
     <title>
         <en>Good Neighbours</en>
         <de>Gute Nachbarn</de>
@@ -23,7 +23,74 @@ Features:
 - Made for dedicated servers: per-farm relationships and calls, admin settings in ESC - Settings
 - Help pages in the game help
 
-Changelog 1.9.10.12:
+Changelog 1.9.17.0:
+- Chaff wagon on a dedicated server: the server sends the emptied trailer's fill with the unload message and the players' games set it (the game's own sync did not always arrive)
+
+Changelog 1.9.16.9:
+- Neighbours no longer offer (or do) fertilizing, spraying or weeding on a crop that is already ripe, nor harvesting on an unripe one
+- Such a contract that fails because the crop became ripe costs no relationship points
+
+Changelog 1.9.16.8:
+- Chaff wagon: the trailer is emptied the game's own way (all fill units), checked and logged with its fill and capacity
+
+Changelog 1.9.16.7:
+- Chaff wagon on a dedicated server: the emptied trailer comes back empty for the players too (fill level sent and shown again)
+
+Changelog 1.9.16.6:
+- Phone contracts the game cannot start right now (e.g. while it updates the fields at the start of a day) are tried again a few seconds later
+- The message about contracts that did not start says why (e.g. the game's contract limit and its number)
+
+Changelog 1.9.16.5:
+- Harvest test: when the game offers no harvest contract, the neighbour harvests one of his own ripe fields (maize first)
+
+Changelog 1.9.16.4:
+- Fleet editor on a dedicated server: machines from mods can be picked (mod paths are sent the game's way, not as the player's PC path)
+- A machine that just came is replaced a few seconds later (quick clicks in the editor broke Courseplay on the players' PCs)
+
+Changelog 1.9.16.3:
+- Chaff wagon: only the crop being harvested counts as standing (a meadow beside the field no longer sends the wagon into the crop)
+
+Changelog 1.9.16.2:
+- Chaff wagon: the gap is measured from the unfolded header (its work areas), the tractor no longer drives under the header
+
+Changelog 1.9.16.1:
+- Chaff wagon: the pipe of the forage harvester is put out and turned to the trailer after the game's own update; the chaff stream is kept on
+
+Changelog 1.9.16.0:
+- Chaff wagon: drives on the harvested side, the trailer beside the forage harvester and the tractor ahead beside the header; the pipe turns to the trailer and the chaff stream shows
+- The forage harvester waits while the wagon is away unloading
+
+Changelog 1.9.15.2:
+- Shift+G (spawn all machines now) works again in the construction menu, also when the game does not deliver the key
+
+Changelog 1.9.15.1:
+- Wagon beside the forage harvester: drives next to it on the pipe side with a gap (no longer inside the chopper or its header), the tarp opens while it takes chaff
+
+Changelog 1.9.15.0:
+- Fleet editor (Shift+M): pick the silo model for each farmer; it is built again on his silo place
+- The picked silo shows at the cursor while you set his silo place
+
+Changelog 1.9.14.6:
+- Harvest: a header is only paired with a harvester that can carry it (no more combine + maize header for a forage harvester)
+
+Changelog 1.9.14.5:
+- Shift+Q (place size) and Shift+Del work again in the construction menu, also when the game does not deliver the key
+
+Changelog 1.9.14.4:
+- Test button in the fleet editor (Shift+M, admin): the selected neighbour goes out to harvest now (maize first) with the machines he has, also after 22:00; the result shows on screen
+
+Changelog 1.9.14.3:
+- Machines without a neighbour (thrown to the shop by the game) are taken away; machines are uncoupled before they are moved
+- Material for phone contracts by field size from the game's own use per hectare (+25 % seeds, +50 % sprays); the neighbour brings more when it runs low
+- Contracts from calls start again after 10:00 (the 10 hour deadline was computed wrong)
+- Single player: the neighbours work their fields too (no second farm needed)
+- A neighbour's wagon (tractor + chaff trailer) drives beside his forage harvester and takes the chaff (setting, on by default)
+- New place size HEADER: the header of the combine has its own place
+- Fleet editor: other machines (forage harvester, potato / beet harvester, corn header ...) - they let the neighbour harvest these crops
+- After harvesting the combine is emptied, folded, the header comes off and goes to its own place
+- Placing a machine place shows the machine that will stand there, with a glowing frame
+- Fleet editor (Shift+M, admin): pick every machine of a neighbour from the shop, with picture, brand, model and price
+- Shift+G (admin): all machines to the set places at once; the key for setting places automatically is gone
 - New contract prices per hectare (the neighbours' own price list)
 - Mayor, trader and dealer: their vehicle places can be set with the tool (Shift+Q)
 - Mod maps: the places are remembered by the mod and used for every new game on that map
@@ -77,7 +144,74 @@ Funktionen:
 - Für dedizierte Server: Beziehungen und Anrufe pro Hof, Admin-Einstellungen unter ESC - Einstellungen
 - Hilfeseiten in der Spielhilfe
 
-Changelog 1.9.10.12:
+Changelog 1.9.17.0:
+- Häckselwagen auf dem dedizierten Server: der Server sendet den Füllstand des geleerten Anhängers mit der Ablade-Nachricht, die Spiele der Spieler übernehmen ihn
+
+Changelog 1.9.16.9:
+- Nachbarn bieten (oder machen) kein Düngen, Spritzen oder Hacken mehr auf reifer Frucht und keine Ernte auf unreifer
+- Scheitert so ein Auftrag, weil die Frucht reif wurde, kostet das keine Beziehungspunkte
+
+Changelog 1.9.16.8:
+- Häckselwagen: der Anhänger wird auf die Art des Spiels geleert (alle Füllbehälter), geprüft und mit Füllstand und Kapazität geloggt
+
+Changelog 1.9.16.7:
+- Häckselwagen auf dem dedizierten Server: der geleerte Anhänger kommt auch bei den Spielern leer zurück (Füllstand wird gesendet und neu angezeigt)
+
+Changelog 1.9.16.6:
+- Telefonaufträge, die das Spiel gerade nicht starten kann (z. B. während es zu Tagesbeginn die Felder aktualisiert), werden einige Sekunden später erneut versucht
+- Die Meldung über nicht gestartete Aufträge nennt den Grund (z. B. das Auftragslimit des Spiels und seine Zahl)
+
+Changelog 1.9.16.5:
+- Erntetest: bietet das Spiel keinen Erntevertrag an, erntet der Nachbar eines seiner eigenen reifen Felder (Mais zuerst)
+
+Changelog 1.9.16.4:
+- Maschineneditor auf dem dedizierten Server: Maschinen aus Mods sind wählbar (Mod-Pfade werden wie vom Spiel übertragen, nicht als Pfad des Spieler-PCs)
+- Eine gerade gekommene Maschine wird erst einige Sekunden später ersetzt (schnelle Klicks im Editor brachen Courseplay auf den Spieler-PCs)
+
+Changelog 1.9.16.3:
+- Häckselwagen: nur die gerade geerntete Frucht zählt als stehend (eine Wiese neben dem Feld schickt den Wagen nicht mehr in den Bestand)
+
+Changelog 1.9.16.2:
+- Häckselwagen: der Abstand wird vom ausgeklappten Vorsatz gemessen, der Traktor fährt nicht mehr unter dem Vorsatz
+
+Changelog 1.9.16.1:
+- Häckselwagen: das Auswurfrohr wird ausgeklappt und nach dem Spiel-Update zum Anhänger gedreht; der Häckselstrahl bleibt an
+
+Changelog 1.9.16.0:
+- Häckselwagen: fährt auf der abgeernteten Seite, der Anhänger neben dem Häcksler, der Traktor vorne neben dem Vorsatz; das Rohr dreht sich zum Anhänger, der Häckselstrahl ist zu sehen
+- Der Häcksler wartet, während der Wagen abladen fährt
+
+Changelog 1.9.15.2:
+- Shift+G (alle Maschinen jetzt aufstellen) funktioniert wieder im Baumenü, auch wenn das Spiel die Taste nicht weitergibt
+
+Changelog 1.9.15.1:
+- Wagen neben dem Häcksler: fährt mit Abstand auf der Seite des Auswurfrohrs (nicht mehr im Häcksler oder Vorsatz), die Plane öffnet sich beim Befüllen
+
+Changelog 1.9.15.0:
+- Maschineneditor (Shift+M): Silomodell für jeden Landwirt wählbar; es wird auf seinem Siloplatz neu gebaut
+- Das gewählte Silo ist beim Setzen des Siloplatzes am Mauszeiger zu sehen
+
+Changelog 1.9.14.6:
+- Ernte: ein Schneidwerk wird nur mit einem Häcksler/Drescher gepaart, der es tragen kann (kein Mähdrescher mehr mit Maisgebiss eines Häckslers)
+
+Changelog 1.9.14.5:
+- Shift+Q (Platzgröße) und Shift+Entf funktionieren wieder im Baumenü, auch wenn das Spiel die Taste nicht weitergibt
+
+Changelog 1.9.14.4:
+- Test-Taste im Maschineneditor (Shift+M, Admin): der gewählte Nachbar fährt sofort zur Ernte (Mais zuerst) mit seinen Maschinen, auch nach 22:00; das Ergebnis erscheint auf dem Bildschirm
+
+Changelog 1.9.14.3:
+- Maschinen ohne Nachbarn (vom Spiel zum Shop gesetzt) werden entfernt; Maschinen werden vor dem Versetzen abgekuppelt
+- Material für Aufträge nach Feldgröße aus dem Verbrauch des Spiels pro Hektar (+25 % Saatgut, +50 % Spritzmittel); der Nachbar bringt nach, wenn es knapp wird
+- Aufträge aus Anrufen starten auch nach 10:00 wieder (die 10-Stunden-Frist wurde falsch berechnet)
+- Einzelspieler: die Nachbarn bearbeiten ihre Felder auch (kein zweiter Hof nötig)
+- Ein Wagen des Nachbarn (Traktor + Häckselwagen) fährt neben seinem Häcksler und nimmt das Häckselgut (Einstellung, an)
+- Neue Platzgröße SCHNEIDWERK: das Schneidwerk hat seinen eigenen Platz
+- Flotten-Editor: weitere Maschinen (Häcksler, Kartoffel- / Rübenroder, Maisgebiss ...) - damit erntet der Nachbar diese Früchte
+- Nach der Ernte wird der Mähdrescher geleert und eingeklappt, das Schneidwerk kommt ab und auf seinen Platz
+- Beim Setzen eines Maschinenplatzes ist die Maschine zu sehen, die dort stehen wird
+- Flotten-Editor (Umschalt+M, Admin): jede Maschine eines Nachbarn aus dem Shop wählen, mit Bild, Marke, Modell und Preis
+- Umschalt+G (Admin): alle Maschinen sofort auf die gesetzten Plätze; die Taste für automatische Plätze entfällt
 - Neue Auftragspreise pro Hektar (eigene Preisliste der Nachbarn)
 - Bürgermeister, Händlerin und Händler: Fahrzeugplätze mit dem Werkzeug setzbar (Shift+Q)
 - Mod-Karten: die Plätze werden gespeichert und in jedem neuen Spiel auf der Karte genutzt
@@ -131,7 +265,74 @@ Funkcje:
 - Zrobione pod serwery dedykowane: relacje i telefony dla każdej farmy, ustawienia admina w ESC - Ustawienia
 - Strony pomocy w pomocy gry
 
-Changelog 1.9.10.12:
+Changelog 1.9.17.0:
+- Przyczepa do sieczki na serwerze dedykowanym: serwer wysyła stan rozładowanej przyczepy razem z komunikatem o rozładunku, a gra gracza go ustawia (zwykła synchronizacja gry nie zawsze docierała)
+
+Changelog 1.9.16.9:
+- Sąsiedzi nie oferują (ani nie robią) nawożenia, oprysku ani pielenia na dojrzałej uprawie, ani zbioru niedojrzałej
+- Taki kontrakt, który nie wyszedł, bo uprawa dojrzała, nie odbiera punktów relacji
+
+Changelog 1.9.16.8:
+- Przyczepa do sieczki: opróżniana sposobem gry (wszystkie zbiorniki), sprawdzana i zapisywana w logu z poziomem i pojemnością
+
+Changelog 1.9.16.7:
+- Przyczepa do sieczki na serwerze dedykowanym: rozładowana przyczepa wraca pusta także u graczy (stan napełnienia jest wysyłany i odświeżany)
+
+Changelog 1.9.16.6:
+- Kontrakty z telefonu, których gra nie może teraz rozpocząć (np. gdy na początku dnia aktualizuje pola), są ponawiane po kilku sekundach
+- Komunikat o nierozpoczętych kontraktach podaje powód (np. limit kontraktów gry i jego wartość)
+
+Changelog 1.9.16.5:
+- Test żniw: gdy gra nie wystawiła kontraktu żniw, sąsiad zbiera jedno ze swoich dojrzałych pól (najpierw kukurydzę)
+
+Changelog 1.9.16.4:
+- Edytor maszyn na serwerze dedykowanym: można wybierać maszyny z modów (ścieżki modów są przesyłane tak jak robi to gra, a nie jako ścieżka z PC gracza)
+- Maszyna, która dopiero przyjechała, jest wymieniana dopiero po kilku sekundach (szybkie klikanie w edytorze psuło Courseplay u graczy)
+
+Changelog 1.9.16.3:
+- Przyczepa do sieczki: za stojący łan liczy się tylko zbierana uprawa (łąka obok pola nie wysyła już przyczepy w kukurydzę)
+
+Changelog 1.9.16.2:
+- Przyczepa do sieczki: odstęp liczony od rozłożonego hedera, ciągnik nie jedzie już pod hederem
+
+Changelog 1.9.16.1:
+- Przyczepa do sieczki: rura sieczkarni jest rozkładana i obracana do przyczepy po aktualizacji gry; strumień sieczki jest podtrzymywany
+
+Changelog 1.9.16.0:
+- Przyczepa do sieczki: jedzie po skoszonej stronie, przyczepa obok sieczkarni, ciągnik z przodu obok hedera; rura obraca się do przyczepy i widać lecącą sieczkę
+- Sieczkarnia czeka, gdy przyczepa odjeżdża się rozładować
+
+Changelog 1.9.15.2:
+- Shift+G (natychmiastowy spawn maszyn) znów działa w menu budowania, także gdy gra nie przekazuje klawisza
+
+Changelog 1.9.15.1:
+- Przyczepa przy sieczkarni: jedzie obok, po stronie rury, z odstępem (już nie wchodzi w sieczkarnię ani heder), plandeka otwiera się na czas zbierania sieczki
+
+Changelog 1.9.15.0:
+- Edytor maszyn (Shift+M): wybór modelu silosu dla każdego rolnika; buduje się od nowa na jego miejscu na silos
+- Wybrany silos widać przy kursorze podczas stawiania miejsca na silos
+
+Changelog 1.9.14.6:
+- Żniwa: heder jest łączony tylko z maszyną, która może go założyć (koniec z kombajnem z hederem od sieczkarni)
+
+Changelog 1.9.14.5:
+- Shift+Q (rozmiar miejsca) i Shift+Del znów działają w menu budowania, także gdy gra nie przekazuje klawisza
+
+Changelog 1.9.14.4:
+- Przycisk testu w edytorze maszyn (Shift+M, admin): wybrany sąsiad od razu jedzie na żniwa (najpierw kukurydza) swoimi maszynami, także po 22:00; wynik pokazuje się na ekranie
+
+Changelog 1.9.14.3:
+- Maszyny bez sąsiada (przeniesione przez grę do sklepu) są zabierane; maszyny są odczepiane przed przestawieniem
+- Materiały do kontraktów według wielkości pola i zużycia z danych gry na hektar (+25 % nasiona, +50 % nawozy i środki); gdy się kończą, sąsiad dowozi
+- Kontrakty z telefonu znów startują po 10:00 (źle liczony termin 10 godzin)
+- Gra jednoosobowa: sąsiedzi też pracują na polach (bez drugiej farmy)
+- Wóz sąsiada (ciągnik + przyczepa na sieczkę) jedzie obok jego sieczkarni i odbiera sieczkę (ustawienie, domyślnie włączone)
+- Nowy rozmiar miejsca HEDER: heder kombajnu ma własne miejsce
+- Edytor maszyn: inne maszyny (sieczkarnia, kombajn do ziemniaków / buraków, heder do kukurydzy ...) – dzięki nim sąsiad zbiera te uprawy
+- Po żniwach kombajn opróżnia się do zera i składa, heder jest odczepiany i odstawiany na swoje miejsce
+- Przy stawianiu miejsca widać maszynę, która tam stanie, w świecącej ramce
+- Edytor maszyn (Shift+M, admin): wybór każdej maszyny sąsiada ze sklepu – ze zdjęciem, marką, modelem i ceną
+- Shift+G (admin): wszystkie maszyny od razu na postawione miejsca; usunięty klawisz automatycznego rozstawiania miejsc
 - Nowe stawki za hektar w kontraktach (własny cennik sąsiadów)
 - Burmistrz, handlarka i dealer: miejsca ich pojazdów można ustawić narzędziem (Shift+Q)
 - Mapy z modów: mod sam zapamiętuje miejsca i używa ich w każdej nowej grze na tej mapie
@@ -193,6 +394,7 @@ Changelog 1.9.10.12:
         <sourceFile filename="scripts/GNSilo.lua" />
         <sourceFile filename="scripts/GNSupply.lua" />
         <sourceFile filename="scripts/GNTalk.lua"/>
+        <sourceFile filename="scripts/GNFleet.lua"/>
         <sourceFile filename="scripts/GNMain.lua"/>
     </extraSourceFiles>
 
@@ -232,7 +434,8 @@ Changelog 1.9.10.12:
         <action name="GN_PHONE"/>
         <action name="GN_PLACE_SIZE"/>
         <action name="GN_PLACE_BULK_REMOVE"/>
-        <action name="GN_PLACE_AUTO"/>
+        <action name="GN_SPAWN_NOW"/>
+        <action name="GN_FLEET_EDIT"/>
     </actions>
     <inputBinding>
         <actionBinding action="GN_PHONE">
@@ -241,8 +444,11 @@ Changelog 1.9.10.12:
         <actionBinding action="GN_PLACE_SIZE">
             <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_q"/>
         </actionBinding>
-        <actionBinding action="GN_PLACE_AUTO">
+        <actionBinding action="GN_SPAWN_NOW">
             <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_g"/>
+        </actionBinding>
+        <actionBinding action="GN_FLEET_EDIT">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_m"/>
         </actionBinding>
         <actionBinding action="GN_PLACE_BULK_REMOVE">
             <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_delete"/>
