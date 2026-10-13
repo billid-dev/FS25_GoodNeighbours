@@ -7,37 +7,18 @@
 ## Polski
 
 ### 1.0.0.0 — 2026-10-13 — wydanie oficjalne (ModHub)
-- Pierwsza oficjalna wersja, zawiera wszystko z wersji testowych do 1.11.0.1 włącznie
-- Rozbudowany opis moda: multiplayer, znaczenie odpowiedzi w rozmowach, korzyści z relacji
-- Wersje 0.x–1.11.0.1 poniżej to wersje testowe sprzed wydania
-
-### 1.11.0.1 — 2026-10-13
-- Tapety telefonu przemianowane, z jednej usunięte logo marki (zasady ModHub)
-
-### 1.11.0.0 — 2026-10-12
-- Korzyści z relacji z trojgiem mieszkańców (od poziomu 3 rosną z każdym poziomem, pełne na poziomie 10):
-- Burmistrz Richard Hale: ziemia do 10% taniej
-- Frank Weber: naprawy i lakierowanie do 20% taniej
-- Monika Zielinska: plony i produkty sprzedajesz do 5% drożej
-- Na poziomie 1 mała kara (ziemia i naprawy +5%, sprzedaż -3%), na poziomie 2 połowa tej kary
-- Komunikat pokazuje, ile zaoszczędziłeś lub straciłeś; kontakt w telefonie pokazuje obecną korzyść i następny poziom
+Pierwsze oficjalne wydanie. Nowości od 1.9.17.0:
+- **Korzyści z relacji** (rosną od poziomu 3, pełne na poziomie 10): burmistrz Richard Hale – ziemia do 10% taniej, Frank Weber – naprawy i lakierowanie do 20% taniej, Monika Zielinska – plony i produkty sprzedajesz do 5% drożej
+- Na poziomie 1 mała kara (ziemia i naprawy +5%, sprzedaż -3%), na poziomie 2 połowa; komunikat pokazuje, ile zaoszczędziłeś lub straciłeś, a kontakt w telefonie – obecną korzyść i następny poziom
 - Odsprzedaż ziemi zwraca cenę z tą samą zniżką, więc kupno i sprzedaż nie daje zarobku
-
-### 1.10.4.0 — 2026-10-12
-- 56 nowych, dłuższych rozmów (po 8 na sąsiada) z 3–5 odpowiedziami, po angielsku, niemiecku i polsku
-- Punkty za rozmowę liczone ze wszystkich odpowiedzi: od -max (same złe) przez 0 do +max (same dobre); jedna odpowiedź to do 40, każda kolejna +10, maks. 80
-- Dłuższe rozmowy są wybierane częściej
-
-### 1.10.3.0 — 2026-10-12
-- Powrót do wersji 1.9.17.2 – edytor sąsiadów na razie wycofany (wróci w przyszłości).
-- Rozmowy twarzą w twarz: otwarcie rozmowy i natychmiastowe wyjście dawało +40 punktów relacji. Teraz liczy się tylko rozmowa doprowadzona do końca z co najmniej jedną odpowiedzią; przerwana rozmowa nie daje punktów i nie zużywa dziennej rozmowy.
-- Opcję „przyczepa przy sieczkarni” w ustawieniach znów da się przełączyć.
-
-### 1.9.17.2 — 2026-10-12
-- Ikony sklepu (domy i miejsca sąsiadów) zapisane jako DXT5 – koniec z ostrzeżeniami „BC7 has undefined channel count” w logu.
-
-### 1.9.17.1 — 2026-10-12
-- Strumień sieczki używa aktualnej funkcji efektów gry – koniec z setkami błędów „EffectManager:setFillType is deprecated” w logu gracza; efekt jest włączany ponownie najwyżej raz na sekundę.
+- **56 nowych, dłuższych rozmów** (po 8 na sąsiada) z 3–5 odpowiedziami; dłuższe rozmowy są wybierane częściej
+- Punkty za rozmowę liczone ze wszystkich odpowiedzi: od -80 (same złe) przez 0 do +80 (same dobre)
+- Poprawka: samo otwarcie rozmowy i wyjście dawało +40 pkt relacji – teraz liczy się tylko rozmowa doprowadzona do końca z co najmniej jedną odpowiedzią
+- Poprawka: opcję „przyczepa przy sieczkarni” w ustawieniach znów da się przełączyć
+- Poprawka: koniec z setkami błędów „EffectManager:setFillType is deprecated” w logu (strumień sieczki)
+- Ikony sklepu zapisane jako DXT5 (koniec z ostrzeżeniami „BC7 has undefined channel count”)
+- Tapety telefonu przemianowane, z jednej usunięte logo marki (zasady ModHub)
+- Rozbudowany opis moda
 
 ### 1.9.17.0 — 2026-10-12
 - Przyczepa do sieczki na serwerze dedykowanym: serwer wysyła stan rozładowanej przyczepy razem z komunikatem o rozładunku i powrocie, a gra gracza ustawia go u siebie (zwykła synchronizacja gry nie zawsze docierała i przyczepa u gracza wyglądała na pełną).
@@ -406,37 +387,18 @@ Poprawki z GIANTS TestRunnera:
 ## English
 
 ### 1.0.0.0 — 2026-10-13 — official release (ModHub)
-- First official version, includes everything from the test versions up to 1.11.0.1
-- Extended mod description: multiplayer, why your answers in talks matter, relationship perks
-- Versions up to 1.11.0.1 below are pre-release test versions
-
-### 1.11.0.1 — 2026-10-13
+First official release. New since 1.9.17.0:
+- **Relationship perks** (growing from level 3, full at level 10): mayor Richard Hale – farmland up to 10% cheaper, Frank Weber – repairs and repaints up to 20% cheaper, Monika Zielinska – crops and products sell for up to 5% more
+- At level 1 a small penalty (land and repairs +5%, sales -3%), at level 2 half of it; a message shows how much you saved or lost, and the phone contact shows the current perk and the next level
+- Selling land back returns the price with the same discount, so buying and selling makes no money
+- **56 new longer talks** (8 per neighbour) with 3 to 5 answers each; longer talks are picked more often
+- Talk points come from all answers: from -80 (all bad) through 0 to +80 (all good)
+- Fix: opening a talk and leaving at once gave +40 relationship points – now only a talk held to the end with at least one answer counts
+- Fix: the "chopper wagon" option in the settings can be switched again
+- Fix: no more hundreds of "EffectManager:setFillType is deprecated" errors in the log (chaff stream)
+- Shop icons saved as DXT5 (no more "BC7 has undefined channel count" warnings)
 - Phone wallpapers renamed and the brand logo removed from one of them (ModHub rules)
-
-### 1.11.0.0 — 2026-10-12
-- Relationship perks with the three townsfolk (bigger with every level from 3, full at level 10):
-- Mayor Richard Hale: farmland up to 10% cheaper
-- Frank Weber: repairs and repaints up to 20% cheaper
-- Monika Zielinska: crops and products sold for up to 5% more
-- At level 1 a small penalty (land and repairs +5%, sales -3%), at level 2 half of it
-- A message shows how much you saved or lost; the phone contact shows the current perk and the next level
-- Selling land back gives back the price with the same discount, so buying and selling makes no money
-
-### 1.10.4.0 — 2026-10-12
-- 56 new longer talks (8 per neighbour) with 3 to 5 answers each, in English, German and Polish
-- Talk points come from all answers: from -max (all bad) through 0 to +max (all good); one answer is worth up to 40, every extra answer +10, up to 80
-- Longer talks are picked more often
-
-### 1.10.3.0 — 2026-10-12
-- Back to 1.9.17.2 – the neighbour editor is withdrawn for now (it comes back later).
-- Face-to-face talks: opening a talk and leaving at once gave +40 relationship points. Now only a talk held to the end with at least one answer counts; a talk left early gives nothing and does not use up the day's talk.
-- The "chopper wagon" option in the settings can be switched again.
-
-### 1.9.17.2 — 2026-10-12
-- Shop icons (neighbours' homes and places) saved as DXT5 – no more "BC7 has undefined channel count" warnings in the log.
-
-### 1.9.17.1 — 2026-10-12
-- The chaff stream uses the game's current effect function – no more hundreds of "EffectManager:setFillType is deprecated" errors in the player's log; the effect is switched on again at most once a second.
+- Extended mod description
 
 ### 1.9.17.0 — 2026-10-12
 - Chaff wagon on a dedicated server: the server sends the emptied trailer's fill with the unload and return messages and the player's game sets it (the game's own sync did not always arrive and the trailer looked full for the player).
