@@ -12,8 +12,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Farming%20Simulator-25-4c9a2a" alt="Farming Simulator 25">
   <img src="https://img.shields.io/badge/multiplayer-supported-2b7bb9" alt="multiplayer supported">
-  <a href="https://github.com/billid-dev/FS25_GoodNeighbours/releases/latest"><img src="https://img.shields.io/badge/version-1.9.17.0-e08a1e" alt="version 1.9.17.0"></a>
-  <img src="https://img.shields.io/badge/status-beta-c0392b" alt="beta">
+  <a href="https://github.com/billid-dev/FS25_GoodNeighbours/releases/latest"><img src="https://img.shields.io/badge/version-1.0.0.0-e08a1e" alt="version 1.0.0.0"></a>
+  <img src="https://img.shields.io/badge/status-stable-2e8b57" alt="stable">
   <a href="https://discord.gg/gxwC8vUUch"><img src="https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white" alt="discord join"></a>
 </p>
 
@@ -35,8 +35,8 @@
 
 **Rozmowy**
 - Podejdź do sąsiada i naciśnij **Shift+N** – „Rozpocznij rozmowę”.
-- Ponad **230 rozmów** po polsku, angielsku i niemiecku, z wyborem odpowiedzi, zależnych od miejsca, zajęcia, pory roku i poziomu znajomości.
-- Dobre odpowiedzi dodają **40–80 pkt relacji**, złe odejmują 40–80 (raz dziennie u każdego sąsiada) – warto czytać, co się wybiera.
+- Ponad **280 rozmów** (wiele z 3–5 odpowiedziami) po polsku, angielsku i niemiecku, z wyborem odpowiedzi, zależnych od miejsca, zajęcia, pory roku i poziomu znajomości.
+- Każda odpowiedź się liczy: wynik rozmowy to od -80 do +80 pkt relacji (raz dziennie u każdego sąsiada) – warto czytać, co się wybiera.
 
 **Telefon (Shift+N)**
 - Wiadomości, kontakty z planem dnia, telefony z prawdziwymi kontraktami na polach sąsiadów.
@@ -46,6 +46,7 @@
 
 **Kontrakty sąsiadów**
 - Zapłata za hektar według cennika sąsiadów (rodzaj pracy, uprawa, poziom trudności) + premia za relację.
+- Relacja z burmistrzem daje tańszą ziemię (do 10%), z Frankiem tańsze naprawy (do 20%), z Moniką lepsze ceny za plony (do 5%); na początku znajomości mała kara.
 - Wykonujesz własnymi maszynami albo **maszyną sąsiada** – odbiór, pola i zwrot zaznaczone na mapie; kontrakt zalicza się po odstawieniu maszyny na miejsce.
 - Nasiona, nawóz, herbicyd i wapno czekają przy silosie sąsiada; jego bramy otwierasz w czasie kontraktu.
 
@@ -81,7 +82,8 @@ Otwórz [Issue](../../issues) i dołącz fragment `log.txt` (linie z `[GoodNeigh
 **Good Neighbours** brings the village next door to life. Seven neighbours live on your map – four farmers who work the NPC fields, the mayor, the grain trader and the machinery dealer – each with a home, a day plan, a car, machines and a character of their own.
 
 ### Features
-- **Conversations** (Shift+N near a neighbour): 230+ conversations in EN/DE/PL with answers to choose; good answers add 40–80 relationship points, bad ones take 40–80 away (once a day per neighbour).
+- **Conversations** (Shift+N near a neighbour): 280+ conversations in EN/DE/PL, many with 3–5 answers; every answer counts, up to ±80 relationship points per talk (once a day per neighbour).
+- **Perks**: the mayor gives cheaper farmland (up to 10%), Frank cheaper repairs (up to 20%), Monika better sell prices (up to 5%); a small penalty while you are strangers.
 - **Phone** (Shift+N): messages, contacts with day plans, calls with real contracts on the neighbours' fields, calls per day in the settings, a retry after a missed call, airplane mode, mark messages as read.
 - **Contracts**: pay per hectare from the neighbours' price list plus a relationship bonus; use your own machines or borrow the neighbour's (pick-up, fields and return on the map), supplies at his silo, his gates open during the contract.
 - **Neighbours work themselves** with their own fixed fleets, only on their own fields, until 22:00; machines are folded and parked on their places after work.

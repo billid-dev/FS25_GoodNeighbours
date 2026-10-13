@@ -1,376 +1,172 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="113">
     <author>billiD</author>
-    <version>1.9.17.0</version>
+    <version>1.0.0.0</version>
     <title>
         <en>Good Neighbours</en>
         <de>Gute Nachbarn</de>
         <pl>Dobrzy Sąsiedzi</pl>
     </title>
     <description>
-        <en><![CDATA[Good Neighbours brings the village next door to life - a roleplay mod for single player and multiplayer.
+        <en><![CDATA[Good Neighbours brings the village next door to life. It is a roleplay mod for single player and multiplayer, made with dedicated servers in mind.
 
-Seven neighbours live on your map: four farmers who farm the NPC fields, the mayor, the grain trader and the machinery dealer. Each has a day plan, a car, a home and a character of his own.
+MULTIPLAYER SUPPORTED - works in single player, on hosted games and on dedicated servers. Relationships, calls and contracts are kept separately for every farm.
 
-Features:
-- Conversations: walk up to a neighbour and talk (Shift+N). Over 230 conversations with answers to choose, depending on where he is, what he is doing, the season and how well you know each other. Good answers raise the relationship, bad ones lower it (once a day per neighbour)
-- Day plans: the neighbours work, run errands, go to the shop, the filling station, the workshop, the grain trade, church or for a walk - and visit your farm yard
-- Phone (Shift+N): messages, contacts with day plans, calls with real contracts on their fields (number of calls per day in the settings), airplane mode
-- Contracts by phone paid per hectare; do them with your own machines or the neighbour's own machine (pick-up, fields and return shown on the map), seeds and fertilizer at his silo
-- Relationships per farm with a bonus on the pay
-- The neighbours work their own fields with their own tractors, implements and combines
-- Sets itself up on any map: homes, machine places, silos and visit places; admins correct them in the construction menu
-- Made for dedicated servers: per-farm relationships and calls, admin settings in ESC - Settings
-- Help pages in the game help
+Seven neighbours live on your map:
+- four farmers who work the NPC fields: Henryk, Sarah, Jonas and Teresa
+- mayor Richard Hale
+- grain trader Monika Zielinska
+- machinery dealer Frank Weber
+Each of them has a day plan, a car, a home, an outfit and a character of their own.
 
-Changelog 1.9.17.0:
-- Chaff wagon on a dedicated server: the server sends the emptied trailer's fill with the unload message and the players' games set it (the game's own sync did not always arrive)
+CONVERSATIONS - YOUR ANSWERS MATTER
+- Walk up to a neighbour and press Shift+N to talk.
+- Over 280 conversations in English, German and Polish. Many have 3 to 5 decisions in one talk.
+- What they talk about depends on where they are, what they are doing, the season and how well you know each other. Deeper, more personal stories open up as you get closer.
+- Every answer counts. Kind, honest and helpful answers raise the relationship. Rude or careless ones lower it. The result of the whole talk ranges from -80 to +80 relationship points.
+- Each neighbour counts one talk per day, so think before you answer.
 
-Changelog 1.9.16.9:
-- Neighbours no longer offer (or do) fertilizing, spraying or weeding on a crop that is already ripe, nor harvesting on an unripe one
-- Such a contract that fails because the crop became ripe costs no relationship points
+RELATIONSHIPS GIVE REAL BONUSES
+- Relationship levels 1 to 10, kept separately for every farm.
+- Farmers: a higher contract pay bonus with every level, up to +30%.
+- Mayor Richard Hale: farmland up to 10% cheaper.
+- Machinery dealer Frank Weber: repairs and repaints up to 20% cheaper.
+- Grain trader Monika Zielinska: crops and products sell for up to 5% more.
+- While you are still strangers (levels 1-2) there is a small penalty: land and repairs cost up to 5% more, and sales bring up to 3% less. From level 3 the bonuses grow with every level.
+- The phone shows what each relationship gives you now and at the next level.
 
-Changelog 1.9.16.8:
-- Chaff wagon: the trailer is emptied the game's own way (all fill units), checked and logged with its fill and capacity
+PHONE (Shift+N)
+- Messages, contacts with each neighbour's day plan and your relationship level.
+- Neighbours call you with real contracts on their own fields.
+- A missed call is tried once more; after that you get a text message.
+- Airplane mode for the whole farm. Messages are marked as read for everyone once one player answers.
+- Wallpapers, ring volume and settings for each player.
 
-Changelog 1.9.16.7:
-- Chaff wagon on a dedicated server: the emptied trailer comes back empty for the players too (fill level sent and shown again)
+CONTRACTS FROM YOUR NEIGHBOURS
+- Paid per hectare from the neighbours' price list (type of work, crop and difficulty), plus your relationship bonus.
+- Use your own machines or borrow the neighbour's. Pick-up, fields and return are shown on the map.
+- Seeds and fertilizer can be loaded at the neighbour's silo.
 
-Changelog 1.9.16.6:
-- Phone contracts the game cannot start right now (e.g. while it updates the fields at the start of a day) are tried again a few seconds later
-- The message about contracts that did not start says why (e.g. the game's contract limit and its number)
+A LIVING VILLAGE
+- Daily routines: work, errands, the shop, the filling station, the workshop, the grain trade, church, walks, and visits to your farm yard.
+- The neighbours work their own fields with their own tractors, implements and combines until 22:00. Afterwards the machines are folded and parked.
+- During chopping, a tractor with a trailer drives alongside the forage harvester, takes the chaff and goes off to unload.
+- Portraits, map icons and a silo on every farmer's yard.
 
-Changelog 1.9.16.5:
-- Harvest test: when the game offers no harvest contract, the neighbour harvests one of his own ripe fields (maize first)
+WORKS ON ANY MAP
+- Sets itself up automatically: homes, machine places, silos and places to visit.
+- Admins can adjust the places in the construction menu (Shift+Q size, Shift+Del bulk remove, Shift+G spawn now).
+- Admins can edit each farmer's fleet (Shift+M), including mod vehicles and the silo model.
+- Admin settings are under ESC - Settings: calls per day, fields, neighbour work and more.
 
-Changelog 1.9.16.4:
-- Fleet editor on a dedicated server: machines from mods can be picked (mod paths are sent the game's way, not as the player's PC path)
-- A machine that just came is replaced a few seconds later (quick clicks in the editor broke Courseplay on the players' PCs)
+Help pages are in the in-game help menu.
+]]></en>
+        <de><![CDATA[Gute Nachbarn erweckt das Dorf nebenan zum Leben. Es ist eine Rollenspiel-Mod für Einzel- und Mehrspieler, gebaut mit Blick auf dedizierte Server.
 
-Changelog 1.9.16.3:
-- Chaff wagon: only the crop being harvested counts as standing (a meadow beside the field no longer sends the wagon into the crop)
+MEHRSPIELER UNTERSTÜTZT - funktioniert im Einzelspieler, auf gehosteten Spielen und auf dedizierten Servern. Beziehungen, Anrufe und Aufträge gelten für jeden Hof getrennt.
 
-Changelog 1.9.16.2:
-- Chaff wagon: the gap is measured from the unfolded header (its work areas), the tractor no longer drives under the header
+Sieben Nachbarn leben auf deiner Karte:
+- vier Landwirte, die die NPC-Felder bewirtschaften: Henryk, Sarah, Jonas und Teresa
+- Bürgermeister Richard Hale
+- Getreidehändlerin Monika Zielinska
+- Landmaschinenhändler Frank Weber
+Jeder hat einen Tagesplan, ein Auto, ein Zuhause, ein eigenes Outfit und einen eigenen Charakter.
 
-Changelog 1.9.16.1:
-- Chaff wagon: the pipe of the forage harvester is put out and turned to the trailer after the game's own update; the chaff stream is kept on
+GESPRÄCHE - DEINE ANTWORTEN ZÄHLEN
+- Geh zu einem Nachbarn und drücke Umschalt+N, um mit ihm zu reden.
+- Über 280 Gespräche auf Deutsch, Englisch und Polnisch. Viele haben 3 bis 5 Entscheidungen in einem Gespräch.
+- Worüber ihr redet, hängt davon ab, wo der Nachbar ist, was er gerade tut, von der Jahreszeit und davon, wie gut ihr euch kennt. Je näher ihr euch kommt, desto persönlicher werden die Geschichten.
+- Jede Antwort zählt. Freundliche, ehrliche und hilfsbereite Antworten verbessern die Beziehung. Unhöfliche oder gleichgültige verschlechtern sie. Ein ganzes Gespräch bringt von -80 bis +80 Beziehungspunkte.
+- Jeder Nachbar zählt ein Gespräch pro Tag, also überleg dir deine Antworten gut.
 
-Changelog 1.9.16.0:
-- Chaff wagon: drives on the harvested side, the trailer beside the forage harvester and the tractor ahead beside the header; the pipe turns to the trailer and the chaff stream shows
-- The forage harvester waits while the wagon is away unloading
+BEZIEHUNGEN BRINGEN ECHTE VORTEILE
+- Beziehungsstufen 1 bis 10, für jeden Hof getrennt.
+- Landwirte: mit jeder Stufe mehr Bonus auf den Auftragslohn, bis zu +30%.
+- Bürgermeister Richard Hale: Ackerland bis zu 10% günstiger.
+- Landmaschinenhändler Frank Weber: Reparaturen und Lackierungen bis zu 20% günstiger.
+- Getreidehändlerin Monika Zielinska: Ernte und Produkte bringen beim Verkauf bis zu 5% mehr.
+- Solange ihr euch noch fremd seid (Stufe 1-2), gibt es einen kleinen Nachteil: Land und Reparaturen kosten bis zu 5% mehr, Verkäufe bringen bis zu 3% weniger. Ab Stufe 3 wachsen die Vorteile mit jeder Stufe.
+- Das Handy zeigt, was dir jede Beziehung jetzt und auf der nächsten Stufe bringt.
 
-Changelog 1.9.15.2:
-- Shift+G (spawn all machines now) works again in the construction menu, also when the game does not deliver the key
+HANDY (Umschalt+N)
+- Nachrichten, Kontakte mit dem Tagesplan jedes Nachbarn und deiner Beziehungsstufe.
+- Die Nachbarn rufen dich mit echten Aufträgen auf ihren eigenen Feldern an.
+- Bei einem verpassten Anruf versucht es der Nachbar noch einmal, danach schickt er eine SMS.
+- Flugmodus für den ganzen Hof. Nachrichten gelten für alle als gelesen, sobald ein Spieler antwortet.
+- Hintergründe, Klingellautstärke und Einstellungen für jeden Spieler.
 
-Changelog 1.9.15.1:
-- Wagon beside the forage harvester: drives next to it on the pipe side with a gap (no longer inside the chopper or its header), the tarp opens while it takes chaff
+AUFTRÄGE VON DEINEN NACHBARN
+- Bezahlt pro Hektar nach der Preisliste der Nachbarn (Art der Arbeit, Frucht und Schwierigkeit), plus dein Beziehungsbonus.
+- Arbeite mit eigenen Maschinen oder leih dir die des Nachbarn. Abholen, Felder und Rückgabe werden auf der Karte gezeigt.
+- Saatgut und Dünger kannst du am Silo des Nachbarn laden.
 
-Changelog 1.9.15.0:
-- Fleet editor (Shift+M): pick the silo model for each farmer; it is built again on his silo place
-- The picked silo shows at the cursor while you set his silo place
+EIN LEBENDIGES DORF
+- Tagesabläufe: Arbeit, Besorgungen, Laden, Tankstelle, Werkstatt, Getreidehandel, Kirche, Spaziergänge und Besuche auf deinem Hof.
+- Die Nachbarn bearbeiten ihre eigenen Felder bis 22:00 Uhr mit eigenen Traktoren, Geräten und Mähdreschern. Danach werden die Maschinen eingeklappt und abgestellt.
+- Beim Häckseln fährt ein Traktor mit Anhänger neben dem Feldhäcksler, nimmt das Häckselgut auf und fährt zum Abladen.
+- Porträts, Kartensymbole und ein Silo auf jedem Bauernhof.
 
-Changelog 1.9.14.6:
-- Harvest: a header is only paired with a harvester that can carry it (no more combine + maize header for a forage harvester)
+FUNKTIONIERT AUF JEDER KARTE
+- Richtet sich selbst ein: Häuser, Maschinenplätze, Silos und Ausflugsorte.
+- Admins können die Orte im Baumenü anpassen (Umschalt+Q Größe, Umschalt+Entf mehrere entfernen, Umschalt+G sofort erscheinen lassen).
+- Admins können den Fuhrpark jedes Landwirts bearbeiten (Umschalt+M), auch mit Mod-Fahrzeugen und dem Silomodell.
+- Admin-Einstellungen findest du unter ESC - Einstellungen: Anrufe pro Tag, Felder, Arbeit der Nachbarn und mehr.
 
-Changelog 1.9.14.5:
-- Shift+Q (place size) and Shift+Del work again in the construction menu, also when the game does not deliver the key
+Hilfeseiten findest du in der Spielhilfe.
+]]></de>
+        <pl><![CDATA[Dobrzy Sąsiedzi ożywiają wieś za miedzą. To mod roleplay do gry jednoosobowej i multiplayer, zrobiony z myślą o serwerach dedykowanych.
 
-Changelog 1.9.14.4:
-- Test button in the fleet editor (Shift+M, admin): the selected neighbour goes out to harvest now (maize first) with the machines he has, also after 22:00; the result shows on screen
+MULTIPLAYER OBSŁUGIWANY - działa w grze jednoosobowej, w grach hostowanych i na serwerach dedykowanych. Relacje, telefony i kontrakty są osobne dla każdej farmy.
 
-Changelog 1.9.14.3:
-- Machines without a neighbour (thrown to the shop by the game) are taken away; machines are uncoupled before they are moved
-- Material for phone contracts by field size from the game's own use per hectare (+25 % seeds, +50 % sprays); the neighbour brings more when it runs low
-- Contracts from calls start again after 10:00 (the 10 hour deadline was computed wrong)
-- Single player: the neighbours work their fields too (no second farm needed)
-- A neighbour's wagon (tractor + chaff trailer) drives beside his forage harvester and takes the chaff (setting, on by default)
-- New place size HEADER: the header of the combine has its own place
-- Fleet editor: other machines (forage harvester, potato / beet harvester, corn header ...) - they let the neighbour harvest these crops
-- After harvesting the combine is emptied, folded, the header comes off and goes to its own place
-- Placing a machine place shows the machine that will stand there, with a glowing frame
-- Fleet editor (Shift+M, admin): pick every machine of a neighbour from the shop, with picture, brand, model and price
-- Shift+G (admin): all machines to the set places at once; the key for setting places automatically is gone
-- New contract prices per hectare (the neighbours' own price list)
-- Mayor, trader and dealer: their vehicle places can be set with the tool (Shift+Q)
-- Mod maps: the places are remembered by the mod and used for every new game on that map
-- Combines really get emptied at 60 % (they stopped with a full tank before)
-- No call when the farm already has the most contracts the game allows
-- Neighbour icons on the map can be clicked: name, role, level, what he does now, photo
-- Lent machines on the map can be clicked and reset when stuck (back to the pick-up place)
-- Neighbours start working right where they appear on the field (no driving by road, combines start again)
-- Cancelled or failed contract: the neighbour takes his machine back at once, minus relationship points
-- Contracts that disappear or fail always give the lent machine and the material back
-- Material only once: pallets first, the silo only for the rest; kept in the savegame
-- More neighbour calls a day as set in the settings, airplane mode, fair pay per hectare
-- Neighbours really work their fields, fold their machines and park them on their places
-- Silo building on the silo place, gates of the neighbour's yard open during his contracts
-- Over 90 new conversations, default outfits, many fixes
-- Errors are no longer hidden, they are written to the log
-- An unfinished load never overwrites the saved neighbour data
-- Fixed: map presets (homes and machine places) and default outfits were not loaded
-- The neighbours wear their own outfits, the "dress like me" option is gone
-- Borrowed machine: one circle per field, the pickup circle sits exactly on the machine
-- Borrowed machine: the gates of the neighbour's yard open for you
-- The remove tool takes only the place under the cursor
-- Many fixes so that an error can never leave a field locked or stop loading
-- Machines follow new places when the neighbour changes his activity, machines of a removed place go at once
-- The combine's grain tank is emptied at 60 %, every machine is empty after the work
-- Material from the neighbour is yours to use: pallets belong to your farm, his silo can be loaded from
-- The neighbours' machines stay off the map also after loading a savegame
-- Calls are planned at 8:00 for the morning (until 12:00), the next ones the next day; long phone texts scroll
-- A contract from a call has to be done within 10 hours
-- A machine lent to you has its own green map icon
-- Parked machines of the neighbours are always empty
-- Borrowing is offered only when the neighbour's machine for the job stands in his yard
-- Combines fold their grain pipe before work and when parked
-- Borrowing: if the offered machine is busy, the neighbour lends another one for the job
-- At 22:00 every helper of the neighbours stops, also helpers left over from a savegame
-- Neighbours appear right on their field and start working there
-- A lent machine comes empty: load it with the material the neighbour puts out
-- The neighbour gives as much material as the game uses on the field, plus 25 %]]></en>
-        <de><![CDATA[Gute Nachbarn erweckt das Dorf nebenan zum Leben - eine Rollenspiel-Mod für Einzel- und Mehrspieler.
+Na twojej mapie mieszka siedmioro sąsiadów:
+- czterech rolników uprawiających pola NPC: Henryk, Sarah, Jonas i Teresa
+- burmistrz Richard Hale
+- handlarka zbożem Monika Zielinska
+- dealer maszyn Frank Weber
+Każdy ma swój plan dnia, samochód, dom, ubiór i własny charakter.
 
-Sieben Nachbarn leben auf deiner Karte: vier Landwirte, die die NPC-Felder bewirtschaften, der Bürgermeister, die Getreidehändlerin und der Landmaschinenhändler. Jeder hat einen Tagesplan, ein Auto, ein Zuhause und seinen eigenen Charakter.
+ROZMOWY - TWOJE ODPOWIEDZI MAJĄ ZNACZENIE
+- Podejdź do sąsiada i naciśnij Shift+N, żeby porozmawiać.
+- Ponad 280 rozmów po polsku, angielsku i niemiecku. Wiele z nich ma 3–5 decyzji w jednej rozmowie.
+- Temat rozmowy zależy od tego, gdzie sąsiad jest, co akurat robi, jaka jest pora roku i jak dobrze się znacie. Im bliżej się poznacie, tym bardziej osobiste historie usłyszysz.
+- Każda odpowiedź się liczy. Życzliwe, szczere i pomocne odpowiedzi poprawiają relację. Niegrzeczne albo obojętne ją psują. Wynik całej rozmowy to od -80 do +80 punktów relacji.
+- U każdego sąsiada liczy się jedna rozmowa dziennie, więc warto przemyśleć odpowiedzi.
 
-Funktionen:
-- Gespräche: geh zu einem Nachbarn und rede mit ihm (Umschalt+N). Über 230 Gespräche mit Antworten zur Auswahl, je nach Ort, Tätigkeit, Jahreszeit und wie gut ihr euch kennt. Gute Antworten verbessern die Beziehung, schlechte verschlechtern sie (einmal am Tag pro Nachbar)
-- Tagespläne: die Nachbarn arbeiten, erledigen Besorgungen, fahren zum Laden, zur Tankstelle, in die Werkstatt, zum Getreidehandel, in die Kirche oder spazieren - und besuchen deinen Hof
-- Handy (Umschalt+N): Nachrichten, Kontakte mit Tagesplan, Anrufe mit echten Aufträgen auf ihren Feldern (Anzahl pro Tag in den Einstellungen), Flugmodus
-- Aufträge per Telefon mit Lohn pro Hektar; mit eigenen Maschinen oder der Maschine des Nachbarn (Abholen, Felder und Rückgabe auf der Karte), Saatgut und Dünger an seinem Silo
-- Beziehungen pro Hof mit Bonus auf den Lohn
-- Die Nachbarn bearbeiten ihre Felder selbst mit eigenen Traktoren, Geräten und Mähdreschern
-- Richtet sich auf jeder Karte selbst ein: Häuser, Maschinenplätze, Silos und Ausflugsorte; Admins korrigieren sie im Baumenü
-- Für dedizierte Server: Beziehungen und Anrufe pro Hof, Admin-Einstellungen unter ESC - Einstellungen
-- Hilfeseiten in der Spielhilfe
+RELACJE DAJĄ PRAWDZIWE KORZYŚCI
+- Poziomy relacji od 1 do 10, osobno dla każdej farmy.
+- Rolnicy: z każdym poziomem wyższa premia do zapłaty za kontrakty, do +30%.
+- Burmistrz Richard Hale: ziemia do 10% taniej.
+- Dealer maszyn Frank Weber: naprawy i lakierowanie do 20% taniej.
+- Handlarka zbożem Monika Zielinska: plony i produkty sprzedajesz do 5% drożej.
+- Dopóki jesteście sobie obcy (poziom 1–2), jest mała kara: ziemia i naprawy kosztują do 5% więcej, a sprzedaż daje do 3% mniej. Od poziomu 3 korzyści rosną z każdym poziomem.
+- Telefon pokazuje, co daje każda relacja teraz i na następnym poziomie.
 
-Changelog 1.9.17.0:
-- Häckselwagen auf dem dedizierten Server: der Server sendet den Füllstand des geleerten Anhängers mit der Ablade-Nachricht, die Spiele der Spieler übernehmen ihn
+TELEFON (Shift+N)
+- Wiadomości, kontakty z planem dnia każdego sąsiada i twoim poziomem relacji.
+- Sąsiedzi dzwonią z prawdziwymi kontraktami na swoich polach.
+- Po nieodebranym telefonie sąsiad dzwoni jeszcze raz, a potem wysyła SMS.
+- Tryb samolotowy dla całej farmy. Gdy jeden gracz odbierze, wiadomości są oznaczane jako przeczytane u wszystkich.
+- Tapety, głośność dzwonka i ustawienia dla każdego gracza.
 
-Changelog 1.9.16.9:
-- Nachbarn bieten (oder machen) kein Düngen, Spritzen oder Hacken mehr auf reifer Frucht und keine Ernte auf unreifer
-- Scheitert so ein Auftrag, weil die Frucht reif wurde, kostet das keine Beziehungspunkte
+KONTRAKTY OD SĄSIADÓW
+- Zapłata za hektar według cennika sąsiadów (rodzaj pracy, uprawa i poziom trudności) plus premia za relację.
+- Pracujesz własnymi maszynami albo pożyczasz maszynę sąsiada. Miejsce odbioru, pola i zwrot są pokazane na mapie.
+- Nasiona i nawóz załadujesz przy silosie sąsiada.
 
-Changelog 1.9.16.8:
-- Häckselwagen: der Anhänger wird auf die Art des Spiels geleert (alle Füllbehälter), geprüft und mit Füllstand und Kapazität geloggt
+ŻYWA WIEŚ
+- Codzienny rytm: praca, sprawunki, sklep, stacja paliw, warsztat, skup zboża, kościół, spacery i wizyty na twoim podwórku.
+- Sąsiedzi do 22:00 obrabiają swoje pola własnymi ciągnikami, maszynami i kombajnami. Potem składają maszyny i odstawiają je na miejsce.
+- Przy koszeniu sieczkarnią obok jedzie ciągnik z przyczepą, który odbiera sieczkę i odwozi ją do rozładunku.
+- Portrety, ikony na mapie i silos na podwórku każdego rolnika.
 
-Changelog 1.9.16.7:
-- Häckselwagen auf dem dedizierten Server: der geleerte Anhänger kommt auch bei den Spielern leer zurück (Füllstand wird gesendet und neu angezeigt)
+DZIAŁA NA KAŻDEJ MAPIE
+- Sam się ustawia: domy, miejsca na maszyny, silosy i miejsca odwiedzin.
+- Admin może poprawić te miejsca w menu budowania (Shift+Q rozmiar, Shift+Del usuwanie wielu naraz, Shift+G natychmiastowe pojawienie się).
+- Admin może edytować flotę każdego rolnika (Shift+M), także o pojazdy z modów i model silosu.
+- Ustawienia admina są w ESC - Ustawienia: liczba telefonów dziennie, pola, praca sąsiadów i więcej.
 
-Changelog 1.9.16.6:
-- Telefonaufträge, die das Spiel gerade nicht starten kann (z. B. während es zu Tagesbeginn die Felder aktualisiert), werden einige Sekunden später erneut versucht
-- Die Meldung über nicht gestartete Aufträge nennt den Grund (z. B. das Auftragslimit des Spiels und seine Zahl)
-
-Changelog 1.9.16.5:
-- Erntetest: bietet das Spiel keinen Erntevertrag an, erntet der Nachbar eines seiner eigenen reifen Felder (Mais zuerst)
-
-Changelog 1.9.16.4:
-- Maschineneditor auf dem dedizierten Server: Maschinen aus Mods sind wählbar (Mod-Pfade werden wie vom Spiel übertragen, nicht als Pfad des Spieler-PCs)
-- Eine gerade gekommene Maschine wird erst einige Sekunden später ersetzt (schnelle Klicks im Editor brachen Courseplay auf den Spieler-PCs)
-
-Changelog 1.9.16.3:
-- Häckselwagen: nur die gerade geerntete Frucht zählt als stehend (eine Wiese neben dem Feld schickt den Wagen nicht mehr in den Bestand)
-
-Changelog 1.9.16.2:
-- Häckselwagen: der Abstand wird vom ausgeklappten Vorsatz gemessen, der Traktor fährt nicht mehr unter dem Vorsatz
-
-Changelog 1.9.16.1:
-- Häckselwagen: das Auswurfrohr wird ausgeklappt und nach dem Spiel-Update zum Anhänger gedreht; der Häckselstrahl bleibt an
-
-Changelog 1.9.16.0:
-- Häckselwagen: fährt auf der abgeernteten Seite, der Anhänger neben dem Häcksler, der Traktor vorne neben dem Vorsatz; das Rohr dreht sich zum Anhänger, der Häckselstrahl ist zu sehen
-- Der Häcksler wartet, während der Wagen abladen fährt
-
-Changelog 1.9.15.2:
-- Shift+G (alle Maschinen jetzt aufstellen) funktioniert wieder im Baumenü, auch wenn das Spiel die Taste nicht weitergibt
-
-Changelog 1.9.15.1:
-- Wagen neben dem Häcksler: fährt mit Abstand auf der Seite des Auswurfrohrs (nicht mehr im Häcksler oder Vorsatz), die Plane öffnet sich beim Befüllen
-
-Changelog 1.9.15.0:
-- Maschineneditor (Shift+M): Silomodell für jeden Landwirt wählbar; es wird auf seinem Siloplatz neu gebaut
-- Das gewählte Silo ist beim Setzen des Siloplatzes am Mauszeiger zu sehen
-
-Changelog 1.9.14.6:
-- Ernte: ein Schneidwerk wird nur mit einem Häcksler/Drescher gepaart, der es tragen kann (kein Mähdrescher mehr mit Maisgebiss eines Häckslers)
-
-Changelog 1.9.14.5:
-- Shift+Q (Platzgröße) und Shift+Entf funktionieren wieder im Baumenü, auch wenn das Spiel die Taste nicht weitergibt
-
-Changelog 1.9.14.4:
-- Test-Taste im Maschineneditor (Shift+M, Admin): der gewählte Nachbar fährt sofort zur Ernte (Mais zuerst) mit seinen Maschinen, auch nach 22:00; das Ergebnis erscheint auf dem Bildschirm
-
-Changelog 1.9.14.3:
-- Maschinen ohne Nachbarn (vom Spiel zum Shop gesetzt) werden entfernt; Maschinen werden vor dem Versetzen abgekuppelt
-- Material für Aufträge nach Feldgröße aus dem Verbrauch des Spiels pro Hektar (+25 % Saatgut, +50 % Spritzmittel); der Nachbar bringt nach, wenn es knapp wird
-- Aufträge aus Anrufen starten auch nach 10:00 wieder (die 10-Stunden-Frist wurde falsch berechnet)
-- Einzelspieler: die Nachbarn bearbeiten ihre Felder auch (kein zweiter Hof nötig)
-- Ein Wagen des Nachbarn (Traktor + Häckselwagen) fährt neben seinem Häcksler und nimmt das Häckselgut (Einstellung, an)
-- Neue Platzgröße SCHNEIDWERK: das Schneidwerk hat seinen eigenen Platz
-- Flotten-Editor: weitere Maschinen (Häcksler, Kartoffel- / Rübenroder, Maisgebiss ...) - damit erntet der Nachbar diese Früchte
-- Nach der Ernte wird der Mähdrescher geleert und eingeklappt, das Schneidwerk kommt ab und auf seinen Platz
-- Beim Setzen eines Maschinenplatzes ist die Maschine zu sehen, die dort stehen wird
-- Flotten-Editor (Umschalt+M, Admin): jede Maschine eines Nachbarn aus dem Shop wählen, mit Bild, Marke, Modell und Preis
-- Umschalt+G (Admin): alle Maschinen sofort auf die gesetzten Plätze; die Taste für automatische Plätze entfällt
-- Neue Auftragspreise pro Hektar (eigene Preisliste der Nachbarn)
-- Bürgermeister, Händlerin und Händler: Fahrzeugplätze mit dem Werkzeug setzbar (Shift+Q)
-- Mod-Karten: die Plätze werden gespeichert und in jedem neuen Spiel auf der Karte genutzt
-- Mähdrescher werden bei 60 % wirklich geleert
-- Kein Anruf, wenn der Hof schon die maximale Zahl an Aufträgen hat
-- Nachbar-Symbole auf der Karte anklickbar: Name, Rolle, Stufe, aktuelle Tätigkeit, Foto
-- Geliehene Maschinen auf der Karte anklickbar und zurücksetzbar, wenn sie feststecken
-- Die Nachbarn arbeiten sofort dort, wo sie auf dem Feld erscheinen (Mähdrescher starten wieder)
-- Abgebrochener oder gescheiterter Auftrag: der Nachbar nimmt seine Maschine sofort zurück
-- Verschwundene oder gescheiterte Aufträge geben die geliehene Maschine und das Material immer zurück
-- Material nur einmal: zuerst Paletten, das Silo nur für den Rest
-- Mehr Anrufe der Nachbarn pro Tag wie eingestellt, Flugmodus, fairer Lohn pro Hektar
-- Die Nachbarn bearbeiten ihre Felder wirklich, klappen ihre Maschinen zusammen und parken sie auf ihren Plätzen
-- Silo auf dem Siloplatz, Tore des Nachbarhofs öffnen sich während seiner Aufträge
-- Über 90 neue Gespräche, Standard-Outfits, viele Fehlerbehebungen
-- Fehler werden nicht mehr verborgen, sie stehen im Log
-- Ein abgebrochenes Laden überschreibt nie die gespeicherten Nachbardaten
-- Behoben: Karten-Vorlagen (Häuser und Maschinenplätze) und Standard-Outfits wurden nicht geladen
-- Die Nachbarn tragen ihre eigenen Outfits, die Option "wie ich anziehen" entfällt
-- Geliehene Maschine: ein Kreis pro Feld, der Abholkreis liegt genau auf der Maschine
-- Geliehene Maschine: die Tore des Nachbarhofs öffnen sich für dich
-- Das Entfernen-Werkzeug nimmt nur den Platz unter dem Cursor
-- Viele Korrekturen, damit ein Fehler nie ein Feld gesperrt lässt oder das Laden stoppt
-- Maschinen folgen neuen Plätzen, wenn der Nachbar seine Tätigkeit wechselt, Maschinen entfernter Plätze verschwinden sofort
-- Der Korntank wird bei 60 % geleert, jede Maschine ist nach der Arbeit leer
-- Material vom Nachbarn darfst du nutzen: Paletten gehören deinem Hof, sein Silo kann beladen werden
-- Die Maschinen der Nachbarn bleiben auch nach dem Laden eines Spielstands von der Karte verborgen
-- Anrufe werden um 8:00 für den Vormittag geplant (bis 12:00), die nächsten am nächsten Tag; lange Texte im Handy lassen sich scrollen
-- Ein Auftrag aus einem Anruf muss in 10 Stunden erledigt sein
-- Eine geliehene Maschine hat ein eigenes grünes Kartensymbol
-- Geparkte Maschinen der Nachbarn sind immer leer
-- Ausleihen gibt es nur, wenn die Maschine des Nachbarn auf seinem Hof steht
-- Mähdrescher klappen ihr Abtankrohr vor der Arbeit und beim Parken ein
-- Ausleihen: ist die angebotene Maschine belegt, leiht der Nachbar eine andere für die Arbeit
-- Um 22:00 hören alle Helfer der Nachbarn auf, auch übrig gebliebene aus einem Spielstand
-- Nachbarn erscheinen direkt auf ihrem Feld und fangen dort an
-- Eine geliehene Maschine kommt leer: belade sie mit dem Material des Nachbarn
-- Der Nachbar gibt so viel Material, wie das Spiel auf dem Feld braucht, plus 25 %]]></de>
-        <pl><![CDATA[Dobrzy Sąsiedzi ożywiają wieś za miedzą - mod roleplay do gry jednoosobowej i multiplayer.
-
-Na twojej mapie mieszka siedmioro sąsiadów: czterech rolników uprawiających pola NPC, burmistrz, handlarka zbożem i dealer maszyn. Każdy ma plan dnia, samochód, dom i własny charakter.
-
-Funkcje:
-- Rozmowy: podejdź do sąsiada i porozmawiaj (Shift+N). Ponad 230 rozmów z wyborem odpowiedzi, zależnych od miejsca, zajęcia, pory roku i tego, jak dobrze się znacie. Dobre odpowiedzi poprawiają relację, złe ją psują (raz dziennie u każdego sąsiada)
-- Plany dnia: sąsiedzi pracują, załatwiają sprawy, jeżdżą do sklepu, na stację, do warsztatu, do skupu, do kościoła, na spacer - i odwiedzają twoje podwórko
-- Telefon (Shift+N): wiadomości, kontakty z planem dnia, telefony z prawdziwymi kontraktami na ich polach (liczba telefonów dziennie w ustawieniach), tryb samolotowy
-- Kontrakty przez telefon płatne za hektar; własnymi maszynami albo maszyną sąsiada (odbiór, pola i zwrot na mapie), nasiona i nawóz przy jego silosie
-- Relacje dla każdej farmy z premią do zapłaty
-- Sąsiedzi sami obrabiają swoje pola własnymi ciągnikami, maszynami i kombajnami
-- Sam ustawia się na każdej mapie: domy, miejsca na maszyny, silosy i miejsca odwiedzin; admin poprawia je w menu budowania
-- Zrobione pod serwery dedykowane: relacje i telefony dla każdej farmy, ustawienia admina w ESC - Ustawienia
-- Strony pomocy w pomocy gry
-
-Changelog 1.9.17.0:
-- Przyczepa do sieczki na serwerze dedykowanym: serwer wysyła stan rozładowanej przyczepy razem z komunikatem o rozładunku, a gra gracza go ustawia (zwykła synchronizacja gry nie zawsze docierała)
-
-Changelog 1.9.16.9:
-- Sąsiedzi nie oferują (ani nie robią) nawożenia, oprysku ani pielenia na dojrzałej uprawie, ani zbioru niedojrzałej
-- Taki kontrakt, który nie wyszedł, bo uprawa dojrzała, nie odbiera punktów relacji
-
-Changelog 1.9.16.8:
-- Przyczepa do sieczki: opróżniana sposobem gry (wszystkie zbiorniki), sprawdzana i zapisywana w logu z poziomem i pojemnością
-
-Changelog 1.9.16.7:
-- Przyczepa do sieczki na serwerze dedykowanym: rozładowana przyczepa wraca pusta także u graczy (stan napełnienia jest wysyłany i odświeżany)
-
-Changelog 1.9.16.6:
-- Kontrakty z telefonu, których gra nie może teraz rozpocząć (np. gdy na początku dnia aktualizuje pola), są ponawiane po kilku sekundach
-- Komunikat o nierozpoczętych kontraktach podaje powód (np. limit kontraktów gry i jego wartość)
-
-Changelog 1.9.16.5:
-- Test żniw: gdy gra nie wystawiła kontraktu żniw, sąsiad zbiera jedno ze swoich dojrzałych pól (najpierw kukurydzę)
-
-Changelog 1.9.16.4:
-- Edytor maszyn na serwerze dedykowanym: można wybierać maszyny z modów (ścieżki modów są przesyłane tak jak robi to gra, a nie jako ścieżka z PC gracza)
-- Maszyna, która dopiero przyjechała, jest wymieniana dopiero po kilku sekundach (szybkie klikanie w edytorze psuło Courseplay u graczy)
-
-Changelog 1.9.16.3:
-- Przyczepa do sieczki: za stojący łan liczy się tylko zbierana uprawa (łąka obok pola nie wysyła już przyczepy w kukurydzę)
-
-Changelog 1.9.16.2:
-- Przyczepa do sieczki: odstęp liczony od rozłożonego hedera, ciągnik nie jedzie już pod hederem
-
-Changelog 1.9.16.1:
-- Przyczepa do sieczki: rura sieczkarni jest rozkładana i obracana do przyczepy po aktualizacji gry; strumień sieczki jest podtrzymywany
-
-Changelog 1.9.16.0:
-- Przyczepa do sieczki: jedzie po skoszonej stronie, przyczepa obok sieczkarni, ciągnik z przodu obok hedera; rura obraca się do przyczepy i widać lecącą sieczkę
-- Sieczkarnia czeka, gdy przyczepa odjeżdża się rozładować
-
-Changelog 1.9.15.2:
-- Shift+G (natychmiastowy spawn maszyn) znów działa w menu budowania, także gdy gra nie przekazuje klawisza
-
-Changelog 1.9.15.1:
-- Przyczepa przy sieczkarni: jedzie obok, po stronie rury, z odstępem (już nie wchodzi w sieczkarnię ani heder), plandeka otwiera się na czas zbierania sieczki
-
-Changelog 1.9.15.0:
-- Edytor maszyn (Shift+M): wybór modelu silosu dla każdego rolnika; buduje się od nowa na jego miejscu na silos
-- Wybrany silos widać przy kursorze podczas stawiania miejsca na silos
-
-Changelog 1.9.14.6:
-- Żniwa: heder jest łączony tylko z maszyną, która może go założyć (koniec z kombajnem z hederem od sieczkarni)
-
-Changelog 1.9.14.5:
-- Shift+Q (rozmiar miejsca) i Shift+Del znów działają w menu budowania, także gdy gra nie przekazuje klawisza
-
-Changelog 1.9.14.4:
-- Przycisk testu w edytorze maszyn (Shift+M, admin): wybrany sąsiad od razu jedzie na żniwa (najpierw kukurydza) swoimi maszynami, także po 22:00; wynik pokazuje się na ekranie
-
-Changelog 1.9.14.3:
-- Maszyny bez sąsiada (przeniesione przez grę do sklepu) są zabierane; maszyny są odczepiane przed przestawieniem
-- Materiały do kontraktów według wielkości pola i zużycia z danych gry na hektar (+25 % nasiona, +50 % nawozy i środki); gdy się kończą, sąsiad dowozi
-- Kontrakty z telefonu znów startują po 10:00 (źle liczony termin 10 godzin)
-- Gra jednoosobowa: sąsiedzi też pracują na polach (bez drugiej farmy)
-- Wóz sąsiada (ciągnik + przyczepa na sieczkę) jedzie obok jego sieczkarni i odbiera sieczkę (ustawienie, domyślnie włączone)
-- Nowy rozmiar miejsca HEDER: heder kombajnu ma własne miejsce
-- Edytor maszyn: inne maszyny (sieczkarnia, kombajn do ziemniaków / buraków, heder do kukurydzy ...) – dzięki nim sąsiad zbiera te uprawy
-- Po żniwach kombajn opróżnia się do zera i składa, heder jest odczepiany i odstawiany na swoje miejsce
-- Przy stawianiu miejsca widać maszynę, która tam stanie, w świecącej ramce
-- Edytor maszyn (Shift+M, admin): wybór każdej maszyny sąsiada ze sklepu – ze zdjęciem, marką, modelem i ceną
-- Shift+G (admin): wszystkie maszyny od razu na postawione miejsca; usunięty klawisz automatycznego rozstawiania miejsc
-- Nowe stawki za hektar w kontraktach (własny cennik sąsiadów)
-- Burmistrz, handlarka i dealer: miejsca ich pojazdów można ustawić narzędziem (Shift+Q)
-- Mapy z modów: mod sam zapamiętuje miejsca i używa ich w każdej nowej grze na tej mapie
-- Kombajny naprawdę opróżniają się przy 60 % (wcześniej stawały z pełnym zbiornikiem)
-- Brak telefonu, gdy farma ma już maksymalną liczbę kontraktów w grze
-- Ikony sąsiadów na mapie można kliknąć: imię, rola, poziom, co teraz robi, zdjęcie
-- Pożyczone maszyny na mapie można kliknąć i zresetować, gdy utkną (wracają na miejsce odbioru)
-- Sąsiedzi zaczynają pracę od razu tam, gdzie pojawiają się na polu (bez jazdy drogami, kombajny znów ruszają)
-- Anulowany lub zawalony kontrakt: sąsiad od razu zabiera swoją maszynę, minus punkty relacji
-- Zniknięte lub zawalone kontrakty zawsze zwracają pożyczoną maszynę i materiały
-- Materiały tylko raz: najpierw palety, do silosu tylko reszta
-- Tyle telefonów dziennie, ile w ustawieniach, tryb samolotowy, uczciwa stawka za hektar
-- Sąsiedzi naprawdę obrabiają pola, składają maszyny i odstawiają je na swoje miejsca
-- Silos na miejscu silosu, bramy zagrody sąsiada otwierają się podczas jego kontraktów
-- Ponad 90 nowych rozmów, domyślne stroje, wiele poprawek
-- Błędy nie są już ukrywane, trafiają do logu
-- Przerwane wczytywanie nigdy nie nadpisze zapisanych danych sąsiadów
-- Naprawione: nie wczytywały się podstawowe miejsca z mapy (domy i miejsca maszyn) ani domyślne stroje
-- Sąsiedzi mają swoje stroje, opcja "Ubierz jak mnie" usunięta
-- Pożyczona maszyna: jedno kółko na pole, zielone kółko odbioru dokładnie na maszynie
-- Pożyczona maszyna: bramy podwórka sąsiada otwierają się dla ciebie
-- Narzędzie usuwania zabiera tylko miejsce pod kursorem
-- Wiele poprawek, żeby błąd nigdy nie zostawił zablokowanego pola ani nie zatrzymał wczytywania
-- Maszyny przenoszą się na nowe miejsca, gdy sąsiad zmienia czynność, maszyny z usuniętych miejsc znikają od razu
-- Zbiornik kombajnu opróżniany przy 60 %, po pracy każda maszyna jest pusta
-- Materiały od sąsiada są do twojej dyspozycji: palety należą do twojej farmy, z jego silosa można ładować
-- Maszyny sąsiadów nie pokazują się na mapie także po wczytaniu zapisu
-- Telefony planowane o 8:00 na przedpołudnie (do 12:00), kolejne następnego dnia; długie teksty w telefonie można przewijać
-- Kontrakt z telefonu trzeba wykonać w 10 godzin
-- Pożyczona maszyna ma własną zieloną ikonę na mapie
-- Zaparkowane maszyny sąsiadów są zawsze puste
-- Wypożyczenie tylko wtedy, gdy maszyna sąsiada do tej pracy stoi na jego podwórku
-- Kombajny składają rurę wysypową przed pracą i na postoju
-- Wypożyczenie: gdy oferowana maszyna jest zajęta, sąsiad szuka innej do tej pracy
-- O 22:00 kończą pracę wszyscy pomocnicy sąsiadów, także pozostali z zapisu gry
-- Sąsiedzi pojawiają się od razu na polu i tam zaczynają pracę
-- Pożyczona maszyna jest pusta: załaduj ją materiałem, który daje sąsiad
-- Sąsiad daje tyle materiału, ile gra zużywa na to pole, plus 25 %]]></pl>
+Strony pomocy znajdziesz w pomocy gry.
+]]></pl>
     </description>
     <iconFilename>icon_GoodNeighbours.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -394,6 +190,7 @@ Changelog 1.9.14.3:
         <sourceFile filename="scripts/GNSilo.lua" />
         <sourceFile filename="scripts/GNSupply.lua" />
         <sourceFile filename="scripts/GNTalk.lua"/>
+        <sourceFile filename="scripts/GNPerks.lua"/>
         <sourceFile filename="scripts/GNFleet.lua"/>
         <sourceFile filename="scripts/GNMain.lua"/>
     </extraSourceFiles>
