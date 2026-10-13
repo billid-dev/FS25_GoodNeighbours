@@ -75,6 +75,8 @@
 ### Zgłaszanie błędów
 Otwórz [Issue](../../issues) i dołącz fragment `log.txt` (linie z `[GoodNeighbours]`) oraz opis/zrzut ekranu.
 
+Szczegółowy log: utwórz pusty plik `modSettings/FS25_GoodNeighbours/debug.txt` (w folderze gry, a na serwerze dedykowanym w profilu serwera) i uruchom grę ponownie. Bez tego pliku mod zapisuje w logu tylko problemy.
+
 ---
 
 ## 🇬🇧 English
@@ -96,6 +98,8 @@ Download `FS25_GoodNeighbours.zip` from [Releases](../../releases) and put the z
 
 ### Bugs
 Please open an [Issue](../../issues) with the `[GoodNeighbours]` lines of your `log.txt`.
+
+Detailed log: create an empty file `modSettings/FS25_GoodNeighbours/debug.txt` (in the game folder, or in the server profile on a dedicated server) and restart the game. Without it the mod only logs problems.
 
 ---
 

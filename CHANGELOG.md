@@ -19,6 +19,7 @@ Pierwsze oficjalne wydanie. Nowości od 1.9.17.0:
 - Ikony sklepu zapisane jako DXT5 (koniec z ostrzeżeniami „BC7 has undefined channel count”)
 - Tapety telefonu przemianowane, z jednej usunięte logo marki (zasady ModHub)
 - Rozbudowany opis moda
+- Cichy log: mod zapisuje tylko problemy; szczegółowy log po utworzeniu pliku `modSettings/FS25_GoodNeighbours/debug.txt`
 
 ### 1.9.17.0 — 2026-10-12
 - Przyczepa do sieczki na serwerze dedykowanym: serwer wysyła stan rozładowanej przyczepy razem z komunikatem o rozładunku i powrocie, a gra gracza ustawia go u siebie (zwykła synchronizacja gry nie zawsze docierała i przyczepa u gracza wyglądała na pełną).
@@ -399,6 +400,7 @@ First official release. New since 1.9.17.0:
 - Shop icons saved as DXT5 (no more "BC7 has undefined channel count" warnings)
 - Phone wallpapers renamed and the brand logo removed from one of them (ModHub rules)
 - Extended mod description
+- Quiet log: only problems are written; detailed log with the file `modSettings/FS25_GoodNeighbours/debug.txt`
 
 ### 1.9.17.0 — 2026-10-12
 - Chaff wagon on a dedicated server: the server sends the emptied trailer's fill with the unload and return messages and the player's game sets it (the game's own sync did not always arrive and the trailer looked full for the player).
